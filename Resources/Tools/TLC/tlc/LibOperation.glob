@@ -1,0 +1,251 @@
+DIGEST 01fab268e137e0c2e907c0a8f6036c2e
+FLibOperation
+R344:353 LibTactics <> <> lib
+def 505:509 <> oper1
+R530:530 LibOperation <> A var
+R525:525 LibOperation <> A var
+def 544:548 <> oper2
+R574:574 LibOperation <> A var
+R569:569 LibOperation <> A var
+R564:564 LibOperation <> A var
+def 588:592 <> predb
+R611:614 Coq.Init.Datatypes <> bool ind
+R606:606 LibOperation <> A var
+sec 756:766 <> Definitions
+var 780:780 Definitions A
+R812:816 LibOperation <> oper2 def
+R818:818 LibOperation <> Definitions.A var
+R840:844 LibOperation <> oper1 def
+R846:846 LibOperation <> Definitions.A var
+def 1000:1003 <> comm
+R1030:1032 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1025:1025 LibOperation <> f var
+R1029:1029 LibOperation <> y var
+R1027:1027 LibOperation <> x var
+R1033:1033 LibOperation <> f var
+R1037:1037 LibOperation <> x var
+R1035:1035 LibOperation <> y var
+def 1074:1078 <> assoc
+R1112:1114 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1101:1101 LibOperation <> f var
+R1106:1106 LibOperation <> f var
+R1110:1110 LibOperation <> z var
+R1108:1108 LibOperation <> y var
+R1103:1103 LibOperation <> x var
+R1115:1115 LibOperation <> f var
+R1125:1125 LibOperation <> z var
+R1118:1118 LibOperation <> f var
+R1122:1122 LibOperation <> y var
+R1120:1120 LibOperation <> x var
+def 1185:1194 <> comm_assoc
+R1228:1230 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1217:1217 LibOperation <> f var
+R1222:1222 LibOperation <> f var
+R1226:1226 LibOperation <> z var
+R1224:1224 LibOperation <> y var
+R1219:1219 LibOperation <> x var
+R1231:1231 LibOperation <> f var
+R1236:1236 LibOperation <> f var
+R1240:1240 LibOperation <> z var
+R1238:1238 LibOperation <> x var
+R1233:1233 LibOperation <> y var
+def 1400:1406 <> distrib
+R1438:1440 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1429:1429 LibOperation <> i var
+R1432:1432 LibOperation <> f var
+R1436:1436 LibOperation <> y var
+R1434:1434 LibOperation <> x var
+R1441:1441 LibOperation <> f var
+R1450:1450 LibOperation <> i var
+R1452:1452 LibOperation <> y var
+R1444:1444 LibOperation <> i var
+R1446:1446 LibOperation <> x var
+def 1521:1532 <> distrib_comm
+R1564:1566 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1555:1555 LibOperation <> i var
+R1558:1558 LibOperation <> f var
+R1562:1562 LibOperation <> y var
+R1560:1560 LibOperation <> x var
+R1567:1567 LibOperation <> f var
+R1576:1576 LibOperation <> i var
+R1578:1578 LibOperation <> x var
+R1570:1570 LibOperation <> i var
+R1572:1572 LibOperation <> y var
+def 1622:1630 <> distrib_l
+R1666:1668 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1655:1655 LibOperation <> f var
+R1660:1660 LibOperation <> g var
+R1664:1664 LibOperation <> z var
+R1662:1662 LibOperation <> y var
+R1657:1657 LibOperation <> x var
+R1669:1669 LibOperation <> g var
+R1680:1680 LibOperation <> f var
+R1684:1684 LibOperation <> z var
+R1682:1682 LibOperation <> x var
+R1672:1672 LibOperation <> f var
+R1676:1676 LibOperation <> y var
+R1674:1674 LibOperation <> x var
+def 1729:1737 <> distrib_r
+R1773:1775 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1762:1762 LibOperation <> f var
+R1772:1772 LibOperation <> x var
+R1765:1765 LibOperation <> g var
+R1769:1769 LibOperation <> z var
+R1767:1767 LibOperation <> y var
+R1776:1776 LibOperation <> g var
+R1787:1787 LibOperation <> f var
+R1791:1791 LibOperation <> x var
+R1789:1789 LibOperation <> z var
+R1779:1779 LibOperation <> f var
+R1783:1783 LibOperation <> x var
+R1781:1781 LibOperation <> y var
+def 1938:1946 <> neutral_l
+R1971:1973 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1966:1966 LibOperation <> f var
+R1970:1970 LibOperation <> x var
+R1968:1968 LibOperation <> e var
+R1974:1974 LibOperation <> x var
+def 2011:2019 <> neutral_r
+R2045:2047 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2040:2040 LibOperation <> f var
+R2044:2044 LibOperation <> e var
+R2042:2042 LibOperation <> x var
+R2048:2048 LibOperation <> x var
+def 2086:2093 <> absorb_l
+R2119:2121 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2114:2114 LibOperation <> f var
+R2118:2118 LibOperation <> x var
+R2116:2116 LibOperation <> a var
+R2122:2122 LibOperation <> a var
+def 2161:2168 <> absorb_r
+R2194:2196 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2189:2189 LibOperation <> f var
+R2193:2193 LibOperation <> a var
+R2191:2191 LibOperation <> x var
+R2197:2197 LibOperation <> a var
+def 2232:2241 <> idempotent
+R2268:2270 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2261:2261 LibOperation <> i var
+R2264:2264 LibOperation <> i var
+R2266:2266 LibOperation <> x var
+R2271:2271 LibOperation <> x var
+def 2327:2337 <> idempotent2
+R2362:2364 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2357:2357 LibOperation <> f var
+R2361:2361 LibOperation <> x var
+R2359:2359 LibOperation <> x var
+R2365:2365 LibOperation <> x var
+def 2401:2412 <> self_neutral
+R2431:2433 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2426:2426 LibOperation <> f var
+R2430:2430 LibOperation <> x var
+R2428:2428 LibOperation <> x var
+R2434:2434 LibOperation <> e var
+def 2568:2580 <> inverse_for_l
+R2601:2603 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2596:2596 LibOperation <> f var
+R2600:2600 LibOperation <> b var
+R2598:2598 LibOperation <> a var
+R2604:2604 LibOperation <> e var
+def 2641:2653 <> inverse_for_r
+R2673:2675 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2668:2668 LibOperation <> f var
+R2672:2672 LibOperation <> a var
+R2670:2670 LibOperation <> b var
+R2676:2676 LibOperation <> e var
+def 2756:2764 <> inverse_l
+R2796:2798 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2787:2787 LibOperation <> f var
+R2795:2795 LibOperation <> x var
+R2790:2790 LibOperation <> i var
+R2792:2792 LibOperation <> x var
+R2799:2799 LibOperation <> e var
+def 2845:2853 <> inverse_r
+R2885:2887 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2876:2876 LibOperation <> f var
+R2881:2881 LibOperation <> i var
+R2883:2883 LibOperation <> x var
+R2878:2878 LibOperation <> x var
+R2888:2888 LibOperation <> e var
+def 2924:2935 <> self_inverse
+R2950:2952 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2947:2947 LibOperation <> i var
+R2949:2949 LibOperation <> x var
+R2953:2953 LibOperation <> x var
+R2961:2971 LibOperation Definitions <> sec
+def 3117:3124 <> morphism
+R3149:3149 LibOperation <> B var
+R3144:3144 LibOperation <> A var
+R3157:3161 LibOperation <> oper2 def
+R3163:3163 LibOperation <> A var
+R3171:3175 LibOperation <> oper2 def
+R3177:3177 LibOperation <> B var
+R3206:3208 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3197:3197 LibOperation <> h var
+R3200:3200 LibOperation <> f var
+R3204:3204 LibOperation <> y var
+R3202:3202 LibOperation <> x var
+R3209:3209 LibOperation <> g var
+R3218:3218 LibOperation <> h var
+R3220:3220 LibOperation <> y var
+R3212:3212 LibOperation <> h var
+R3214:3214 LibOperation <> x var
+def 3258:3269 <> automorphism
+R3277:3284 LibOperation <> morphism def
+R3288:3288 LibOperation <> A var
+R3286:3286 LibOperation <> A var
+R3310:3321 LibOperation <> automorphism def
+def 3440:3448 <> injective
+R3464:3464 LibOperation <> B var
+R3459:3459 LibOperation <> A var
+R3498:3500 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3497:3497 LibOperation <> x var
+R3501:3501 LibOperation <> y var
+R3487:3489 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3484:3484 LibOperation <> f var
+R3486:3486 LibOperation <> x var
+R3490:3490 LibOperation <> f var
+R3492:3492 LibOperation <> y var
+sec 3620:3631 <> OpProperties
+var 3645:3645 OpProperties A
+R3677:3681 LibOperation <> oper2 def
+R3683:3683 LibOperation <> OpProperties.A var
+R3705:3709 LibOperation <> oper1 def
+R3711:3711 LibOperation <> OpProperties.A var
+prf 3828:3856 <> neutral_r_from_comm_neutral_l
+R3902:3910 LibOperation <> neutral_r def
+R3914:3914 LibOperation <> e var
+R3912:3912 LibOperation <> f var
+R3885:3893 LibOperation <> neutral_l def
+R3897:3897 LibOperation <> e var
+R3895:3895 LibOperation <> f var
+R3875:3878 LibOperation <> comm def
+R3880:3880 LibOperation <> f var
+prf 3972:4000 <> inverse_r_from_comm_inverse_l
+R4050:4058 LibOperation <> inverse_r def
+R4064:4064 LibOperation <> i var
+R4062:4062 LibOperation <> e var
+R4060:4060 LibOperation <> f var
+R4031:4039 LibOperation <> inverse_l def
+R4045:4045 LibOperation <> i var
+R4043:4043 LibOperation <> e var
+R4041:4041 LibOperation <> f var
+R4021:4024 LibOperation <> comm def
+R4026:4026 LibOperation <> f var
+prf 4123:4151 <> distrib_r_from_comm_distrib_l
+R4197:4205 LibOperation <> distrib_r def
+R4209:4209 LibOperation <> g var
+R4207:4207 LibOperation <> f var
+R4180:4188 LibOperation <> distrib_l def
+R4192:4192 LibOperation <> g var
+R4190:4190 LibOperation <> f var
+R4170:4173 LibOperation <> comm def
+R4175:4175 LibOperation <> f var
+prf 4340:4355 <> comm_assoc_prove
+R4392:4401 LibOperation <> comm_assoc def
+R4403:4403 LibOperation <> f var
+R4381:4385 LibOperation <> assoc def
+R4387:4387 LibOperation <> f var
+R4371:4374 LibOperation <> comm def
+R4376:4376 LibOperation <> f var
+R4493:4504 LibOperation OpProperties <> sec

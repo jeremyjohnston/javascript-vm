@@ -1,0 +1,135 @@
+DIGEST 5ce8c668c95f3666a7259ebb1edc1ece
+FLibOption
+R338:347 LibTactics <> <> lib
+R349:358 LibReflect <> <> lib
+R442:445 Coq.Init.Datatypes <> Some constr
+R473:476 Coq.Init.Datatypes <> None constr
+inst 608:619 <> option_inhab
+R633:637 LibLogic <> Inhab class
+R640:645 Coq.Init.Datatypes <> option ind
+R647:647 LibOption <> A var
+R673:683 LibLogic <> prove_Inhab thm
+R685:688 Coq.Init.Datatypes <> None constr
+R673:683 LibLogic <> prove_Inhab thm
+R685:688 Coq.Init.Datatypes <> None constr
+def 709:722 <> option_compare
+R726:735 LibReflect <> Comparable class
+R749:754 Coq.Init.Datatypes <> option ind
+R756:756 LibOption <> A var
+R774:775 LibOption <> o2 var
+R770:771 LibOption <> o1 var
+R786:789 Coq.Init.Datatypes <> None constr
+R792:795 Coq.Init.Datatypes <> None constr
+R800:803 Coq.Init.Datatypes <> true constr
+R809:812 Coq.Init.Datatypes <> Some constr
+R818:821 Coq.Init.Datatypes <> Some constr
+R829:834 LibReflect <> decide meth
+R839:841 Coq.Init.Logic <> :type_scope:x_'='_x not
+R858:862 Coq.Init.Datatypes <> false constr
+inst 888:904 <> option_comparable
+R917:926 LibReflect <> Comparable class
+R935:944 LibReflect <> Comparable class
+R947:952 Coq.Init.Datatypes <> option ind
+R954:954 LibOption <> A var
+R985:998 LibReflect <> comparable_beq thm
+R1000:1013 LibOption <> option_compare def
+R985:998 LibReflect <> comparable_beq thm
+R1000:1013 LibOption <> option_compare def
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+R0:-1 LibOption <> y var
+def 1386:1392 <> is_some
+R1399:1404 Coq.Init.Datatypes <> option ind
+R1406:1406 LibOption <> A var
+R1420:1420 LibOption <> o var
+R1432:1435 Coq.Init.Datatypes <> None constr
+R1440:1444 Coq.Init.Datatypes <> false constr
+R1450:1453 Coq.Init.Datatypes <> Some constr
+R1460:1463 Coq.Init.Datatypes <> true constr
+def 1598:1611 <> unsome_default
+R1620:1625 Coq.Init.Datatypes <> option ind
+R1627:1627 LibOption <> A var
+R1641:1641 LibOption <> o var
+R1652:1655 Coq.Init.Datatypes <> None constr
+R1660:1660 LibOption <> d var
+R1666:1669 Coq.Init.Datatypes <> Some constr
+def 1817:1822 <> unsome
+R1826:1830 LibLogic <> Inhab class
+R1841:1854 LibOption <> unsome_default def
+R1856:1864 LibLogic <> arbitrary def
+def 2010:2012 <> map
+R2028:2028 LibOption <> B var
+R2023:2023 LibOption <> A var
+R2044:2044 LibOption <> o var
+R2055:2058 Coq.Init.Datatypes <> None constr
+R2063:2066 Coq.Init.Datatypes <> None constr
+R2072:2075 Coq.Init.Datatypes <> Some constr
+R2082:2085 Coq.Init.Datatypes <> Some constr
+R2088:2088 LibOption <> f var
+def 2191:2196 <> map_on
+R2214:2214 LibOption <> B var
+R2209:2209 LibOption <> A var
+R2223:2225 LibOption <> map def
+R2229:2229 LibOption <> o var
+R2227:2227 LibOption <> f var
+def 2358:2362 <> apply
+R2378:2383 Coq.Init.Datatypes <> option ind
+R2385:2385 LibOption <> B var
+R2373:2373 LibOption <> A var
+R2401:2401 LibOption <> o var
+R2412:2415 Coq.Init.Datatypes <> None constr
+R2420:2423 Coq.Init.Datatypes <> None constr
+R2429:2432 Coq.Init.Datatypes <> Some constr
+R2439:2439 LibOption <> f var
+def 2512:2519 <> apply_on
+R2537:2542 Coq.Init.Datatypes <> option ind
+R2544:2544 LibOption <> B var
+R2532:2532 LibOption <> A var
+R2552:2556 LibOption <> apply def
+R2560:2560 LibOption <> o var
+R2558:2558 LibOption <> f var
+prf 2670:2681 <> apply_on_inv
+R2704:2709 Coq.Init.Datatypes <> option ind
+R2711:2711 LibOption <> B var
+R2701:2701 LibOption <> A var
+R2750:2756 LibTactics <> :type_scope:'exists'_x_','_x not
+R2758:2759 LibTactics <> :type_scope:'exists'_x_','_x not
+R2770:2773 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2761:2763 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2760:2760 LibOption <> x var
+R2764:2767 Coq.Init.Datatypes <> Some constr
+R2777:2779 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2774:2774 LibOption <> f var
+R2780:2783 Coq.Init.Datatypes <> Some constr
+R2785:2785 LibOption <> y var
+R2734:2736 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2722:2729 LibOption <> apply_on def
+R2733:2733 LibOption <> f var
+R2731:2731 LibOption <> x var
+R2737:2740 Coq.Init.Datatypes <> Some constr
+R2742:2742 LibOption <> y var
+R2861:2872 LibOption <> apply_on_inv thm
+prf 2894:2903 <> map_on_inv
+R2926:2926 LibOption <> B var
+R2923:2923 LibOption <> A var
+R2963:2969 LibTactics <> :type_scope:'exists'_x_','_x not
+R2971:2972 LibTactics <> :type_scope:'exists'_x_','_x not
+R2983:2986 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2974:2976 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2973:2973 LibOption <> x var
+R2977:2980 Coq.Init.Datatypes <> Some constr
+R2988:2990 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2987:2987 LibOption <> y var
+R2991:2991 LibOption <> f var
+R2947:2949 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2937:2942 LibOption <> map_on def
+R2946:2946 LibOption <> f var
+R2944:2944 LibOption <> x var
+R2950:2953 Coq.Init.Datatypes <> Some constr
+R2955:2955 LibOption <> y var
+R3069:3078 LibOption <> map_on_inv thm

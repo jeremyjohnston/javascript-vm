@@ -1,0 +1,339 @@
+DIGEST 66c99fb9a915e6406fa97adbee8f7cb9
+FLibStream
+R373:382 LibTactics <> <> lib
+R384:391 LibLogic <> <> lib
+R393:398 LibInt <> <> lib
+R400:406 LibList <> <> lib
+R408:418 LibRelation <> <> lib
+R420:424 LibWf <> <> lib
+ind 651:656 <> stream
+constr 674:685 <> stream_intro
+R706:711 LibStream <> stream ind
+R694:699 LibStream <> stream ind
+R740:751 LibStream <> stream_intro constr
+not 726 <> ::x_':::'_x
+def 886:896 <> stream_head
+R903:908 LibStream <> stream coind
+R910:910 LibStream <> A var
+R935:935 LibStream <> s var
+R925:927 LibStream <> ::x_':::'_x not
+def 955:965 <> stream_tail
+R972:977 LibStream <> stream coind
+R979:979 LibStream <> A var
+R1004:1004 LibStream <> s var
+R994:996 LibStream <> ::x_':::'_x not
+def 1155:1159 <> const
+R1166:1166 LibStream <> A var
+R1171:1176 LibStream <> stream coind
+R1178:1178 LibStream <> A var
+R1187:1190 LibStream <> ::x_':::'_x not
+R1198:1198 LibStream <> ::x_':::'_x not
+R1186:1186 LibStream <> x var
+R1191:1195 LibStream <> const def
+R1197:1197 LibStream <> x var
+def 1267:1270 <> take
+R1277:1279 Coq.Init.Datatypes <> nat ind
+R1285:1290 LibStream <> stream coind
+R1292:1292 LibStream <> A var
+R1297:1300 Coq.Init.Datatypes <> list ind
+R1302:1302 LibStream <> A var
+R1315:1315 LibStream <> n var
+R1326:1326 Coq.Init.Datatypes <> O constr
+R1331:1333 Coq.Init.Datatypes <> nil constr
+R1339:1339 Coq.Init.Datatypes <> S constr
+R1364:1364 LibStream <> s var
+R1354:1356 LibStream <> ::x_':::'_x not
+R1370:1372 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1383:1383 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1373:1376 LibStream <> take def
+def 1458:1460 <> map
+R1472:1472 LibStream <> B var
+R1469:1469 LibStream <> A var
+R1478:1483 LibStream <> stream coind
+R1485:1485 LibStream <> A var
+R1490:1495 LibStream <> stream coind
+R1497:1497 LibStream <> B var
+R1521:1521 LibStream <> s var
+R1511:1513 LibStream <> ::x_':::'_x not
+R1529:1534 LibStream <> ::x_':::'_x not
+R1543:1543 LibStream <> ::x_':::'_x not
+R1526:1526 LibStream <> f var
+R1535:1537 LibStream <> map def
+R1539:1539 LibStream <> f var
+def 1589:1591 <> nth
+R1598:1600 Coq.Init.Datatypes <> nat ind
+R1606:1611 LibStream <> stream coind
+R1613:1613 LibStream <> A var
+R1618:1618 LibStream <> A var
+R1642:1642 LibStream <> s var
+R1632:1634 LibStream <> ::x_':::'_x not
+R1655:1655 LibStream <> n var
+R1667:1667 Coq.Init.Datatypes <> O constr
+R1678:1678 Coq.Init.Datatypes <> S constr
+R1686:1688 LibStream <> nth def
+inst 1743:1754 <> stream_inhab
+R1767:1771 LibLogic <> Inhab class
+R1777:1781 LibLogic <> Inhab class
+R1784:1789 LibStream <> stream coind
+R1791:1791 LibStream <> A var
+R1817:1827 LibLogic <> prove_Inhab thm
+R1830:1834 LibStream <> const def
+R1836:1844 LibLogic <> arbitrary def
+R1817:1827 LibLogic <> prove_Inhab thm
+R1830:1834 LibStream <> const def
+R1836:1844 LibLogic <> arbitrary def
+def 2033:2040 <> diagonal
+R2052:2057 LibStream <> stream coind
+R2059:2059 LibStream <> A var
+R2047:2049 Coq.Init.Datatypes <> nat ind
+R2065:2067 Coq.Init.Datatypes <> nat ind
+R2072:2077 LibStream <> stream coind
+R2079:2079 LibStream <> A var
+R2086:2086 LibStream <> ::x_':::'_x not
+R2098:2102 LibStream <> ::x_':::'_x not
+R2119:2119 LibStream <> ::x_':::'_x not
+R2087:2089 LibStream <> nth def
+R2094:2094 LibStream <> u var
+R2096:2096 LibStream <> n var
+R2091:2091 LibStream <> n var
+R2103:2110 LibStream <> diagonal def
+R2115:2115 Coq.Init.Datatypes <> S constr
+R2117:2117 LibStream <> n var
+R2112:2112 LibStream <> u var
+prf 2192:2210 <> stream_diagonal_nth
+R2231:2236 LibStream <> stream coind
+R2238:2238 LibStream <> A var
+R2226:2228 Coq.Init.Datatypes <> nat ind
+R2268:2270 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2248:2250 LibStream <> nth def
+R2255:2262 LibStream <> diagonal def
+R2266:2266 LibStream <> k var
+R2264:2264 LibStream <> u var
+R2252:2252 LibStream <> n var
+R2271:2273 LibStream <> nth def
+R2288:2288 LibStream <> u var
+R2292:2292 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2291:2291 LibStream <> n var
+R2293:2293 LibStream <> k var
+R2278:2278 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2277:2277 LibStream <> n var
+R2279:2279 LibStream <> k var
+R2387:2389 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2378:2380 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2375:2375 Coq.Init.Datatypes <> S constr
+R2392:2395 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2399:2399 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2396:2396 Coq.Init.Datatypes <> S constr
+R2387:2389 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2378:2380 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2375:2375 Coq.Init.Datatypes <> S constr
+R2392:2395 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2399:2399 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2396:2396 Coq.Init.Datatypes <> S constr
+ind 2691:2703 <> bisimilar_mod
+constr 2754:2772 <> bisimilar_mod_intro
+R2717:2722 LibRelation <> binary def
+R2724:2724 LibStream <> A var
+R2729:2734 LibRelation <> binary def
+R2737:2742 LibStream <> stream coind
+R2853:2865 LibStream <> bisimilar_mod ind
+R2882:2884 LibStream <> ::x_':::'_x not
+R2880:2881 LibStream <> x2 var
+R2885:2886 LibStream <> s2 var
+R2872:2874 LibStream <> ::x_':::'_x not
+R2870:2871 LibStream <> x1 var
+R2875:2876 LibStream <> s1 var
+R2819:2831 LibStream <> bisimilar_mod ind
+R2838:2839 LibStream <> s2 var
+R2835:2836 LibStream <> s1 var
+R2807:2808 LibStream <> x2 var
+R2804:2805 LibStream <> x1 var
+def 2939:2947 <> bisimilar
+R2961:2973 LibStream <> bisimilar_mod coind
+R2977:2978 Coq.Init.Logic <> eq ind
+R2980:2980 LibStream <> A var
+R3008:3016 LibStream <> bisimilar def
+not 2994 <> ::x_'==='_x
+prf 3084:3102 <> bisimilar_mod_equiv
+R3118:3123 LibRelation <> binary def
+R3125:3125 LibStream <> A var
+R3142:3146 LibRelation <> equiv rec
+R3149:3161 LibStream <> bisimilar_mod coind
+R3163:3163 LibStream <> E var
+R3131:3135 LibRelation <> equiv rec
+R3137:3137 LibStream <> E var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+prf 3466:3480 <> bisimilar_equiv
+R3496:3500 LibRelation <> equiv rec
+R3504:3512 LibStream <> bisimilar def
+R3514:3514 LibStream <> A var
+R3540:3558 LibStream <> bisimilar_mod_equiv thm
+R3540:3558 LibStream <> bisimilar_mod_equiv thm
+def 3748:3765 <> bisimilar_mod_upto
+R3772:3777 LibRelation <> binary def
+R3779:3779 LibStream <> A var
+R3795:3804 LibList <> list_equiv def
+R3821:3824 LibStream <> take def
+R3828:3829 LibStream <> s2 var
+R3826:3826 LibStream <> n var
+R3809:3812 LibStream <> take def
+R3816:3817 LibStream <> s1 var
+R3814:3814 LibStream <> n var
+R3806:3806 LibStream <> E var
+sec 3842:3850 <> Bisimilar
+R3865:3874 LibList <> list_equiv def
+R3895:3901 LibStream <> Forall2 ind
+prf 3951:3974 <> bisimilar_mod_upto_equiv
+R3990:3995 LibRelation <> binary def
+R3997:3997 LibStream <> A var
+R4016:4020 LibRelation <> equiv rec
+R4023:4040 LibStream <> bisimilar_mod_upto def
+R4044:4044 LibStream <> n var
+R4042:4042 LibStream <> E var
+R4005:4009 LibRelation <> equiv rec
+R4011:4011 LibStream <> E var
+R4078:4095 LibStream <> bisimilar_mod_upto def
+R4107:4122 LibList <> list_equiv_equiv thm
+R4107:4122 LibList <> list_equiv_equiv thm
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+R0:-1 LibStream <> y var
+prf 4222:4242 <> bisimilar_mod_to_upto
+R4258:4263 LibRelation <> binary def
+R4265:4265 LibStream <> A var
+R4304:4321 LibStream <> bisimilar_mod_upto def
+R4330:4331 LibStream <> s2 var
+R4327:4328 LibStream <> s1 var
+R4325:4325 LibStream <> n var
+R4323:4323 LibStream <> E var
+R4279:4291 LibStream <> bisimilar_mod coind
+R4298:4299 LibStream <> s2 var
+R4295:4296 LibStream <> s1 var
+R4293:4293 LibStream <> E var
+R4350:4367 LibStream <> bisimilar_mod_upto def
+prf 4546:4563 <> bisimilar_mod_take
+R4579:4584 LibRelation <> binary def
+R4586:4586 LibStream <> A var
+R4652:4664 LibStream <> bisimilar_mod coind
+R4671:4672 LibStream <> s2 var
+R4668:4669 LibStream <> s1 var
+R4666:4666 LibStream <> E var
+R4609:4618 LibList <> list_equiv def
+R4635:4638 LibStream <> take def
+R4642:4643 LibStream <> s2 var
+R4640:4640 LibStream <> i var
+R4623:4626 LibStream <> take def
+R4630:4631 LibStream <> s1 var
+R4628:4628 LibStream <> i var
+R4620:4620 LibStream <> E var
+R4852:4852 Coq.Init.Datatypes <> S constr
+R4852:4852 Coq.Init.Datatypes <> S constr
+prf 4928:4950 <> bisimilar_mod_upto_zero
+R4966:4971 LibRelation <> binary def
+R4973:4973 LibStream <> A var
+R4985:5002 LibStream <> bisimilar_mod_upto def
+R5015:5016 LibStream <> s2 var
+R5012:5013 LibStream <> s1 var
+R5004:5004 LibStream <> E var
+prf 5161:5183 <> bisimilar_mod_upto_succ
+R5199:5204 LibRelation <> binary def
+R5206:5206 LibStream <> A var
+R5293:5310 LibStream <> bisimilar_mod_upto def
+R5323:5324 LibStream <> s2 var
+R5320:5321 LibStream <> s1 var
+R5315:5315 Coq.Init.Datatypes <> S constr
+R5317:5317 LibStream <> n var
+R5312:5312 LibStream <> E var
+R5276:5278 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5268:5270 LibStream <> nth def
+R5274:5275 LibStream <> s1 var
+R5272:5272 LibStream <> n var
+R5279:5281 LibStream <> nth def
+R5285:5286 LibStream <> s2 var
+R5283:5283 LibStream <> n var
+R5233:5250 LibStream <> bisimilar_mod_upto def
+R5259:5260 LibStream <> s2 var
+R5256:5257 LibStream <> s1 var
+R5254:5254 LibStream <> n var
+R5252:5252 LibStream <> E var
+R5220:5224 LibRelation <> equiv rec
+R5226:5226 LibStream <> E var
+R0:-1 LibStream <> y var
+R5490:5490 Coq.Init.Datatypes <> S constr
+R5490:5490 Coq.Init.Datatypes <> S constr
+R5558:5566 LibStream Bisimilar <> sec
+R5583:5606 LibStream <> bisimilar_mod_upto_equiv thm
+R5622:5644 LibStream <> bisimilar_mod_upto_zero thm
+ind 5838:5847 <> eventually
+constr 5889:5903 <> eventually_head
+constr 5957:5971 <> eventually_tail
+R5854:5854 LibStream <> A var
+R5865:5870 LibStream <> stream coind
+R5932:5941 LibStream <> eventually ind
+R5947:5949 LibStream <> ::x_':::'_x not
+R5946:5946 LibStream <> x var
+R5950:5950 LibStream <> s var
+R5927:5927 LibStream <> x var
+R6011:6020 LibStream <> eventually ind
+R6026:6028 LibStream <> ::x_':::'_x not
+R6025:6025 LibStream <> x var
+R6029:6029 LibStream <> s var
+R5993:6002 LibStream <> eventually ind
+R6006:6006 LibStream <> s var
+ind 6113:6118 <> always
+constr 6169:6180 <> always_intro
+R6125:6130 LibStream <> stream coind
+R6132:6132 LibStream <> A var
+R6145:6150 LibStream <> stream coind
+R6229:6234 LibStream <> always ind
+R6240:6242 LibStream <> ::x_':::'_x not
+R6239:6239 LibStream <> x var
+R6243:6243 LibStream <> s var
+R6220:6222 LibStream <> ::x_':::'_x not
+R6219:6219 LibStream <> x var
+R6223:6223 LibStream <> s var
+R6202:6207 LibStream <> always ind
+R6211:6211 LibStream <> s var
+def 6365:6380 <> infinitely_often
+R6387:6387 LibStream <> A var
+R6401:6406 LibStream <> always coind
+R6409:6418 LibStream <> eventually ind
+R6420:6420 LibStream <> P var
+def 6535:6545 <> first_st_at
+R6552:6552 LibStream <> A var
+R6564:6569 LibStream <> stream coind
+R6571:6571 LibStream <> A var
+R6577:6579 Coq.Init.Datatypes <> nat ind
+R6604:6604 LibStream <> s var
+R6594:6596 LibStream <> ::x_':::'_x not
+R6617:6617 LibStream <> n var
+R6629:6629 Coq.Init.Datatypes <> O constr
+R6634:6634 LibStream <> P var
+R6643:6643 Coq.Init.Datatypes <> S constr
+R6656:6659 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6651:6652 Coq.Init.Logic <> :type_scope:'~'_x not
+R6653:6653 LibStream <> P var
+R6660:6670 LibStream <> first_st_at def
+R6672:6672 LibStream <> P var
+prf 6811:6828 <> first_st_at_unique
+R6850:6850 LibStream <> A var
+R6910:6912 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6908:6909 LibStream <> n1 var
+R6913:6914 LibStream <> n2 var
+R6886:6896 LibStream <> first_st_at def
+R6902:6903 LibStream <> n2 var
+R6900:6900 LibStream <> s var
+R6898:6898 LibStream <> P var
+R6864:6874 LibStream <> first_st_at def
+R6880:6881 LibStream <> n1 var
+R6878:6878 LibStream <> s var
+R6876:6876 LibStream <> P var
+R7109:7126 LibStream <> first_st_at_unique thm

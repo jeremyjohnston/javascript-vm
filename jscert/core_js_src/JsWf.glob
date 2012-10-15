@@ -1,0 +1,213 @@
+DIGEST e9dd376c46b1bc96a9c1f68e2ade00e5
+FJsWf
+R39:52 JsSemanticsAux <> <> lib
+R75:78 JsSyntax <> heap def
+def 328:341 <> has_some_proto
+R352:356 JsSemantics <> indom def
+R362:372 JsSyntax <> field_proto constr
+R360:360 JsWf <> l var
+R358:358 JsWf <> h var
+def 473:486 <> has_null_proto
+R497:501 JsSemantics <> binds def
+R520:528 JsSyntax <> value_loc constr
+R530:537 JsSyntax <> loc_null constr
+R507:517 JsSyntax <> field_proto constr
+R505:505 JsWf <> l var
+R503:503 JsWf <> h var
+ind 664:673 <> protochain
+constr 698:711 <> protochain_end
+constr 748:762 <> protochain_step
+R679:681 JsSyntax <> loc ind
+R721:730 JsWf <> protochain ind
+R734:741 JsSyntax <> loc_null constr
+R855:864 JsWf <> protochain ind
+R868:868 JsWf <> l var
+R831:840 JsWf <> protochain ind
+R844:845 JsWf <> l' var
+R786:790 JsSemantics <> binds def
+R809:817 JsSyntax <> value_loc constr
+R819:820 JsWf <> l' var
+R796:806 JsSyntax <> field_proto constr
+R794:794 JsWf <> l var
+ind 1062:1069 <> ok_scope
+constr 1097:1108 <> ok_scope_end
+constr 1150:1162 <> ok_scope_cons
+R1075:1079 JsSyntax <> scope def
+R1118:1125 JsWf <> ok_scope ind
+R1139:1140 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1130:1138 JsSyntax <> loc_scope constr
+R1141:1143 Coq.Init.Datatypes <> nil constr
+R1231:1238 JsWf <> ok_scope ind
+R1244:1245 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1243:1243 JsWf <> l var
+R1246:1246 JsWf <> s var
+R1204:1217 JsWf <> has_some_proto def
+R1221:1221 JsWf <> l var
+R1183:1190 JsWf <> ok_scope ind
+R1194:1194 JsWf <> s var
+ind 1475:1482 <> ok_value
+constr 1516:1529 <> ok_value_basic
+constr 1589:1600 <> ok_value_loc
+R1487:1490 JsSyntax <> heap def
+R1495:1499 JsSyntax <> value ind
+R1572:1579 JsWf <> ok_value ind
+R1583:1583 JsWf <> v var
+R1549:1559 JsSemantics <> basic_value ind
+R1561:1561 JsWf <> v var
+R1648:1655 JsWf <> ok_value ind
+R1660:1668 JsSyntax <> value_loc constr
+R1670:1670 JsWf <> l var
+R1620:1633 JsWf <> has_some_proto def
+R1637:1637 JsWf <> l var
+def 1799:1820 <> ok_heap_protochain_def
+R1860:1869 JsWf <> protochain ind
+R1873:1873 JsWf <> l var
+R1871:1871 JsWf <> h var
+R1843:1847 JsSemantics <> binds def
+R1855:1855 JsWf <> v var
+R1853:1853 JsWf <> f var
+R1851:1851 JsWf <> l var
+R1849:1849 JsWf <> h var
+def 2097:2116 <> ok_heap_ok_value_def
+R2188:2195 JsWf <> ok_value ind
+R2199:2199 JsWf <> v var
+R2197:2197 JsWf <> h var
+R2161:2177 JsSemanticsAux <> not_scope_or_body def
+R2179:2179 JsWf <> f var
+R2139:2143 JsSemantics <> binds def
+R2151:2151 JsWf <> v var
+R2149:2149 JsWf <> f var
+R2147:2147 JsWf <> l var
+R2145:2145 JsWf <> h var
+def 2392:2407 <> ok_heap_this_def
+R2457:2463 LibTactics <> :type_scope:'exists'_x_','_x not
+R2466:2471 LibTactics <> :type_scope:'exists'_x_','_x not
+R2488:2495 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2473:2475 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2472:2472 JsWf <> v var
+R2476:2484 JsSyntax <> value_loc constr
+R2514:2521 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2496:2509 JsWf <> has_null_proto def
+R2513:2513 JsWf <> l var
+R2511:2511 JsWf <> h var
+R2522:2535 JsWf <> has_some_proto def
+R2537:2537 JsWf <> h var
+R2428:2432 JsSemantics <> binds def
+R2449:2449 JsWf <> v var
+R2438:2447 JsSyntax <> field_this constr
+R2436:2436 JsWf <> l var
+R2434:2434 JsWf <> h var
+def 2835:2854 <> ok_heap_function_def
+R2932:2938 LibTactics <> :type_scope:'exists'_x_x_x_x_','_x not
+R2940:2940 LibTactics <> :type_scope:'exists'_x_x_x_x_','_x not
+R2942:2942 LibTactics <> :type_scope:'exists'_x_x_x_x_','_x not
+R2944:2944 LibTactics <> :type_scope:'exists'_x_x_x_x_','_x not
+R2947:2952 LibTactics <> :type_scope:'exists'_x_x_x_x_','_x not
+R2990:2997 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2953:2957 JsSemantics <> binds def
+R2976:2986 JsSyntax <> value_scope constr
+R2963:2973 JsSyntax <> field_scope constr
+R2961:2961 JsWf <> l var
+R2959:2959 JsWf <> h var
+R3035:3042 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2998:3002 JsSemantics <> binds def
+R3020:3029 JsSyntax <> value_body constr
+R3008:3017 JsSyntax <> field_body constr
+R3006:3006 JsWf <> l var
+R3004:3004 JsWf <> h var
+R3079:3086 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3043:3047 JsSemantics <> binds def
+R3053:3074 JsSyntax <> field_normal_prototype def
+R3051:3051 JsWf <> l var
+R3049:3049 JsWf <> h var
+R3087:3094 JsWf <> ok_scope ind
+R3096:3096 JsWf <> h var
+R2899:2902 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2876:2880 JsSemantics <> binds def
+R2898:2898 JsWf <> v var
+R2886:2896 JsSyntax <> field_scope constr
+R2884:2884 JsWf <> l var
+R2882:2882 JsWf <> h var
+R2903:2907 JsSemantics <> binds def
+R2924:2924 JsWf <> v var
+R2913:2922 JsSyntax <> field_body constr
+R2911:2911 JsWf <> l var
+R2909:2909 JsWf <> h var
+def 3161:3176 <> ok_heap_null_def
+R3221:3225 Coq.Init.Logic <> False ind
+R3197:3201 JsSemantics <> binds def
+R3216:3216 JsWf <> v var
+R3214:3214 JsWf <> f var
+R3205:3212 JsSyntax <> loc_null constr
+R3203:3203 JsWf <> h var
+rec 3291:3309 <> ok_heap_special_def
+proj 3320:3346 <> ok_heap_special_global_this
+proj 3397:3424 <> ok_heap_special_global_proto
+proj 3466:3490 <> ok_heap_special_obj_proto
+proj 3535:3564 <> ok_heap_special_function_proto
+R3354:3358 JsSemantics <> binds def
+R3383:3392 JsSyntax <> loc_global constr
+R3372:3381 JsSyntax <> field_this constr
+R3362:3370 JsSyntax <> loc_scope constr
+R3360:3360 JsWf <> h var
+R3432:3436 JsSemantics <> indom def
+R3451:3461 JsSyntax <> field_proto constr
+R3440:3449 JsSyntax <> loc_global constr
+R3438:3438 JsWf <> h var
+R3498:3502 JsSemantics <> indom def
+R3520:3530 JsSyntax <> field_proto constr
+R3506:3518 JsSyntax <> loc_obj_proto constr
+R3504:3504 JsWf <> h var
+R3572:3576 JsSemantics <> indom def
+R3595:3605 JsSyntax <> field_proto constr
+R3580:3593 JsSyntax <> loc_func_proto constr
+R3578:3578 JsWf <> h var
+rec 3673:3679 <> ok_heap
+proj 3690:3707 <> ok_heap_protochain
+proj 3739:3754 <> ok_heap_ok_value
+proj 3784:3795 <> ok_heap_this
+proj 3822:3837 <> ok_heap_function
+proj 3867:3878 <> ok_heap_null
+proj 3904:3918 <> ok_heap_special
+R3711:3732 JsWf <> ok_heap_protochain_def def
+R3734:3734 JsWf <> h var
+R3758:3777 JsWf <> ok_heap_ok_value_def def
+R3779:3779 JsWf <> h var
+R3799:3814 JsWf <> ok_heap_this_def def
+R3816:3816 JsWf <> h var
+R3841:3860 JsWf <> ok_heap_function_def def
+R3862:3862 JsWf <> h var
+R3882:3897 JsWf <> ok_heap_null_def def
+R3899:3899 JsWf <> h var
+R3922:3940 JsWf <> ok_heap_special_def rec
+R3942:3942 JsWf <> h var
+ind 4066:4074 <> ok_result
+constr 4109:4123 <> ok_result_value
+constr 4198:4210 <> ok_result_ref
+R4079:4082 JsSyntax <> heap def
+R4087:4092 JsSyntax <> result ind
+R4165:4173 JsWf <> ok_result ind
+R4178:4189 JsSyntax <> result_value constr
+R4191:4191 JsWf <> v var
+R4143:4150 JsWf <> ok_value ind
+R4154:4154 JsWf <> v var
+R4278:4286 JsWf <> ok_result ind
+R4291:4300 JsSyntax <> result_ref constr
+R4303:4305 JsSyntax <> Ref constr
+R4310:4321 JsSyntax <> field_normal constr
+R4323:4323 JsWf <> x var
+R4307:4307 JsWf <> l var
+R4245:4248 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4234:4236 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4233:4233 JsWf <> l var
+R4237:4244 JsSyntax <> loc_null constr
+R4249:4262 JsWf <> has_some_proto def
+R4266:4266 JsWf <> l var
+def 4455:4467 <> extends_proto
+R4477:4480 JsSyntax <> heap def
+R4520:4533 JsWf <> has_some_proto def
+R4538:4538 JsWf <> l var
+R4535:4536 JsWf <> h' var
+R4498:4511 JsWf <> has_some_proto def
+R4515:4515 JsWf <> l var
+R4513:4513 JsWf <> h var

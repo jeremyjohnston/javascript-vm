@@ -1,0 +1,149 @@
+DIGEST 8bb88ee3fb1271af57df5596d414da9e
+FJsSyntaxAux
+R39:46 LibLogic <> <> lib
+R48:54 LibHeap <> <> lib
+R72:79 JsSyntax <> <> lib
+R101:104 JsSyntax <> heap def
+R125:127 JsSyntax <> loc ind
+R148:152 JsSyntax <> field ind
+inst 321:329 <> loc_inhab
+R333:337 LibLogic <> Inhab class
+R339:341 JsSyntax <> loc ind
+R358:368 LibLogic <> prove_Inhab thm
+R370:377 JsSyntax <> loc_null constr
+R358:368 LibLogic <> prove_Inhab thm
+R370:377 JsSyntax <> loc_null constr
+inst 403:413 <> value_inhab
+R417:421 LibLogic <> Inhab class
+R423:427 JsSyntax <> value ind
+R444:454 LibLogic <> prove_Inhab thm
+R456:466 JsSyntax <> value_undef constr
+R444:454 LibLogic <> prove_Inhab thm
+R456:466 JsSyntax <> value_undef constr
+inst 492:502 <> field_inhab
+R506:510 LibLogic <> Inhab class
+R512:516 JsSyntax <> field ind
+R533:543 LibLogic <> prove_Inhab thm
+R545:555 JsSyntax <> field_proto constr
+R533:543 LibLogic <> prove_Inhab thm
+R545:555 JsSyntax <> field_proto constr
+inst 581:589 <> ref_inhab
+R593:597 LibLogic <> Inhab class
+R599:601 JsSyntax <> ref ind
+R618:628 LibLogic <> prove_Inhab thm
+R631:633 JsSyntax <> Ref constr
+R645:653 LibLogic <> arbitrary def
+R635:643 LibLogic <> arbitrary def
+R618:628 LibLogic <> prove_Inhab thm
+R631:633 JsSyntax <> Ref constr
+R645:653 LibLogic <> arbitrary def
+R635:643 LibLogic <> arbitrary def
+def 704:714 <> loc_compare
+R725:727 JsSyntax <> loc ind
+R745:746 JsSyntaxAux <> l2 var
+R741:742 JsSyntaxAux <> l1 var
+R757:766 JsSyntax <> loc_normal constr
+R772:781 JsSyntax <> loc_normal constr
+R789:794 LibReflect <> decide meth
+R799:801 Coq.Init.Logic <> :type_scope:x_'='_x not
+R810:817 JsSyntax <> loc_null constr
+R820:827 JsSyntax <> loc_null constr
+R832:835 Coq.Init.Datatypes <> true constr
+R841:848 JsSyntax <> loc_eval constr
+R851:858 JsSyntax <> loc_eval constr
+R863:866 Coq.Init.Datatypes <> true constr
+R872:880 JsSyntax <> loc_scope constr
+R883:891 JsSyntax <> loc_scope constr
+R896:899 Coq.Init.Datatypes <> true constr
+R905:914 JsSyntax <> loc_global constr
+R917:926 JsSyntax <> loc_global constr
+R931:934 Coq.Init.Datatypes <> true constr
+R940:952 JsSyntax <> loc_obj_proto constr
+R955:967 JsSyntax <> loc_obj_proto constr
+R972:975 Coq.Init.Datatypes <> true constr
+R981:994 JsSyntax <> loc_func_proto constr
+R997:1010 JsSyntax <> loc_func_proto constr
+R1015:1018 Coq.Init.Datatypes <> true constr
+R1024:1037 JsSyntax <> loc_eval_proto constr
+R1040:1053 JsSyntax <> loc_eval_proto constr
+R1058:1061 Coq.Init.Datatypes <> true constr
+R1075:1079 Coq.Init.Datatypes <> false constr
+inst 1105:1118 <> loc_comparable
+R1122:1131 LibReflect <> Comparable class
+R1133:1135 JsSyntax <> loc ind
+R1155:1168 LibReflect <> comparable_beq thm
+R1170:1180 JsSyntaxAux <> loc_compare def
+R1155:1168 LibReflect <> comparable_beq thm
+R1170:1180 JsSyntaxAux <> loc_compare def
+def 1296:1308 <> field_compare
+R1319:1323 JsSyntax <> field ind
+R1341:1342 JsSyntaxAux <> f2 var
+R1337:1338 JsSyntaxAux <> f1 var
+R1353:1364 JsSyntax <> field_normal constr
+R1370:1381 JsSyntax <> field_normal constr
+R1389:1394 LibReflect <> decide meth
+R1399:1401 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1410:1420 JsSyntax <> field_proto constr
+R1423:1433 JsSyntax <> field_proto constr
+R1438:1441 Coq.Init.Datatypes <> true constr
+R1447:1456 JsSyntax <> field_body constr
+R1459:1468 JsSyntax <> field_body constr
+R1473:1476 Coq.Init.Datatypes <> true constr
+R1482:1492 JsSyntax <> field_scope constr
+R1495:1505 JsSyntax <> field_scope constr
+R1510:1513 Coq.Init.Datatypes <> true constr
+R1519:1528 JsSyntax <> field_this constr
+R1531:1540 JsSyntax <> field_this constr
+R1545:1548 Coq.Init.Datatypes <> true constr
+R1562:1566 Coq.Init.Datatypes <> false constr
+inst 1592:1607 <> field_comparable
+R1611:1620 LibReflect <> Comparable class
+R1622:1626 JsSyntax <> field ind
+R1646:1659 LibReflect <> comparable_beq thm
+R1661:1673 JsSyntaxAux <> field_compare def
+R1646:1659 LibReflect <> comparable_beq thm
+R1661:1673 JsSyntaxAux <> field_compare def
+def 1789:1799 <> ref_compare
+R1822:1823 JsSyntaxAux <> r2 var
+R1818:1819 JsSyntaxAux <> r1 var
+R1830:1832 JsSyntax <> Ref constr
+R1841:1843 JsSyntax <> Ref constr
+R1874:1877 LibBool <> :Bool_scope:x_'&&'_x not
+R1858:1863 LibReflect <> decide meth
+R1868:1870 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1878:1883 LibReflect <> decide meth
+R1888:1890 Coq.Init.Logic <> :type_scope:x_'='_x not
+inst 1917:1930 <> ref_comparable
+R1934:1943 LibReflect <> Comparable class
+R1945:1947 JsSyntax <> ref ind
+R1967:1980 LibReflect <> comparable_beq thm
+R1982:1992 JsSyntaxAux <> ref_compare def
+R1967:1980 LibReflect <> comparable_beq thm
+R1982:1992 JsSyntaxAux <> ref_compare def
+inst 2094:2110 <> number_comparable
+R2114:2123 LibReflect <> Comparable class
+R2125:2130 JsSyntax <> number def
+def 2207:2219 <> value_compare
+R2230:2234 JsSyntax <> value ind
+R2252:2253 JsSyntaxAux <> v2 var
+R2248:2249 JsSyntaxAux <> v1 var
+R2264:2274 JsSyntax <> value_undef constr
+R2277:2287 JsSyntax <> value_undef constr
+R2292:2295 Coq.Init.Datatypes <> true constr
+R2301:2310 JsSyntax <> value_bool constr
+R2316:2325 JsSyntax <> value_bool constr
+R2333:2338 LibReflect <> decide meth
+R2343:2345 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2354:2365 JsSyntax <> value_number constr
+R2371:2382 JsSyntax <> value_number constr
+R2390:2395 LibReflect <> decide meth
+R2400:2402 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2411:2422 JsSyntax <> value_string constr
+R2428:2439 JsSyntax <> value_string constr
+R2447:2452 LibReflect <> decide meth
+R2457:2459 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2468:2476 JsSyntax <> value_loc constr
+R2482:2490 JsSyntax <> value_loc constr
+R2498:2503 LibReflect <> decide meth
+R2508:2510 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2527:2531 Coq.Init.Datatypes <> false constr

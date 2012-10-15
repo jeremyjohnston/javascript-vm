@@ -1,0 +1,86 @@
+Shared.vo Shared.glob Shared.v.beautified: Shared.v tlc/LibTactics.vo tlc/LibCore.vo tlc/LibString.vo tlc/LibSet.vo tlc/LibProd.vo tlc/LibFix.vo
+JsSyntax.vo JsSyntax.glob JsSyntax.v.beautified: JsSyntax.v Shared.vo tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibList.vo tlc/LibOperation.vo tlc/LibStruct.vo tlc/LibNat.vo tlc/LibEpsilon.vo tlc/LibFunc.vo tlc/LibHeap.vo flocq/src/Appli/Fappli_IEEE.vo flocq/src/Appli/Fappli_IEEE_bits.vo
+JsSyntaxAux.vo JsSyntaxAux.glob JsSyntaxAux.v.beautified: JsSyntaxAux.v tlc/LibLogic.vo tlc/LibHeap.vo JsSyntax.vo
+JsSemantics.vo JsSemantics.glob JsSemantics.v.beautified: JsSemantics.v JsSyntax.vo JsSyntaxAux.vo
+JsSemanticsAux.vo JsSemanticsAux.glob JsSemanticsAux.v.beautified: JsSemanticsAux.v tlc/LibLogic.vo tlc/LibHeap.vo JsSemantics.vo
+JsWf.vo JsWf.glob JsWf.v.beautified: JsWf.v JsSemanticsAux.vo
+JsWfAux.vo JsWfAux.glob JsWfAux.v.beautified: JsWfAux.v JsSemanticsAux.vo JsWf.vo
+JsExtra.vo JsExtra.glob JsExtra.v.beautified: JsExtra.v JsSemanticsAux.vo
+JsSafety.vo JsSafety.glob JsSafety.v.beautified: JsSafety.v JsSemanticsAux.vo JsWf.vo JsWfAux.vo
+JsScopes.vo JsScopes.glob JsScopes.v.beautified: JsScopes.v Shared.vo JsSemanticsAux.vo JsWf.vo JsWfAux.vo
+JsInterpreter.vo JsInterpreter.glob JsInterpreter.v.beautified: JsInterpreter.v Shared.vo tlc/LibFix.vo JsSemanticsAux.vo JsWf.vo JsWfAux.vo JsScopes.vo JsSafety.vo
+JsInterpreterProofs.vo JsInterpreterProofs.glob JsInterpreterProofs.v.beautified: JsInterpreterProofs.v Shared.vo tlc/LibFix.vo JsSemanticsAux.vo JsWf.vo JsWfAux.vo JsSafety.vo JsScopes.vo JsInterpreter.vo
+JsInterpreterExample.vo JsInterpreterExample.glob JsInterpreterExample.v.beautified: JsInterpreterExample.v JsSemantics.vo JsWfAux.vo JsInterpreter.vo tlc/LibFix.vo tlc/LibList.vo
+JsProvePrograms.vo JsProvePrograms.glob JsProvePrograms.v.beautified: JsProvePrograms.v Shared.vo JsSemanticsAux.vo JsWf.vo JsWfAux.vo JsSafety.vo JsScopes.vo tlc/LibFix.vo
+tlc/LibArray.vo tlc/LibArray.glob tlc/LibArray.v.beautified: tlc/LibArray.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibRelation.vo tlc/LibList.vo tlc/LibInt.vo tlc/LibOperation.vo tlc/LibEpsilon.vo tlc/LibSet.vo tlc/LibMap.vo tlc/LibBag.vo tlc/LibWf.vo
+tlc/LibAxioms.vo tlc/LibAxioms.glob tlc/LibAxioms.v.beautified: tlc/LibAxioms.v
+tlc/LibBag.vo tlc/LibBag.glob tlc/LibBag.v.beautified: tlc/LibBag.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibRelation.vo tlc/LibOperation.vo tlc/LibInt.vo tlc/LibStruct.vo
+tlc/LibBool.vo tlc/LibBool.glob tlc/LibBool.v.beautified: tlc/LibBool.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibOperation.vo
+tlc/LibChoice.vo tlc/LibChoice.glob tlc/LibChoice.v.beautified: tlc/LibChoice.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibEpsilon.vo
+tlc/LibCore.vo tlc/LibCore.glob tlc/LibCore.v.beautified: tlc/LibCore.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibOperation.vo tlc/LibReflect.vo tlc/LibUnit.vo tlc/LibProd.vo tlc/LibSum.vo tlc/LibOption.vo tlc/LibNat.vo tlc/LibInt.vo tlc/LibList.vo tlc/LibRelation.vo tlc/LibOrder.vo tlc/LibWf.vo
+tlc/LibEnv.vo tlc/LibEnv.glob tlc/LibEnv.v.beautified: tlc/LibEnv.v tlc/LibTactics.vo tlc/LibOption.vo tlc/LibList.vo tlc/LibProd.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibVar.vo
+tlc/LibEpsilon.vo tlc/LibEpsilon.glob tlc/LibEpsilon.v.beautified: tlc/LibEpsilon.v tlc/LibTactics.vo tlc/LibLogic.vo
+tlc/LibEqual.vo tlc/LibEqual.glob tlc/LibEqual.v.beautified: tlc/LibEqual.v tlc/LibTactics.vo tlc/LibAxioms.vo
+tlc/LibExtractDemos.vo tlc/LibExtractDemos.glob tlc/LibExtractDemos.v.beautified: tlc/LibExtractDemos.v
+tlc/LibFix.vo tlc/LibFix.glob tlc/LibFix.v.beautified: tlc/LibFix.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibEpsilon.vo tlc/LibInt.vo tlc/LibProd.vo tlc/LibSum.vo tlc/LibOperation.vo tlc/LibRelation.vo tlc/LibWf.vo tlc/LibOrder.vo tlc/LibNat.vo
+tlc/LibFixDemos.vo tlc/LibFixDemos.glob tlc/LibFixDemos.v.beautified: tlc/LibFixDemos.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibFunc.vo tlc/LibEpsilon.vo tlc/LibList.vo tlc/LibInt.vo tlc/LibNat.vo tlc/LibProd.vo tlc/LibSum.vo tlc/LibRelation.vo tlc/LibWf.vo tlc/LibFix.vo tlc/LibStream.vo
+tlc/LibFset.vo tlc/LibFset.glob tlc/LibFset.v.beautified: tlc/LibFset.v tlc/LibTactics.vo tlc/LibList.vo tlc/LibSet.vo tlc/LibLogic.vo tlc/LibEqual.vo tlc/LibReflect.vo
+tlc/LibFunc.vo tlc/LibFunc.glob tlc/LibFunc.v.beautified: tlc/LibFunc.v tlc/LibTactics.vo tlc/LibLogic.vo
+tlc/LibGraph.vo tlc/LibGraph.glob tlc/LibGraph.v.beautified: tlc/LibGraph.v tlc/LibCore.vo tlc/LibArray.vo tlc/LibSet.vo
+tlc/LibHeap.vo tlc/LibHeap.glob tlc/LibHeap.v.beautified: tlc/LibHeap.v tlc/LibTactics.vo tlc/LibReflect.vo tlc/LibList.vo tlc/LibSet.vo
+tlc/LibInt.vo tlc/LibInt.glob tlc/LibInt.v.beautified: tlc/LibInt.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibRelation.vo tlc/LibNat.vo tlc/LibEpsilon.vo
+tlc/LibLN.vo tlc/LibLN.glob tlc/LibLN.v.beautified: tlc/LibLN.v tlc/LibList.vo tlc/LibTactics.vo tlc/LibProd.vo tlc/LibLogic.vo tlc/LibVar.vo tlc/LibEnv.vo
+tlc/LibList.vo tlc/LibList.glob tlc/LibList.v.beautified: tlc/LibList.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibOperation.vo tlc/LibProd.vo tlc/LibOption.vo tlc/LibNat.vo tlc/LibInt.vo tlc/LibWf.vo tlc/LibRelation.vo
+tlc/LibListSorted.vo tlc/LibListSorted.glob tlc/LibListSorted.v.beautified: tlc/LibListSorted.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibRelation.vo tlc/LibWf.vo tlc/LibList.vo tlc/LibOrder.vo tlc/LibNat.vo
+tlc/LibListZ.vo tlc/LibListZ.glob tlc/LibListZ.v.beautified: tlc/LibListZ.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibOperation.vo tlc/LibReflect.vo tlc/LibProd.vo tlc/LibNat.vo tlc/LibInt.vo tlc/LibOption.vo tlc/LibWf.vo tlc/LibList.vo
+tlc/LibLogic.vo tlc/LibLogic.glob tlc/LibLogic.v.beautified: tlc/LibLogic.v tlc/LibTactics.vo tlc/LibAxioms.vo tlc/LibEqual.vo
+tlc/LibMap.vo tlc/LibMap.glob tlc/LibMap.v.beautified: tlc/LibMap.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibOption.vo tlc/LibRelation.vo tlc/LibOperation.vo tlc/LibEpsilon.vo tlc/LibSet.vo tlc/LibBag.vo tlc/LibStruct.vo
+tlc/LibMultiset.vo tlc/LibMultiset.glob tlc/LibMultiset.v.beautified: tlc/LibMultiset.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibRelation.vo tlc/LibList.vo tlc/LibInt.vo tlc/LibNat.vo tlc/LibOperation.vo tlc/LibEpsilon.vo tlc/LibSet.vo tlc/LibStruct.vo tlc/LibBag.vo
+tlc/LibNat.vo tlc/LibNat.glob tlc/LibNat.v.beautified: tlc/LibNat.v tlc/LibTactics.vo tlc/LibReflect.vo tlc/LibBool.vo tlc/LibOperation.vo tlc/LibRelation.vo tlc/LibOrder.vo
+tlc/LibOperation.vo tlc/LibOperation.glob tlc/LibOperation.v.beautified: tlc/LibOperation.v tlc/LibTactics.vo
+tlc/LibOption.vo tlc/LibOption.glob tlc/LibOption.v.beautified: tlc/LibOption.v tlc/LibTactics.vo tlc/LibReflect.vo
+tlc/LibOrder.vo tlc/LibOrder.glob tlc/LibOrder.v.beautified: tlc/LibOrder.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibOperation.vo tlc/LibRelation.vo
+tlc/LibOtherDemos.vo tlc/LibOtherDemos.glob tlc/LibOtherDemos.v.beautified: tlc/LibOtherDemos.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibList.vo tlc/LibRelation.vo tlc/LibWf.vo tlc/LibLN.vo
+tlc/LibPer.vo tlc/LibPer.glob tlc/LibPer.v.beautified: tlc/LibPer.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibBool.vo tlc/LibRelation.vo tlc/LibSet.vo
+tlc/LibPrelude.vo tlc/LibPrelude.glob tlc/LibPrelude.v.beautified: tlc/LibPrelude.v tlc/LibTactics.vo
+tlc/LibProd.vo tlc/LibProd.glob tlc/LibProd.v.beautified: tlc/LibProd.v tlc/LibTactics.vo tlc/LibLogic.vo
+tlc/LibReflect.vo tlc/LibReflect.glob tlc/LibReflect.v.beautified: tlc/LibReflect.v tlc/LibTactics.vo tlc/LibBool.vo tlc/LibLogic.vo
+tlc/LibRelation.vo tlc/LibRelation.glob tlc/LibRelation.v.beautified: tlc/LibRelation.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibBool.vo tlc/LibProd.vo tlc/LibSum.vo tlc/LibOperation.vo
+tlc/LibSet.vo tlc/LibSet.glob tlc/LibSet.v.beautified: tlc/LibSet.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibReflect.vo tlc/LibList.vo tlc/LibOperation.vo tlc/LibStruct.vo tlc/LibNat.vo tlc/LibEpsilon.vo tlc/LibFunc.vo tlc/LibBag.vo
+tlc/LibStream.vo tlc/LibStream.glob tlc/LibStream.v.beautified: tlc/LibStream.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibInt.vo tlc/LibList.vo tlc/LibRelation.vo tlc/LibWf.vo
+tlc/LibString.vo tlc/LibString.glob tlc/LibString.v.beautified: tlc/LibString.v tlc/LibTactics.vo tlc/LibReflect.vo
+tlc/LibStruct.vo tlc/LibStruct.glob tlc/LibStruct.v.beautified: tlc/LibStruct.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibOperation.vo
+tlc/LibSum.vo tlc/LibSum.glob tlc/LibSum.v.beautified: tlc/LibSum.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibBool.vo
+tlc/LibTactics.vo tlc/LibTactics.glob tlc/LibTactics.v.beautified: tlc/LibTactics.v
+tlc/LibTacticsDemos.vo tlc/LibTacticsDemos.glob tlc/LibTacticsDemos.v.beautified: tlc/LibTacticsDemos.v tlc/LibTactics.vo
+tlc/LibTest.vo tlc/LibTest.glob tlc/LibTest.v.beautified: tlc/LibTest.v
+tlc/LibUnit.vo tlc/LibUnit.glob tlc/LibUnit.v.beautified: tlc/LibUnit.v tlc/LibTactics.vo tlc/LibLogic.vo
+tlc/LibVar.vo tlc/LibVar.glob tlc/LibVar.v.beautified: tlc/LibVar.v tlc/LibTactics.vo tlc/LibList.vo tlc/LibLogic.vo tlc/LibNat.vo tlc/LibEpsilon.vo tlc/LibReflect.vo tlc/LibFset.vo
+tlc/LibWf.vo tlc/LibWf.glob tlc/LibWf.v.beautified: tlc/LibWf.v tlc/LibTactics.vo tlc/LibLogic.vo tlc/LibProd.vo tlc/LibSum.vo tlc/LibRelation.vo tlc/LibNat.vo tlc/LibInt.vo
+flocq/src/Appli/Fappli_IEEE.vo flocq/src/Appli/Fappli_IEEE.glob flocq/src/Appli/Fappli_IEEE.v.beautified: flocq/src/Appli/Fappli_IEEE.v flocq/src/Core/Fcore.vo flocq/src/Core/Fcore_digits.vo flocq/src/Calc/Fcalc_digits.vo flocq/src/Calc/Fcalc_round.vo flocq/src/Calc/Fcalc_bracket.vo flocq/src/Calc/Fcalc_ops.vo flocq/src/Calc/Fcalc_div.vo flocq/src/Calc/Fcalc_sqrt.vo flocq/src/Prop/Fprop_relative.vo
+flocq/src/Appli/Fappli_IEEE_bits.vo flocq/src/Appli/Fappli_IEEE_bits.glob flocq/src/Appli/Fappli_IEEE_bits.v.beautified: flocq/src/Appli/Fappli_IEEE_bits.v flocq/src/Core/Fcore.vo flocq/src/Core/Fcore_digits.vo flocq/src/Calc/Fcalc_digits.vo flocq/src/Appli/Fappli_IEEE.vo
+flocq/src/Calc/Fcalc_bracket.vo flocq/src/Calc/Fcalc_bracket.glob flocq/src/Calc/Fcalc_bracket.v.beautified: flocq/src/Calc/Fcalc_bracket.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo
+flocq/src/Calc/Fcalc_digits.vo flocq/src/Calc/Fcalc_digits.glob flocq/src/Calc/Fcalc_digits.v.beautified: flocq/src/Calc/Fcalc_digits.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_digits.vo
+flocq/src/Calc/Fcalc_div.vo flocq/src/Calc/Fcalc_div.glob flocq/src/Calc/Fcalc_div.v.beautified: flocq/src/Calc/Fcalc_div.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_digits.vo flocq/src/Calc/Fcalc_bracket.vo flocq/src/Calc/Fcalc_digits.vo
+flocq/src/Calc/Fcalc_ops.vo flocq/src/Calc/Fcalc_ops.glob flocq/src/Calc/Fcalc_ops.v.beautified: flocq/src/Calc/Fcalc_ops.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo
+flocq/src/Calc/Fcalc_round.vo flocq/src/Calc/Fcalc_round.glob flocq/src/Calc/Fcalc_round.v.beautified: flocq/src/Calc/Fcalc_round.v flocq/src/Core/Fcore.vo flocq/src/Core/Fcore_digits.vo flocq/src/Calc/Fcalc_bracket.vo flocq/src/Calc/Fcalc_digits.vo
+flocq/src/Calc/Fcalc_sqrt.vo flocq/src/Calc/Fcalc_sqrt.glob flocq/src/Calc/Fcalc_sqrt.v.beautified: flocq/src/Calc/Fcalc_sqrt.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_digits.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Calc/Fcalc_bracket.vo flocq/src/Calc/Fcalc_digits.vo
+flocq/src/Core/Fcore.vo flocq/src/Core/Fcore.glob flocq/src/Core/Fcore.v.beautified: flocq/src/Core/Fcore.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_rnd_ne.vo flocq/src/Core/Fcore_FIX.vo flocq/src/Core/Fcore_FLX.vo flocq/src/Core/Fcore_FLT.vo flocq/src/Core/Fcore_ulp.vo
+flocq/src/Core/Fcore_FIX.vo flocq/src/Core/Fcore_FIX.glob flocq/src/Core/Fcore_FIX.v.beautified: flocq/src/Core/Fcore_FIX.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_rnd_ne.vo
+flocq/src/Core/Fcore_FLT.vo flocq/src/Core/Fcore_FLT.glob flocq/src/Core/Fcore_FLT.v.beautified: flocq/src/Core/Fcore_FLT.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_FLX.vo flocq/src/Core/Fcore_FIX.vo flocq/src/Core/Fcore_rnd_ne.vo
+flocq/src/Core/Fcore_FLX.vo flocq/src/Core/Fcore_FLX.glob flocq/src/Core/Fcore_FLX.v.beautified: flocq/src/Core/Fcore_FLX.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_FIX.vo flocq/src/Core/Fcore_rnd_ne.vo
+flocq/src/Core/Fcore_FTZ.vo flocq/src/Core/Fcore_FTZ.glob flocq/src/Core/Fcore_FTZ.v.beautified: flocq/src/Core/Fcore_FTZ.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_FLX.vo
+flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_Raux.glob flocq/src/Core/Fcore_Raux.v.beautified: flocq/src/Core/Fcore_Raux.v flocq/src/Core/Fcore_Zaux.vo
+flocq/src/Core/Fcore_Zaux.vo flocq/src/Core/Fcore_Zaux.glob flocq/src/Core/Fcore_Zaux.v.beautified: flocq/src/Core/Fcore_Zaux.v
+flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_defs.glob flocq/src/Core/Fcore_defs.v.beautified: flocq/src/Core/Fcore_defs.v flocq/src/Core/Fcore_Raux.vo
+flocq/src/Core/Fcore_digits.vo flocq/src/Core/Fcore_digits.glob flocq/src/Core/Fcore_digits.v.beautified: flocq/src/Core/Fcore_digits.v flocq/src/Core/Fcore_Zaux.vo
+flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_float_prop.glob flocq/src/Core/Fcore_float_prop.v.beautified: flocq/src/Core/Fcore_float_prop.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo
+flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_generic_fmt.glob flocq/src/Core/Fcore_generic_fmt.v.beautified: flocq/src/Core/Fcore_generic_fmt.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_float_prop.vo
+flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_rnd.glob flocq/src/Core/Fcore_rnd.v.beautified: flocq/src/Core/Fcore_rnd.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo
+flocq/src/Core/Fcore_rnd_ne.vo flocq/src/Core/Fcore_rnd_ne.glob flocq/src/Core/Fcore_rnd_ne.v.beautified: flocq/src/Core/Fcore_rnd_ne.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_ulp.vo
+flocq/src/Core/Fcore_ulp.vo flocq/src/Core/Fcore_ulp.glob flocq/src/Core/Fcore_ulp.v.beautified: flocq/src/Core/Fcore_ulp.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_rnd.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Core/Fcore_float_prop.vo
+flocq/src/Prop/Fprop_Sterbenz.vo flocq/src/Prop/Fprop_Sterbenz.glob flocq/src/Prop/Fprop_Sterbenz.v.beautified: flocq/src/Prop/Fprop_Sterbenz.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Calc/Fcalc_ops.vo
+flocq/src/Prop/Fprop_div_sqrt_error.vo flocq/src/Prop/Fprop_div_sqrt_error.glob flocq/src/Prop/Fprop_div_sqrt_error.v.beautified: flocq/src/Prop/Fprop_div_sqrt_error.v flocq/src/Core/Fcore.vo flocq/src/Calc/Fcalc_ops.vo flocq/src/Prop/Fprop_relative.vo
+flocq/src/Prop/Fprop_mult_error.vo flocq/src/Prop/Fprop_mult_error.glob flocq/src/Prop/Fprop_mult_error.v.beautified: flocq/src/Prop/Fprop_mult_error.v flocq/src/Core/Fcore.vo flocq/src/Calc/Fcalc_ops.vo
+flocq/src/Prop/Fprop_plus_error.vo flocq/src/Prop/Fprop_plus_error.glob flocq/src/Prop/Fprop_plus_error.v.beautified: flocq/src/Prop/Fprop_plus_error.v flocq/src/Core/Fcore_Raux.vo flocq/src/Core/Fcore_defs.vo flocq/src/Core/Fcore_float_prop.vo flocq/src/Core/Fcore_generic_fmt.vo flocq/src/Calc/Fcalc_ops.vo
+flocq/src/Prop/Fprop_relative.vo flocq/src/Prop/Fprop_relative.glob flocq/src/Prop/Fprop_relative.v.beautified: flocq/src/Prop/Fprop_relative.v flocq/src/Core/Fcore.vo

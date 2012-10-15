@@ -1,0 +1,12 @@
+DIGEST 86d32d0bf28b74a0e414c335d3964481
+FFlocq.Core.Fcore
+R720:729 Flocq.Core.Fcore_Raux <> <> lib
+R747:756 Flocq.Core.Fcore_defs <> <> lib
+R774:789 Flocq.Core.Fcore_float_prop <> <> lib
+R807:815 Flocq.Core.Fcore_rnd <> <> lib
+R833:849 Flocq.Core.Fcore_generic_fmt <> <> lib
+R867:878 Flocq.Core.Fcore_rnd_ne <> <> lib
+R896:904 Flocq.Core.Fcore_FIX <> <> lib
+R922:930 Flocq.Core.Fcore_FLX <> <> lib
+R948:956 Flocq.Core.Fcore_FLT <> <> lib
+R974:982 Flocq.Core.Fcore_ulp <> <> lib

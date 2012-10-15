@@ -1,0 +1,1164 @@
+DIGEST d27136dc33c5a945e7eccccab7e89de5
+FLibBag
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+R364:373 LibReflect <> <> lib
+R378:388 LibRelation <> <> lib
+R390:401 LibOperation <> <> lib
+R403:408 LibInt <> <> lib
+R410:418 LibStruct <> <> lib
+rec 658:665 <> BagEmpty
+proj 674:678 <> empty
+R682:682 LibBag <> T var
+rec 693:701 <> BagSingle
+proj 712:717 <> single
+R726:726 LibBag <> T var
+R721:721 LibBag <> A var
+rec 737:749 <> BagSingleBind
+proj 762:772 <> single_bind
+R786:786 LibBag <> T var
+R781:781 LibBag <> B var
+R776:776 LibBag <> A var
+rec 797:801 <> BagIn
+proj 812:816 <> is_in
+R825:825 LibBag <> T var
+R820:820 LibBag <> A var
+rec 844:851 <> BagBinds
+proj 864:868 <> binds
+R882:882 LibBag <> B var
+R877:877 LibBag <> A var
+R872:872 LibBag <> T var
+rec 901:907 <> BagRead
+proj 920:923 <> read
+R937:937 LibBag <> B var
+R932:932 LibBag <> A var
+R927:927 LibBag <> T var
+rec 949:957 <> BagUpdate
+proj 970:975 <> update
+R994:994 LibBag <> T var
+R989:989 LibBag <> B var
+R984:984 LibBag <> A var
+R979:979 LibBag <> T var
+rec 1005:1012 <> BagUnion
+proj 1021:1025 <> union
+R1039:1039 LibBag <> T var
+R1034:1034 LibBag <> T var
+R1029:1029 LibBag <> T var
+rec 1050:1057 <> BagInter
+proj 1066:1070 <> inter
+R1084:1084 LibBag <> T var
+R1079:1079 LibBag <> T var
+R1074:1074 LibBag <> T var
+rec 1095:1101 <> BagIncl
+proj 1110:1113 <> incl
+R1117:1122 LibRelation <> binary def
+R1124:1124 LibBag <> T var
+rec 1135:1145 <> BagDisjoint
+proj 1154:1161 <> disjoint
+R1165:1170 LibRelation <> binary def
+R1172:1172 LibBag <> T var
+rec 1183:1193 <> BagRestrict
+proj 1204:1211 <> restrict
+R1225:1225 LibBag <> T var
+R1220:1220 LibBag <> K var
+R1215:1215 LibBag <> T var
+rec 1236:1244 <> BagRemove
+proj 1255:1260 <> remove
+R1274:1274 LibBag <> T var
+R1269:1269 LibBag <> K var
+R1264:1264 LibBag <> T var
+rec 1285:1291 <> BagFold
+proj 1304:1307 <> fold
+R1337:1337 LibBag <> I var
+R1332:1332 LibBag <> T var
+R1327:1327 LibBag <> F var
+R1311:1320 LibStruct <> monoid_def rec
+R1322:1322 LibBag <> I var
+rec 1348:1354 <> BagCard
+proj 1363:1366 <> card
+R1375:1377 Coq.Init.Datatypes <> nat ind
+R1370:1370 LibBag <> T var
+rec 1388:1393 <> BagDom
+proj 1405:1407 <> dom
+R1416:1417 LibBag <> Ks var
+R1411:1411 LibBag <> T var
+rec 1428:1435 <> BagIndex
+proj 1446:1450 <> index
+R1459:1459 LibBag <> A var
+R1454:1454 LibBag <> T var
+def 1484:1488 <> notin
+R1492:1496 LibBag <> BagIn class
+R1512:1514 Coq.Init.Logic <> :type_scope:'~'_x not
+R1524:1524 Coq.Init.Logic <> :type_scope:'~'_x not
+R1515:1519 LibBag <> is_in meth
+R1523:1523 LibBag <> m var
+R1521:1521 LibBag <> x var
+R1645:1649 LibBag <> empty meth
+not 1635 <> :container_scope:'\{}'
+R1696:1701 LibBag <> single meth
+not 1683 <> :container_scope:'\{'_x_'}'
+R1753:1757 LibBag <> is_in meth
+not 1737 <> :container_scope:x_'\in'_x
+R1828:1832 LibBag <> notin def
+not 1809 <> :container_scope:x_'\notin'_x
+R1898:1908 LibBag <> single_bind meth
+not 1884 <> :container_scope:x_'\:='_x
+R1975:1978 LibBag <> read meth
+not 1960 <> :container_scope:x_'\('_x_')'
+R2068:2073 LibBag <> update meth
+not 2048 <> :container_scope:x_'\('_x_':='_x_')'
+R2328:2331 LibBag <> incl meth
+not 2311 <> :container_scope:x_'\c'_x
+R2403:2407 LibBag <> union meth
+not 2386 <> :container_scope:x_'\u'_x
+R2498:2502 LibBag <> inter meth
+not 2481 <> :container_scope:x_'\n'_x
+R2593:2598 LibBag <> remove meth
+not 2576 <> :container_scope:x_'\-'_x
+R2668:2675 LibBag <> restrict meth
+not 2651 <> :container_scope:x_'\|'_x
+R2745:2752 LibBag <> disjoint meth
+not 2728 <> :container_scope:x_'\#'_x
+R2901:2906 LibBag <> single meth
+not 2884 <> :container_scope:'''{'_x_'}'
+R2979:2982 LibBag <> :container_scope:x_'\-'_x not
+R2983:2984 LibBag <> :container_scope:'\{'_x_'}' not
+R2986:2986 LibBag <> :container_scope:'\{'_x_'}' not
+not 2964 <> :container_scope:x_'\--'_x
+R3197:3201 LibBag <> :container_scope:x_'\in'_x not
+R3196:3196 LibBag <> x var
+not 3151 <> :container_scope:'forall_'_x_'\in'_x_','_x
+R3325:3329 LibBag <> :container_scope:x_'\in'_x not
+R3324:3324 LibBag <> y var
+R3314:3318 LibBag <> :container_scope:x_'\in'_x not
+R3313:3313 LibBag <> x var
+not 3264 <> :container_scope:'forall_'_x_x_'\in'_x_','_x
+R3477:3481 LibBag <> :container_scope:x_'\in'_x not
+R3476:3476 LibBag <> z var
+R3466:3470 LibBag <> :container_scope:x_'\in'_x not
+R3465:3465 LibBag <> y var
+R3455:3459 LibBag <> :container_scope:x_'\in'_x not
+R3454:3454 LibBag <> x var
+not 3401 <> :container_scope:'forall_'_x_x_x_'\in'_x_','_x
+R3719:3725 LibTactics <> :type_scope:'exists'_x_','_x not
+R3727:3728 LibTactics <> :type_scope:'exists'_x_','_x not
+R3736:3739 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3730:3734 LibBag <> :container_scope:x_'\in'_x not
+not 3684 <> :container_scope:'exists_'_x_'\in'_x_','_x
+R3834:3840 LibTactics <> :type_scope:'exists'_x_','_x not
+R3842:3843 LibTactics <> :type_scope:'exists'_x_','_x not
+R3851:3854 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3845:3849 LibBag <> :container_scope:x_'\in'_x not
+R3862:3865 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3856:3860 LibBag <> :container_scope:x_'\in'_x not
+not 3797 <> :container_scope:'exists_'_x_x_'\in'_x_','_x
+R3971:3977 LibTactics <> :type_scope:'exists'_x_','_x not
+R3979:3980 LibTactics <> :type_scope:'exists'_x_','_x not
+R3988:3991 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3982:3986 LibBag <> :container_scope:x_'\in'_x not
+R3999:4002 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3993:3997 LibBag <> :container_scope:x_'\in'_x not
+R4010:4013 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4004:4008 LibBag <> :container_scope:x_'\in'_x not
+not 3932 <> :container_scope:'exists_'_x_x_x_'\in'_x_','_x
+def 4188:4194 <> foreach
+R4198:4202 LibBag <> BagIn class
+R4212:4212 LibBag <> A var
+R4224:4224 LibBag <> T var
+R4253:4253 LibBag <> P var
+R4255:4255 LibBag <> x var
+R4243:4247 LibBag <> :container_scope:x_'\in'_x not
+R4242:4242 LibBag <> x var
+R4248:4248 LibBag <> E var
+inst 4385:4393 <> int_index
+R4397:4404 LibBag <> BagIndex class
+R4410:4412 LibInt <> :Int_scope:'int' not
+R4406:4408 LibInt <> :Int_scope:'int' not
+R4459:4461 LibInt <> :Int_scope:'int' not
+R4468:4471 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4473:4475 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4472:4472 LibBag <> i var
+R4472:4472 LibBag <> i var
+R4476:4476 LibBag <> n var
+R4459:4461 LibInt <> :Int_scope:'int' not
+R4468:4471 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4473:4475 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4472:4472 LibBag <> i var
+R4472:4472 LibBag <> i var
+R4476:4476 LibBag <> n var
+prf 4496:4508 <> int_index_def
+R4526:4528 LibInt <> :Int_scope:'int' not
+R4543:4546 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4557:4557 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4534:4538 LibBag <> index meth
+R4542:4542 LibBag <> i var
+R4540:4540 LibBag <> n var
+R4548:4551 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4553:4555 LibOrder <> :comp_scope:x_'<='_x_'<'_x not
+R4552:4552 LibBag <> i var
+R4552:4552 LibBag <> i var
+R4556:4556 LibBag <> n var
+R4594:4602 LibBag <> int_index inst
+prf 4612:4623 <> int_index_le
+R4642:4644 LibInt <> :Int_scope:'int' not
+R4672:4676 LibBag <> index meth
+R4680:4680 LibBag <> i var
+R4678:4678 LibBag <> m var
+R4663:4666 LibOrder <> :comp_scope:x_'<='_x not
+R4662:4662 LibBag <> n var
+R4667:4667 LibBag <> m var
+R4649:4653 LibBag <> index meth
+R4657:4657 LibBag <> i var
+R4655:4655 LibBag <> n var
+R4712:4724 LibBag <> int_index_def thm
+R4712:4724 LibBag <> int_index_def thm
+R4712:4724 LibBag <> int_index_def thm
+prf 4745:4759 <> int_index_prove
+R4777:4779 LibInt <> :Int_scope:'int' not
+R4804:4808 LibBag <> index meth
+R4812:4812 LibBag <> i var
+R4810:4810 LibBag <> n var
+R4796:4798 LibOrder <> :comp_scope:x_'<'_x not
+R4795:4795 LibBag <> i var
+R4799:4799 LibBag <> n var
+R4786:4789 LibOrder <> :comp_scope:x_'<='_x not
+R4790:4790 LibBag <> i var
+R4839:4851 LibBag <> int_index_def thm
+R4839:4851 LibBag <> int_index_def thm
+prf 4866:4879 <> int_index_succ
+R4922:4925 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4944:4944 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4907:4911 LibBag <> index meth
+R4921:4921 LibBag <> i var
+R4915:4917 LibInt <> :Int_scope:x_'+'_x not
+R4914:4914 LibBag <> n var
+R4935:4938 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4926:4930 LibBag <> index meth
+R4934:4934 LibBag <> i var
+R4932:4932 LibBag <> n var
+R4940:4942 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4939:4939 LibBag <> i var
+R4943:4943 LibBag <> n var
+R4896:4899 LibOrder <> :comp_scope:x_'>='_x not
+R4895:4895 LibBag <> n var
+R4979:4991 LibBag <> int_index_def thm
+R4979:4991 LibBag <> int_index_def thm
+R4979:4991 LibBag <> int_index_def thm
+R5020:5031 LibLogic <> classic_left thm
+R5020:5031 LibLogic <> classic_left thm
+inst 5243:5268 <> bag_update_as_union_single
+R5289:5301 LibBag <> BagSingleBind class
+R5307:5307 LibBag <> T var
+R5305:5305 LibBag <> B var
+R5303:5303 LibBag <> A var
+R5312:5319 LibBag <> BagUnion class
+R5321:5321 LibBag <> T var
+R5327:5335 LibBag <> BagUpdate class
+R5341:5341 LibBag <> T var
+R5339:5339 LibBag <> B var
+R5337:5337 LibBag <> A var
+R5380:5384 LibBag <> :container_scope:x_'\u'_x not
+R5392:5392 LibBag <> :container_scope:x_'\u'_x not
+R5379:5379 LibBag <> m var
+R5386:5390 LibBag <> :container_scope:x_'\:='_x not
+R5385:5385 LibBag <> k var
+R5391:5391 LibBag <> v var
+R5380:5384 LibBag <> :container_scope:x_'\u'_x not
+R5392:5392 LibBag <> :container_scope:x_'\u'_x not
+R5379:5379 LibBag <> m var
+R5386:5390 LibBag <> :container_scope:x_'\:='_x not
+R5385:5385 LibBag <> k var
+R5391:5391 LibBag <> v var
+R5420:5445 LibBag <> bag_update_as_union_single inst
+rec 5574:5584 <> In_empty_eq
+proj 5618:5628 <> in_empty_eq
+R5588:5592 LibBag <> BagIn class
+R5599:5606 LibBag <> BagEmpty class
+R5608:5608 LibBag <> T var
+R5651:5653 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5643:5647 LibBag <> :container_scope:x_'\in'_x not
+R5642:5642 LibBag <> x var
+R5648:5650 LibBag <> :container_scope:'\{}' not
+R5654:5658 Coq.Init.Logic <> False ind
+rec 5669:5676 <> In_empty
+proj 5710:5717 <> in_empty
+R5680:5684 LibBag <> BagIn class
+R5691:5698 LibBag <> BagEmpty class
+R5700:5700 LibBag <> T var
+R5744:5748 Coq.Init.Logic <> False ind
+R5732:5736 LibBag <> :container_scope:x_'\in'_x not
+R5731:5731 LibBag <> x var
+R5737:5739 LibBag <> :container_scope:'\{}' not
+R5773:5780 LibBag <> in_empty meth
+rec 5820:5831 <> In_single_eq
+proj 5868:5879 <> in_single_eq
+R5835:5839 LibBag <> BagIn class
+R5846:5854 LibBag <> BagSingle class
+R5858:5858 LibBag <> T var
+R5856:5856 LibBag <> A var
+R5905:5908 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5914:5914 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5896:5900 LibBag <> :container_scope:x_'\in'_x not
+R5895:5895 LibBag <> x var
+R5901:5902 LibBag <> :container_scope:'\{'_x_'}' not
+R5904:5904 LibBag <> :container_scope:'\{'_x_'}' not
+R5903:5903 LibBag <> y var
+R5910:5912 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5909:5909 LibBag <> x var
+R5913:5913 LibBag <> y var
+rec 5925:5933 <> In_single
+proj 5970:5978 <> in_single
+R5937:5941 LibBag <> BagIn class
+R5948:5956 LibBag <> BagSingle class
+R5960:5960 LibBag <> T var
+R5958:5958 LibBag <> A var
+R6009:6011 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6008:6008 LibBag <> x var
+R6012:6012 LibBag <> y var
+R5995:5999 LibBag <> :container_scope:x_'\in'_x not
+R5994:5994 LibBag <> x var
+R6000:6001 LibBag <> :container_scope:'\{'_x_'}' not
+R6003:6003 LibBag <> :container_scope:'\{'_x_'}' not
+R6002:6002 LibBag <> y var
+rec 6023:6036 <> In_single_self
+proj 6073:6086 <> in_single_self
+R6040:6044 LibBag <> BagIn class
+R6051:6059 LibBag <> BagSingle class
+R6063:6063 LibBag <> T var
+R6061:6061 LibBag <> A var
+R6101:6105 LibBag <> :container_scope:x_'\in'_x not
+R6100:6100 LibBag <> x var
+R6106:6107 LibBag <> :container_scope:'\{'_x_'}' not
+R6109:6109 LibBag <> :container_scope:'\{'_x_'}' not
+R6108:6108 LibBag <> x var
+R6134:6145 LibBag <> in_single_eq meth
+R6201:6209 LibBag <> in_single meth
+R6266:6279 LibBag <> in_single_self meth
+rec 6325:6335 <> In_union_eq
+proj 6369:6379 <> in_union_eq
+R6339:6343 LibBag <> BagIn class
+R6350:6357 LibBag <> BagUnion class
+R6359:6359 LibBag <> T var
+R6399:6399 LibBag <> T var
+R6417:6420 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6439:6439 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6404:6409 LibBag <> :container_scope:x_'\in'_x not
+R6416:6416 LibBag <> :container_scope:x_'\in'_x not
+R6403:6403 LibBag <> x var
+R6411:6414 LibBag <> :container_scope:x_'\u'_x not
+R6410:6410 LibBag <> E var
+R6415:6415 LibBag <> F var
+R6428:6431 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6422:6426 LibBag <> :container_scope:x_'\in'_x not
+R6421:6421 LibBag <> x var
+R6427:6427 LibBag <> E var
+R6433:6437 LibBag <> :container_scope:x_'\in'_x not
+R6432:6432 LibBag <> x var
+R6438:6438 LibBag <> F var
+rec 6450:6459 <> In_union_l
+proj 6493:6502 <> in_union_l
+R6463:6467 LibBag <> BagIn class
+R6474:6481 LibBag <> BagUnion class
+R6483:6483 LibBag <> T var
+R6532:6537 LibBag <> :container_scope:x_'\in'_x not
+R6544:6544 LibBag <> :container_scope:x_'\in'_x not
+R6531:6531 LibBag <> x var
+R6539:6542 LibBag <> :container_scope:x_'\u'_x not
+R6538:6538 LibBag <> E var
+R6543:6543 LibBag <> F var
+R6521:6525 LibBag <> :container_scope:x_'\in'_x not
+R6520:6520 LibBag <> x var
+R6526:6526 LibBag <> E var
+rec 6555:6564 <> In_union_r
+proj 6598:6607 <> in_union_r
+R6568:6572 LibBag <> BagIn class
+R6579:6586 LibBag <> BagUnion class
+R6588:6588 LibBag <> T var
+R6637:6642 LibBag <> :container_scope:x_'\in'_x not
+R6649:6649 LibBag <> :container_scope:x_'\in'_x not
+R6636:6636 LibBag <> x var
+R6644:6647 LibBag <> :container_scope:x_'\u'_x not
+R6643:6643 LibBag <> E var
+R6648:6648 LibBag <> F var
+R6626:6630 LibBag <> :container_scope:x_'\in'_x not
+R6625:6625 LibBag <> x var
+R6631:6631 LibBag <> F var
+rec 6660:6671 <> In_union_inv
+proj 6705:6716 <> in_union_inv
+R6675:6679 LibBag <> BagIn class
+R6686:6693 LibBag <> BagUnion class
+R6695:6695 LibBag <> T var
+R6736:6736 LibBag <> T var
+R6766:6769 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6760:6764 LibBag <> :container_scope:x_'\in'_x not
+R6759:6759 LibBag <> x var
+R6765:6765 LibBag <> E var
+R6771:6775 LibBag <> :container_scope:x_'\in'_x not
+R6770:6770 LibBag <> x var
+R6776:6776 LibBag <> F var
+R6741:6746 LibBag <> :container_scope:x_'\in'_x not
+R6753:6753 LibBag <> :container_scope:x_'\in'_x not
+R6740:6740 LibBag <> x var
+R6748:6751 LibBag <> :container_scope:x_'\u'_x not
+R6747:6747 LibBag <> E var
+R6752:6752 LibBag <> F var
+R6802:6812 LibBag <> in_union_eq meth
+R6867:6876 LibBag <> in_union_l meth
+R6936:6945 LibBag <> in_union_r meth
+R7005:7016 LibBag <> in_union_inv meth
+rec 7066:7076 <> In_inter_eq
+proj 7110:7120 <> in_inter_eq
+R7080:7084 LibBag <> BagIn class
+R7091:7098 LibBag <> BagInter class
+R7100:7100 LibBag <> T var
+R7152:7155 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7174:7174 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7139:7144 LibBag <> :container_scope:x_'\in'_x not
+R7151:7151 LibBag <> :container_scope:x_'\in'_x not
+R7138:7138 LibBag <> x var
+R7146:7149 LibBag <> :container_scope:x_'\n'_x not
+R7145:7145 LibBag <> E var
+R7150:7150 LibBag <> F var
+R7163:7166 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7157:7161 LibBag <> :container_scope:x_'\in'_x not
+R7156:7156 LibBag <> x var
+R7162:7162 LibBag <> E var
+R7168:7172 LibBag <> :container_scope:x_'\in'_x not
+R7167:7167 LibBag <> x var
+R7173:7173 LibBag <> F var
+rec 7185:7192 <> In_inter
+proj 7226:7233 <> in_inter
+R7196:7200 LibBag <> BagIn class
+R7207:7214 LibBag <> BagInter class
+R7216:7216 LibBag <> T var
+R7274:7279 LibBag <> :container_scope:x_'\in'_x not
+R7286:7286 LibBag <> :container_scope:x_'\in'_x not
+R7273:7273 LibBag <> x var
+R7281:7284 LibBag <> :container_scope:x_'\n'_x not
+R7280:7280 LibBag <> E var
+R7285:7285 LibBag <> F var
+R7263:7267 LibBag <> :container_scope:x_'\in'_x not
+R7262:7262 LibBag <> x var
+R7268:7268 LibBag <> F var
+R7252:7256 LibBag <> :container_scope:x_'\in'_x not
+R7251:7251 LibBag <> x var
+R7257:7257 LibBag <> E var
+rec 7297:7308 <> In_inter_inv
+proj 7342:7353 <> in_inter_inv
+R7312:7316 LibBag <> BagIn class
+R7323:7330 LibBag <> BagInter class
+R7332:7332 LibBag <> T var
+R7396:7399 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7390:7394 LibBag <> :container_scope:x_'\in'_x not
+R7389:7389 LibBag <> x var
+R7395:7395 LibBag <> E var
+R7401:7405 LibBag <> :container_scope:x_'\in'_x not
+R7400:7400 LibBag <> x var
+R7406:7406 LibBag <> F var
+R7372:7377 LibBag <> :container_scope:x_'\in'_x not
+R7384:7384 LibBag <> :container_scope:x_'\in'_x not
+R7371:7371 LibBag <> x var
+R7379:7382 LibBag <> :container_scope:x_'\n'_x not
+R7378:7378 LibBag <> E var
+R7383:7383 LibBag <> F var
+R7431:7441 LibBag <> in_inter_eq meth
+R7496:7503 LibBag <> in_inter meth
+R7561:7572 LibBag <> in_inter_inv meth
+rec 7622:7633 <> In_remove_eq
+proj 7670:7681 <> in_remove_eq
+R7637:7641 LibBag <> BagIn class
+R7648:7656 LibBag <> BagRemove class
+R7660:7660 LibBag <> T var
+R7658:7658 LibBag <> T var
+R7701:7701 LibBag <> T var
+R7719:7722 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7744:7744 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7706:7711 LibBag <> :container_scope:x_'\in'_x not
+R7718:7718 LibBag <> :container_scope:x_'\in'_x not
+R7705:7705 LibBag <> x var
+R7713:7716 LibBag <> :container_scope:x_'\-'_x not
+R7712:7712 LibBag <> E var
+R7717:7717 LibBag <> F var
+R7730:7733 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7724:7728 LibBag <> :container_scope:x_'\in'_x not
+R7723:7723 LibBag <> x var
+R7729:7729 LibBag <> E var
+R7735:7742 LibBag <> :container_scope:x_'\notin'_x not
+R7734:7734 LibBag <> x var
+R7743:7743 LibBag <> F var
+R7769:7780 LibBag <> in_remove_eq meth
+rec 7824:7835 <> In_double_eq
+proj 7857:7868 <> in_double_eq
+R7839:7843 LibBag <> BagIn class
+R7918:7920 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7917:7917 LibBag <> E var
+R7921:7921 LibBag <> F var
+R7902:7904 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7896:7900 LibBag <> :container_scope:x_'\in'_x not
+R7895:7895 LibBag <> x var
+R7901:7901 LibBag <> E var
+R7906:7910 LibBag <> :container_scope:x_'\in'_x not
+R7905:7905 LibBag <> x var
+R7911:7911 LibBag <> F var
+rec 7932:7940 <> In_double
+proj 7962:7970 <> in_double
+R7944:7948 LibBag <> BagIn class
+R8022:8024 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8021:8021 LibBag <> E var
+R8025:8025 LibBag <> F var
+R8004:8008 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R7998:8002 LibBag <> :container_scope:x_'\in'_x not
+R7997:7997 LibBag <> x var
+R8003:8003 LibBag <> E var
+R8010:8014 LibBag <> :container_scope:x_'\in'_x not
+R8009:8009 LibBag <> x var
+R8015:8015 LibBag <> F var
+R8050:8061 LibBag <> in_double_eq meth
+R8112:8120 LibBag <> in_double meth
+rec 8156:8162 <> Incl_in
+proj 8195:8201 <> incl_in
+R8166:8170 LibBag <> BagIn class
+R8177:8183 LibBag <> BagIncl class
+R8185:8185 LibBag <> T var
+R8241:8245 LibBag <> :container_scope:x_'\in'_x not
+R8240:8240 LibBag <> x var
+R8246:8246 LibBag <> F var
+R8230:8234 LibBag <> :container_scope:x_'\in'_x not
+R8229:8229 LibBag <> x var
+R8235:8235 LibBag <> E var
+R8220:8223 LibBag <> :container_scope:x_'\c'_x not
+R8219:8219 LibBag <> E var
+R8224:8224 LibBag <> F var
+R8270:8276 LibBag <> incl_in meth
+rec 8321:8329 <> Incl_refl
+proj 8351:8359 <> incl_refl
+R8333:8339 LibBag <> BagIncl class
+R8363:8366 LibRelation <> refl def
+R8368:8371 LibBag <> incl meth
+rec 8382:8391 <> Incl_trans
+proj 8413:8422 <> incl_trans
+R8395:8401 LibBag <> BagIncl class
+R8426:8430 LibRelation <> trans def
+R8432:8435 LibBag <> incl meth
+rec 8447:8457 <> Double_incl
+proj 8479:8489 <> double_incl
+R8461:8467 LibBag <> BagIncl class
+R8493:8499 LibRelation <> antisym def
+R8501:8504 LibBag <> incl meth
+rec 8515:8524 <> Incl_order
+proj 8546:8555 <> incl_order
+R8528:8534 LibBag <> BagIncl class
+R8559:8572 LibOrder <> order rec
+R8574:8577 LibBag <> incl meth
+R8603:8611 LibBag <> incl_refl meth
+R8655:8664 LibBag <> incl_trans meth
+rec 8848:8857 <> Empty_incl
+proj 8891:8900 <> empty_incl
+R8861:8868 LibBag <> BagEmpty class
+R8873:8879 LibBag <> BagIncl class
+R8881:8881 LibBag <> T var
+R8917:8920 LibBag <> :container_scope:x_'\c'_x not
+R8914:8916 LibBag <> :container_scope:'\{}' not
+R8921:8921 LibBag <> E var
+rec 8932:8941 <> Incl_empty
+proj 8975:8984 <> incl_empty
+R8945:8952 LibBag <> BagEmpty class
+R8957:8963 LibBag <> BagIncl class
+R8965:8965 LibBag <> T var
+R8998:8998 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9007:9011 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9019:9019 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9000:9003 LibBag <> :container_scope:x_'\c'_x not
+R8999:8999 LibBag <> E var
+R9004:9006 LibBag <> :container_scope:'\{}' not
+R9013:9015 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9012:9012 LibBag <> E var
+R9016:9018 LibBag <> :container_scope:'\{}' not
+rec 9030:9043 <> Incl_empty_inv
+proj 9077:9090 <> incl_empty_inv
+R9047:9054 LibBag <> BagEmpty class
+R9059:9065 LibBag <> BagIncl class
+R9067:9067 LibBag <> T var
+R9117:9119 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9116:9116 LibBag <> E var
+R9120:9122 LibBag <> :container_scope:'\{}' not
+R9105:9108 LibBag <> :container_scope:x_'\c'_x not
+R9104:9104 LibBag <> E var
+R9109:9111 LibBag <> :container_scope:'\{}' not
+R9147:9156 LibBag <> empty_incl meth
+R9206:9215 LibBag <> incl_empty meth
+R9260:9273 LibBag <> incl_empty_inv meth
+rec 9372:9382 <> Single_incl
+proj 9430:9440 <> single_incl
+R9386:9394 LibBag <> BagSingle class
+R9401:9405 LibBag <> BagIn class
+R9409:9409 LibBag <> T var
+R9407:9407 LibBag <> A var
+R9412:9418 LibBag <> BagIncl class
+R9420:9420 LibBag <> T var
+R9456:9456 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9466:9470 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9478:9478 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9461:9464 LibBag <> :container_scope:x_'\c'_x not
+R9457:9458 LibBag <> :container_scope:'\{'_x_'}' not
+R9460:9460 LibBag <> :container_scope:'\{'_x_'}' not
+R9459:9459 LibBag <> x var
+R9465:9465 LibBag <> E var
+R9472:9476 LibBag <> :container_scope:x_'\in'_x not
+R9471:9471 LibBag <> x var
+R9477:9477 LibBag <> E var
+rec 9489:9499 <> Incl_single
+proj 9559:9569 <> incl_single
+R9503:9511 LibBag <> BagSingle class
+R9518:9522 LibBag <> BagIn class
+R9526:9526 LibBag <> T var
+R9524:9524 LibBag <> A var
+R9529:9535 LibBag <> BagIncl class
+R9537:9537 LibBag <> T var
+R9540:9547 LibBag <> BagEmpty class
+R9549:9549 LibBag <> T var
+R9608:9611 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R9602:9604 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9601:9601 LibBag <> E var
+R9605:9607 LibBag <> :container_scope:'\{}' not
+R9613:9615 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9612:9612 LibBag <> E var
+R9616:9617 LibBag <> :container_scope:'\{'_x_'}' not
+R9619:9619 LibBag <> :container_scope:'\{'_x_'}' not
+R9618:9618 LibBag <> x var
+R9587:9590 LibBag <> :container_scope:x_'\c'_x not
+R9586:9586 LibBag <> E var
+R9591:9592 LibBag <> :container_scope:'\{'_x_'}' not
+R9594:9594 LibBag <> :container_scope:'\{'_x_'}' not
+R9593:9593 LibBag <> x var
+rec 9632:9643 <> Incl_union_l
+proj 9677:9688 <> incl_union_l
+R9647:9654 LibBag <> BagUnion class
+R9659:9665 LibBag <> BagIncl class
+R9667:9667 LibBag <> T var
+R9717:9721 LibBag <> :container_scope:x_'\c'_x not
+R9728:9728 LibBag <> :container_scope:x_'\c'_x not
+R9716:9716 LibBag <> E var
+R9723:9726 LibBag <> :container_scope:x_'\u'_x not
+R9722:9722 LibBag <> F var
+R9727:9727 LibBag <> G var
+R9707:9710 LibBag <> :container_scope:x_'\c'_x not
+R9706:9706 LibBag <> E var
+R9711:9711 LibBag <> F var
+rec 9739:9750 <> Incl_union_r
+proj 9784:9795 <> incl_union_r
+R9754:9761 LibBag <> BagUnion class
+R9766:9772 LibBag <> BagIncl class
+R9774:9774 LibBag <> T var
+R9824:9828 LibBag <> :container_scope:x_'\c'_x not
+R9835:9835 LibBag <> :container_scope:x_'\c'_x not
+R9823:9823 LibBag <> E var
+R9830:9833 LibBag <> :container_scope:x_'\u'_x not
+R9829:9829 LibBag <> F var
+R9834:9834 LibBag <> G var
+R9814:9817 LibBag <> :container_scope:x_'\c'_x not
+R9813:9813 LibBag <> E var
+R9818:9818 LibBag <> G var
+rec 9847:9859 <> Union_incl_eq
+proj 9893:9905 <> union_incl_eq
+R9863:9870 LibBag <> BagUnion class
+R9875:9881 LibBag <> BagIncl class
+R9883:9883 LibBag <> T var
+R9936:9939 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9956:9956 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9923:9923 LibBag <> :container_scope:x_'\c'_x not
+R9930:9934 LibBag <> :container_scope:x_'\c'_x not
+R9925:9928 LibBag <> :container_scope:x_'\u'_x not
+R9924:9924 LibBag <> E var
+R9929:9929 LibBag <> F var
+R9935:9935 LibBag <> G var
+R9946:9949 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R9941:9944 LibBag <> :container_scope:x_'\c'_x not
+R9940:9940 LibBag <> E var
+R9945:9945 LibBag <> G var
+R9951:9954 LibBag <> :container_scope:x_'\c'_x not
+R9950:9950 LibBag <> F var
+R9955:9955 LibBag <> G var
+rec 9967:9976 <> Union_incl
+proj 10010:10019 <> union_incl
+R9980:9987 LibBag <> BagUnion class
+R9992:9998 LibBag <> BagIncl class
+R10000:10000 LibBag <> T var
+R10057:10057 LibBag <> :container_scope:x_'\c'_x not
+R10064:10068 LibBag <> :container_scope:x_'\c'_x not
+R10059:10062 LibBag <> :container_scope:x_'\u'_x not
+R10058:10058 LibBag <> E var
+R10063:10063 LibBag <> F var
+R10069:10069 LibBag <> G var
+R10048:10051 LibBag <> :container_scope:x_'\c'_x not
+R10047:10047 LibBag <> F var
+R10052:10052 LibBag <> G var
+R10038:10041 LibBag <> :container_scope:x_'\c'_x not
+R10037:10037 LibBag <> E var
+R10042:10042 LibBag <> G var
+rec 10080:10093 <> Union_incl_inv
+proj 10127:10140 <> union_incl_inv
+R10097:10104 LibBag <> BagUnion class
+R10109:10115 LibBag <> BagIncl class
+R10117:10117 LibBag <> T var
+R10181:10184 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10176:10179 LibBag <> :container_scope:x_'\c'_x not
+R10175:10175 LibBag <> E var
+R10180:10180 LibBag <> G var
+R10186:10189 LibBag <> :container_scope:x_'\c'_x not
+R10185:10185 LibBag <> F var
+R10190:10190 LibBag <> G var
+R10158:10158 LibBag <> :container_scope:x_'\c'_x not
+R10165:10169 LibBag <> :container_scope:x_'\c'_x not
+R10160:10163 LibBag <> :container_scope:x_'\u'_x not
+R10159:10159 LibBag <> E var
+R10164:10164 LibBag <> F var
+R10170:10170 LibBag <> G var
+rec 10202:10213 <> Incl_inter_b
+proj 10247:10258 <> incl_inter_b
+R10217:10224 LibBag <> BagInter class
+R10229:10235 LibBag <> BagIncl class
+R10237:10237 LibBag <> T var
+R10289:10292 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10309:10309 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10277:10281 LibBag <> :container_scope:x_'\c'_x not
+R10288:10288 LibBag <> :container_scope:x_'\c'_x not
+R10276:10276 LibBag <> E var
+R10283:10286 LibBag <> :container_scope:x_'\n'_x not
+R10282:10282 LibBag <> F var
+R10287:10287 LibBag <> G var
+R10299:10302 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10294:10297 LibBag <> :container_scope:x_'\c'_x not
+R10293:10293 LibBag <> E var
+R10298:10298 LibBag <> F var
+R10304:10307 LibBag <> :container_scope:x_'\c'_x not
+R10303:10303 LibBag <> E var
+R10308:10308 LibBag <> G var
+rec 10320:10329 <> Incl_inter
+proj 10363:10372 <> incl_inter
+R10333:10340 LibBag <> BagInter class
+R10345:10351 LibBag <> BagIncl class
+R10353:10353 LibBag <> T var
+R10411:10415 LibBag <> :container_scope:x_'\c'_x not
+R10422:10422 LibBag <> :container_scope:x_'\c'_x not
+R10410:10410 LibBag <> E var
+R10417:10420 LibBag <> :container_scope:x_'\n'_x not
+R10416:10416 LibBag <> F var
+R10421:10421 LibBag <> G var
+R10401:10404 LibBag <> :container_scope:x_'\c'_x not
+R10400:10400 LibBag <> E var
+R10405:10405 LibBag <> G var
+R10391:10394 LibBag <> :container_scope:x_'\c'_x not
+R10390:10390 LibBag <> E var
+R10395:10395 LibBag <> F var
+rec 10433:10446 <> Incl_inter_inv
+proj 10480:10493 <> incl_inter_inv
+R10450:10457 LibBag <> BagInter class
+R10462:10468 LibBag <> BagIncl class
+R10470:10470 LibBag <> T var
+R10534:10537 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10529:10532 LibBag <> :container_scope:x_'\c'_x not
+R10528:10528 LibBag <> E var
+R10533:10533 LibBag <> F var
+R10539:10542 LibBag <> :container_scope:x_'\c'_x not
+R10538:10538 LibBag <> E var
+R10543:10543 LibBag <> G var
+R10512:10516 LibBag <> :container_scope:x_'\c'_x not
+R10523:10523 LibBag <> :container_scope:x_'\c'_x not
+R10511:10511 LibBag <> E var
+R10518:10521 LibBag <> :container_scope:x_'\n'_x not
+R10517:10517 LibBag <> F var
+R10522:10522 LibBag <> G var
+rec 10569:10579 <> Union_assoc
+proj 10602:10612 <> union_assoc
+R10583:10590 LibBag <> BagUnion class
+R10616:10620 LibOperation <> assoc def
+R10622:10626 LibBag <> union meth
+rec 10637:10646 <> Union_comm
+proj 10669:10678 <> union_comm
+R10650:10657 LibBag <> BagUnion class
+R10682:10685 LibOperation <> comm def
+R10687:10691 LibBag <> union meth
+rec 10702:10717 <> Union_comm_assoc
+proj 10740:10755 <> union_comm_assoc
+R10721:10728 LibBag <> BagUnion class
+R10759:10768 LibOperation <> comm_assoc def
+R10770:10774 LibBag <> union meth
+rec 10785:10797 <> Union_empty_l
+proj 10832:10844 <> union_empty_l
+R10801:10808 LibBag <> BagUnion class
+R10813:10820 LibBag <> BagEmpty class
+R10822:10822 LibBag <> T var
+R10848:10856 LibOperation <> neutral_l def
+R10864:10868 LibBag <> empty meth
+R10858:10862 LibBag <> union meth
+rec 10879:10891 <> Union_empty_r
+proj 10926:10938 <> union_empty_r
+R10895:10902 LibBag <> BagUnion class
+R10907:10914 LibBag <> BagEmpty class
+R10916:10916 LibBag <> T var
+R10942:10950 LibOperation <> neutral_r def
+R10958:10962 LibBag <> empty meth
+R10952:10956 LibBag <> union meth
+rec 10973:10987 <> Union_empty_inv
+proj 11022:11036 <> union_empty_inv
+R10991:10998 LibBag <> BagUnion class
+R11003:11010 LibBag <> BagEmpty class
+R11012:11012 LibBag <> T var
+R11080:11083 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11074:11076 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11073:11073 LibBag <> E var
+R11077:11079 LibBag <> :container_scope:'\{}' not
+R11085:11087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11084:11084 LibBag <> F var
+R11088:11090 LibBag <> :container_scope:'\{}' not
+R11063:11065 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11058:11061 LibBag <> :container_scope:x_'\u'_x not
+R11057:11057 LibBag <> E var
+R11062:11062 LibBag <> F var
+R11066:11068 LibBag <> :container_scope:'\{}' not
+rec 11101:11110 <> Union_self
+proj 11133:11142 <> union_self
+R11114:11121 LibBag <> BagUnion class
+R11146:11156 LibOperation <> idempotent2 def
+R11158:11162 LibBag <> union meth
+rec 11226:11236 <> Inter_assoc
+proj 11259:11269 <> inter_assoc
+R11240:11247 LibBag <> BagInter class
+R11273:11277 LibOperation <> assoc def
+R11279:11283 LibBag <> inter meth
+rec 11294:11303 <> Inter_comm
+proj 11326:11335 <> inter_comm
+R11307:11314 LibBag <> BagInter class
+R11339:11342 LibOperation <> comm def
+R11344:11348 LibBag <> inter meth
+rec 11359:11371 <> Inter_empty_l
+proj 11406:11418 <> inter_empty_l
+R11375:11382 LibBag <> BagInter class
+R11387:11394 LibBag <> BagEmpty class
+R11396:11396 LibBag <> T var
+R11422:11429 LibOperation <> absorb_l def
+R11437:11441 LibBag <> empty meth
+R11431:11435 LibBag <> inter meth
+rec 11452:11464 <> Inter_empty_r
+proj 11499:11511 <> inter_empty_r
+R11468:11475 LibBag <> BagInter class
+R11480:11487 LibBag <> BagEmpty class
+R11489:11489 LibBag <> T var
+R11515:11522 LibOperation <> absorb_r def
+R11530:11534 LibBag <> empty meth
+R11524:11528 LibBag <> inter meth
+rec 11545:11554 <> Inter_self
+proj 11577:11586 <> inter_self
+R11558:11565 LibBag <> BagInter class
+R11590:11600 LibOperation <> idempotent2 def
+R11602:11606 LibBag <> inter meth
+rec 11692:11701 <> Card_empty
+proj 11735:11744 <> card_empty
+R11705:11712 LibBag <> BagEmpty class
+R11717:11723 LibBag <> BagCard class
+R11725:11725 LibBag <> T var
+R11756:11758 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11748:11751 LibBag <> card meth
+R11753:11755 LibBag <> :container_scope:'\{}' not
+rec 11774:11784 <> Card_single
+proj 11821:11831 <> card_single
+R11788:11796 LibBag <> BagSingle class
+R11803:11809 LibBag <> BagCard class
+R11811:11811 LibBag <> T var
+R11854:11856 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11845:11848 LibBag <> card meth
+R11850:11851 LibBag <> :container_scope:'\{'_x_'}' not
+R11853:11853 LibBag <> :container_scope:'\{'_x_'}' not
+R11852:11852 LibBag <> X var
+rec 11872:11881 <> Card_union
+proj 11915:11924 <> card_union
+R11885:11892 LibBag <> BagUnion class
+R11897:11903 LibBag <> BagCard class
+R11905:11905 LibBag <> T var
+R11953:11955 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11940:11943 LibBag <> card meth
+R11947:11950 LibBag <> :container_scope:x_'\u'_x not
+R11946:11946 LibBag <> E var
+R11951:11951 LibBag <> F var
+R11963:11965 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R11957:11960 LibBag <> card meth
+R11962:11962 LibBag <> E var
+R11966:11969 LibBag <> card meth
+R11971:11971 LibBag <> F var
+rec 11987:11999 <> Card_union_le
+proj 12033:12045 <> card_union_le
+R12003:12010 LibBag <> BagUnion class
+R12015:12021 LibBag <> BagCard class
+R12023:12023 LibBag <> T var
+R12074:12077 LibOrder <> :comp_scope:x_'<='_x not
+R12061:12064 LibBag <> card meth
+R12068:12071 LibBag <> :container_scope:x_'\u'_x not
+R12067:12067 LibBag <> E var
+R12072:12072 LibBag <> F var
+R12085:12087 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R12079:12082 LibBag <> card meth
+R12084:12084 LibBag <> E var
+R12088:12091 LibBag <> card meth
+R12093:12093 LibBag <> F var
+inst 12239:12263 <> in_empty_from_in_empty_eq
+R12279:12283 LibBag <> BagIn class
+R12290:12297 LibBag <> BagEmpty class
+R12299:12299 LibBag <> T var
+R12320:12327 LibBag <> In_empty class
+R12305:12315 LibBag <> In_empty_eq class
+R12369:12379 LibBag <> in_empty_eq meth
+R12369:12379 LibBag <> in_empty_eq meth
+inst 12402:12428 <> in_single_from_in_single_eq
+R12444:12452 LibBag <> BagSingle class
+R12459:12463 LibBag <> BagIn class
+R12467:12467 LibBag <> T var
+R12465:12465 LibBag <> A var
+R12489:12497 LibBag <> In_single class
+R12473:12484 LibBag <> In_single_eq class
+R12539:12550 LibBag <> in_single_eq meth
+R12539:12550 LibBag <> in_single_eq meth
+inst 12573:12604 <> in_single_self_from_in_single_eq
+R12620:12628 LibBag <> BagSingle class
+R12635:12639 LibBag <> BagIn class
+R12643:12643 LibBag <> T var
+R12641:12641 LibBag <> A var
+R12665:12678 LibBag <> In_single_self class
+R12649:12660 LibBag <> In_single_eq class
+R12718:12729 LibBag <> in_single_eq meth
+R12718:12729 LibBag <> in_single_eq meth
+inst 12747:12773 <> in_union_r_from_in_union_eq
+R12789:12793 LibBag <> BagIn class
+R12800:12807 LibBag <> BagUnion class
+R12809:12809 LibBag <> T var
+R12830:12839 LibBag <> In_union_r class
+R12815:12825 LibBag <> In_union_eq class
+R12880:12890 LibBag <> in_union_eq meth
+R12880:12890 LibBag <> in_union_eq meth
+inst 12922:12948 <> in_union_l_from_in_union_eq
+R12964:12968 LibBag <> BagIn class
+R12975:12982 LibBag <> BagUnion class
+R12984:12984 LibBag <> T var
+R13005:13014 LibBag <> In_union_l class
+R12990:13000 LibBag <> In_union_eq class
+R13055:13065 LibBag <> in_union_eq meth
+R13055:13065 LibBag <> in_union_eq meth
+inst 13097:13125 <> in_union_inv_from_in_union_eq
+R13141:13145 LibBag <> BagIn class
+R13152:13159 LibBag <> BagUnion class
+R13161:13161 LibBag <> T var
+R13182:13193 LibBag <> In_union_inv class
+R13167:13177 LibBag <> In_union_eq class
+R13236:13246 LibBag <> in_union_eq meth
+R13236:13246 LibBag <> in_union_eq meth
+inst 13269:13293 <> in_inter_from_in_inter_eq
+R13309:13313 LibBag <> BagIn class
+R13320:13327 LibBag <> BagInter class
+R13329:13329 LibBag <> T var
+R13350:13357 LibBag <> In_inter class
+R13335:13345 LibBag <> In_inter_eq class
+R13402:13412 LibBag <> in_inter_eq meth
+R13402:13412 LibBag <> in_inter_eq meth
+inst 13459:13490 <> union_empty_r_from_union_empty_l
+R13506:13513 LibBag <> BagUnion class
+R13518:13525 LibBag <> BagEmpty class
+R13527:13527 LibBag <> T var
+R13564:13576 LibBag <> Union_empty_r class
+R13550:13559 LibBag <> Union_comm class
+R13533:13545 LibBag <> Union_empty_l class
+R13619:13628 LibBag <> union_comm meth
+R13619:13628 LibBag <> union_comm meth
+R13637:13649 LibBag <> union_empty_l meth
+R13637:13649 LibBag <> union_empty_l meth
+inst 13688:13719 <> inter_empty_r_from_inter_empty_l
+R13735:13742 LibBag <> BagInter class
+R13747:13754 LibBag <> BagEmpty class
+R13756:13756 LibBag <> T var
+R13793:13805 LibBag <> Inter_empty_r class
+R13779:13788 LibBag <> Inter_comm class
+R13762:13774 LibBag <> Inter_empty_l class
+R13848:13857 LibBag <> inter_comm meth
+R13848:13857 LibBag <> inter_comm meth
+R13866:13878 LibBag <> inter_empty_l meth
+R13866:13878 LibBag <> inter_empty_l meth
+inst 13913:13937 <> incl_refl_from_incl_order
+R13952:13958 LibBag <> BagIncl class
+R13980:13988 LibBag <> Incl_refl class
+R13966:13975 LibBag <> Incl_order class
+R14017:14026 LibOrder <> order_refl proj
+R14017:14026 LibOrder <> order_refl proj
+R14035:14044 LibBag <> incl_order meth
+R14035:14044 LibBag <> incl_order meth
+inst 14062:14087 <> incl_trans_from_incl_order
+R14102:14108 LibBag <> BagIncl class
+R14130:14139 LibBag <> Incl_trans class
+R14116:14125 LibBag <> Incl_order class
+R14168:14178 LibOrder <> order_trans proj
+R14168:14178 LibOrder <> order_trans proj
+R14187:14196 LibBag <> incl_order meth
+R14187:14196 LibBag <> incl_order meth
+inst 14214:14240 <> double_incl_from_incl_order
+R14255:14261 LibBag <> BagIncl class
+R14283:14293 LibBag <> Double_incl class
+R14269:14278 LibBag <> Incl_order class
+R14322:14334 LibOrder <> order_antisym proj
+R14322:14334 LibOrder <> order_antisym proj
+R14343:14352 LibBag <> incl_order meth
+R14343:14352 LibBag <> incl_order meth
+inst 14370:14399 <> incl_empty_inv_from_incl_empty
+R14414:14421 LibBag <> BagEmpty class
+R14426:14432 LibBag <> BagIncl class
+R14434:14434 LibBag <> T var
+R14454:14467 LibBag <> Incl_empty_inv class
+R14440:14449 LibBag <> Incl_empty class
+R14509:14518 LibBag <> incl_empty meth
+R14509:14518 LibBag <> incl_empty meth
+inst 14541:14570 <> incl_union_r_from_incl_union_l
+R14585:14592 LibBag <> BagUnion class
+R14597:14603 LibBag <> BagIncl class
+R14605:14605 LibBag <> T var
+R14641:14652 LibBag <> Incl_union_r class
+R14627:14636 LibBag <> Union_comm class
+R14611:14622 LibBag <> Incl_union_l class
+R14693:14702 LibBag <> union_comm meth
+R14693:14702 LibBag <> union_comm meth
+R14712:14723 LibBag <> incl_union_l meth
+R14712:14723 LibBag <> incl_union_l meth
+inst 14741:14769 <> union_incl_from_union_incl_eq
+R14784:14791 LibBag <> BagUnion class
+R14796:14802 LibBag <> BagIncl class
+R14804:14804 LibBag <> T var
+R14827:14839 LibBag <> Union_incl_eq class
+R14810:14822 LibBag <> Union_incl_eq class
+R14882:14894 LibBag <> union_incl_eq meth
+R14882:14894 LibBag <> union_incl_eq meth
+inst 14926:14958 <> union_incl_inv_from_union_incl_eq
+R14973:14980 LibBag <> BagUnion class
+R14985:14991 LibBag <> BagIncl class
+R14993:14993 LibBag <> T var
+R15016:15029 LibBag <> Union_incl_inv class
+R14999:15011 LibBag <> Union_incl_eq class
+R15070:15082 LibBag <> union_incl_eq meth
+R15070:15082 LibBag <> union_incl_eq meth
+inst 15118:15144 <> in_double_eq_from_in_double
+R15159:15163 LibBag <> BagIn class
+R15186:15197 LibBag <> In_double_eq class
+R15173:15181 LibBag <> In_double class
+R15236:15244 LibBag <> in_double meth
+R15236:15244 LibBag <> in_double meth
+R0:-1 LibBag <> y var
+R15331:15341 LibBag <> in_union_eq meth
+R15344:15354 LibBag <> in_inter_eq meth
+R15360:15370 LibBag <> in_empty_eq meth
+R15373:15384 LibBag <> in_single_eq meth
+R15463:15471 LibBag <> in_double meth
+sec 15591:15601 <> UnionDouble
+R15614:15618 LibBag <> BagIn class
+R15625:15632 LibBag <> BagUnion class
+R15634:15634 LibBag <> T var
+inst 15655:15679 <> union_assoc_from_in_union
+R15713:15723 LibBag <> Union_assoc class
+R15698:15708 LibBag <> In_union_eq class
+R15685:15693 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 15790:15813 <> union_comm_from_in_union
+R15847:15856 LibBag <> Union_comm class
+R15832:15842 LibBag <> In_union_eq class
+R15819:15827 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 15923:15949 <> union_empty_l_from_in_union
+R15965:15972 LibBag <> BagEmpty class
+R15974:15974 LibBag <> UnionDouble.T var
+R16023:16035 LibBag <> Union_empty_l class
+R16008:16018 LibBag <> In_empty_eq class
+R15993:16003 LibBag <> In_union_eq class
+R15980:15988 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 16102:16125 <> union_self_from_in_union
+R16159:16168 LibBag <> Union_self class
+R16144:16154 LibBag <> In_union_eq class
+R16131:16139 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R16223:16233 LibBag UnionDouble <> sec
+sec 16245:16255 <> InterDouble
+R16268:16272 LibBag <> BagIn class
+R16279:16286 LibBag <> BagInter class
+R16288:16288 LibBag <> T var
+inst 16309:16333 <> inter_assoc_from_in_inter
+R16367:16377 LibBag <> Inter_assoc class
+R16352:16362 LibBag <> In_inter_eq class
+R16339:16347 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 16444:16467 <> inter_comm_from_in_inter
+R16501:16510 LibBag <> Inter_comm class
+R16486:16496 LibBag <> In_inter_eq class
+R16473:16481 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 16577:16603 <> inter_empty_l_from_in_inter
+R16618:16625 LibBag <> BagEmpty class
+R16627:16627 LibBag <> InterDouble.T var
+R16676:16688 LibBag <> Inter_empty_l class
+R16661:16671 LibBag <> In_empty_eq class
+R16646:16656 LibBag <> In_inter_eq class
+R16633:16641 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+inst 16755:16778 <> inter_self_from_in_inter
+R16812:16821 LibBag <> Inter_self class
+R16797:16807 LibBag <> In_inter_eq class
+R16784:16792 LibBag <> In_double class
+R0:-1 LibBag <> y var
+R0:-1 LibBag <> y var
+R16876:16886 LibBag InterDouble <> sec
+inst 16899:16934 <> union_comm_assoc_from_assoc_and_comm
+R16941:16951 LibBag <> Union_assoc class
+R16959:16968 LibBag <> Union_comm class
+R16973:16988 LibBag <> Union_comm_assoc class
+R17039:17049 LibBag <> union_assoc meth
+R17039:17049 LibBag <> union_assoc meth
+R17039:17049 LibBag <> union_assoc meth
+R17064:17073 LibBag <> union_comm meth
+R17064:17073 LibBag <> union_comm meth

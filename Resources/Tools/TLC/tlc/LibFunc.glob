@@ -1,0 +1,147 @@
+DIGEST f39b9aa51ef2986755d0fe4d85b4a2dc
+FLibFunc
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+def 658:659 <> id
+R670:670 LibFunc <> A var
+R679:679 LibFunc <> x var
+def 720:724 <> const
+R737:737 LibFunc <> B var
+R747:747 LibFunc <> B var
+R742:742 LibFunc <> A var
+R764:764 LibFunc <> v var
+def 823:828 <> const1
+R837:841 LibFunc <> const def
+def 855:860 <> const2
+R875:875 LibFunc <> B var
+R888:888 LibFunc <> B var
+R884:885 LibFunc <> A2 var
+R880:881 LibFunc <> A1 var
+R906:906 LibFunc <> v var
+def 920:925 <> const3
+R943:943 LibFunc <> B var
+R960:960 LibFunc <> B var
+R956:957 LibFunc <> A3 var
+R952:953 LibFunc <> A2 var
+R948:949 LibFunc <> A1 var
+R980:980 LibFunc <> v var
+def 994:999 <> const4
+R1020:1020 LibFunc <> B var
+R1041:1041 LibFunc <> B var
+R1037:1038 LibFunc <> A4 var
+R1033:1034 LibFunc <> A3 var
+R1029:1030 LibFunc <> A2 var
+R1025:1026 LibFunc <> A1 var
+R1063:1063 LibFunc <> v var
+def 1077:1082 <> const5
+R1106:1106 LibFunc <> B var
+R1131:1131 LibFunc <> B var
+R1127:1128 LibFunc <> A5 var
+R1123:1124 LibFunc <> A4 var
+R1119:1120 LibFunc <> A3 var
+R1115:1116 LibFunc <> A2 var
+R1111:1112 LibFunc <> A1 var
+R1155:1155 LibFunc <> v var
+def 1199:1203 <> apply
+R1221:1221 LibFunc <> B var
+R1216:1216 LibFunc <> A var
+R1229:1229 LibFunc <> A var
+R1237:1237 LibFunc <> f var
+R1239:1239 LibFunc <> x var
+def 1254:1261 <> apply_to
+R1279:1279 LibFunc <> A var
+R1303:1303 LibFunc <> B var
+R1298:1298 LibFunc <> A var
+R1311:1311 LibFunc <> f var
+R1313:1313 LibFunc <> x var
+def 1357:1363 <> compose
+R1383:1383 LibFunc <> C var
+R1378:1378 LibFunc <> B var
+R1396:1396 LibFunc <> B var
+R1391:1391 LibFunc <> A var
+R1414:1414 LibFunc <> g var
+R1417:1417 LibFunc <> f var
+R1419:1419 LibFunc <> x var
+R1448:1454 LibFunc <> compose def
+not 1433 <> :fun_scope:x_'\o'_x
+sec 1660:1670 <> Combinators
+var 1684:1684 Combinators A
+var 1686:1686 Combinators B
+var 1688:1688 Combinators C
+var 1690:1690 Combinators D
+prf 1708:1719 <> compose_id_l
+R1736:1736 LibFunc <> Combinators.B var
+R1733:1733 LibFunc <> Combinators.A var
+R1749:1751 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1744:1747 LibFunc <> :fun_scope:x_'\o'_x not
+R1742:1743 LibFunc <> id def
+R1748:1748 LibFunc <> f var
+R1752:1752 LibFunc <> f var
+R1778:1787 LibEqual <> func_ext_1 thm
+R1778:1787 LibEqual <> func_ext_1 thm
+prf 1802:1813 <> compose_id_r
+R1830:1830 LibFunc <> Combinators.B var
+R1827:1827 LibFunc <> Combinators.A var
+R1843:1845 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1837:1840 LibFunc <> :fun_scope:x_'\o'_x not
+R1836:1836 LibFunc <> f var
+R1841:1842 LibFunc <> id def
+R1846:1846 LibFunc <> f var
+R1872:1881 LibEqual <> func_ext_1 thm
+R1872:1881 LibEqual <> func_ext_1 thm
+prf 1896:1908 <> compose_assoc
+R1925:1925 LibFunc <> Combinators.D var
+R1922:1922 LibFunc <> Combinators.C var
+R1934:1934 LibFunc <> Combinators.C var
+R1931:1931 LibFunc <> Combinators.B var
+R1943:1943 LibFunc <> Combinators.B var
+R1940:1940 LibFunc <> Combinators.A var
+R1963:1965 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1950:1950 LibFunc <> :fun_scope:x_'\o'_x not
+R1957:1961 LibFunc <> :fun_scope:x_'\o'_x not
+R1952:1955 LibFunc <> :fun_scope:x_'\o'_x not
+R1951:1951 LibFunc <> f var
+R1956:1956 LibFunc <> g var
+R1962:1962 LibFunc <> h var
+R1967:1971 LibFunc <> :fun_scope:x_'\o'_x not
+R1978:1978 LibFunc <> :fun_scope:x_'\o'_x not
+R1966:1966 LibFunc <> f var
+R1973:1976 LibFunc <> :fun_scope:x_'\o'_x not
+R1972:1972 LibFunc <> g var
+R1977:1977 LibFunc <> h var
+R2003:2012 LibEqual <> func_ext_1 thm
+R2003:2012 LibEqual <> func_ext_1 thm
+prf 2027:2038 <> compose_eq_l
+R2055:2055 LibFunc <> Combinators.C var
+R2052:2052 LibFunc <> Combinators.B var
+R2068:2068 LibFunc <> Combinators.B var
+R2065:2065 LibFunc <> Combinators.A var
+R2092:2094 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2086:2089 LibFunc <> :fun_scope:x_'\o'_x not
+R2085:2085 LibFunc <> f var
+R2090:2091 LibFunc <> g1 var
+R2096:2099 LibFunc <> :fun_scope:x_'\o'_x not
+R2095:2095 LibFunc <> f var
+R2100:2101 LibFunc <> g2 var
+R2076:2078 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2074:2075 LibFunc <> g1 var
+R2079:2080 LibFunc <> g2 var
+prf 2139:2150 <> compose_eq_r
+R2167:2167 LibFunc <> Combinators.B var
+R2164:2164 LibFunc <> Combinators.A var
+R2180:2180 LibFunc <> Combinators.C var
+R2177:2177 LibFunc <> Combinators.B var
+R2204:2206 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2199:2202 LibFunc <> :fun_scope:x_'\o'_x not
+R2197:2198 LibFunc <> g1 var
+R2203:2203 LibFunc <> f var
+R2209:2212 LibFunc <> :fun_scope:x_'\o'_x not
+R2207:2208 LibFunc <> g2 var
+R2213:2213 LibFunc <> f var
+R2188:2190 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2186:2187 LibFunc <> g1 var
+R2191:2192 LibFunc <> g2 var
+R2249:2259 LibFunc Combinators <> sec
+R2409:2420 LibFunc <> compose_id_l thm
+R2422:2433 LibFunc <> compose_id_r thm
+R2435:2447 LibFunc <> compose_assoc thm

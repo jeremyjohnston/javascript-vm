@@ -1,0 +1,1 @@
+Appli/Fappli_IEEE.vo Appli/Fappli_IEEE.glob Appli/Fappli_IEEE.v.beautified: Appli/Fappli_IEEE.v Core/Fcore.vo Core/Fcore_digits.vo Calc/Fcalc_digits.vo Calc/Fcalc_round.vo Calc/Fcalc_bracket.vo Calc/Fcalc_ops.vo Calc/Fcalc_div.vo Calc/Fcalc_sqrt.vo Prop/Fprop_relative.vo

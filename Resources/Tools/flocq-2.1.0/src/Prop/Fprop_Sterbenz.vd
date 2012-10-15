@@ -1,0 +1,1 @@
+Prop/Fprop_Sterbenz.vo Prop/Fprop_Sterbenz.glob Prop/Fprop_Sterbenz.v.beautified: Prop/Fprop_Sterbenz.v Core/Fcore_Raux.vo Core/Fcore_defs.vo Core/Fcore_generic_fmt.vo Calc/Fcalc_ops.vo

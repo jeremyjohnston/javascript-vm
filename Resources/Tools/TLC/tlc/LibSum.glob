@@ -1,0 +1,128 @@
+DIGEST b9d0b529704590d3eedc4515018e03c3
+FLibSum
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+R364:370 LibBool <> <> lib
+R531:533 Coq.Init.Datatypes <> inl constr
+R565:567 Coq.Init.Datatypes <> inr constr
+inst 688:701 <> sum_inhab_left
+R714:718 LibLogic <> Inhab class
+R726:730 LibLogic <> Inhab class
+R734:736 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R733:733 LibSum <> A var
+R737:737 LibSum <> B var
+R763:773 LibLogic <> prove_Inhab thm
+R776:778 Coq.Init.Datatypes <> inl constr
+R780:788 LibLogic <> arbitrary def
+R763:773 LibLogic <> prove_Inhab thm
+R776:778 Coq.Init.Datatypes <> inl constr
+R780:788 LibLogic <> arbitrary def
+inst 807:821 <> sum_inhab_right
+R834:838 LibLogic <> Inhab class
+R846:850 LibLogic <> Inhab class
+R854:856 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R853:853 LibSum <> A var
+R857:857 LibSum <> B var
+R883:893 LibLogic <> prove_Inhab thm
+R896:898 Coq.Init.Datatypes <> inr constr
+R900:908 LibLogic <> arbitrary def
+R883:893 LibLogic <> prove_Inhab thm
+R896:898 Coq.Init.Datatypes <> inr constr
+R900:908 LibLogic <> arbitrary def
+def 930:938 <> sum_inhab
+R951:955 LibLogic <> Inhab class
+R960:964 LibLogic <> Inhab class
+R970:974 LibLogic <> Inhab class
+R978:980 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R977:977 LibSum <> A var
+R981:981 LibSum <> B var
+sec 1117:1120 <> IsIn
+var 1134:1134 IsIn A
+var 1136:1136 IsIn B
+R1166:1168 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R1165:1165 LibSum <> IsIn.A var
+R1169:1169 LibSum <> IsIn.B var
+def 1184:1189 <> is_inl
+R1204:1204 LibSum <> x var
+R1215:1217 Coq.Init.Datatypes <> inl constr
+R1224:1227 Coq.Init.Datatypes <> true constr
+R1233:1235 Coq.Init.Datatypes <> inr constr
+R1242:1246 Coq.Init.Datatypes <> false constr
+def 1268:1273 <> is_inr
+R1288:1288 LibSum <> x var
+R1299:1301 Coq.Init.Datatypes <> inl constr
+R1308:1312 Coq.Init.Datatypes <> false constr
+R1318:1320 Coq.Init.Datatypes <> inr constr
+R1327:1330 Coq.Init.Datatypes <> true constr
+prf 1347:1363 <> is_inl_neg_is_inr
+R1387:1389 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1379:1384 LibSum <> is_inl def
+R1386:1386 LibSum <> x var
+R1390:1392 LibBool <> :Bool_scope:'!'_x not
+R1401:1401 LibBool <> :Bool_scope:'!'_x not
+R1393:1398 LibSum <> is_inr def
+R1400:1400 LibSum <> x var
+prf 1446:1462 <> is_inr_neg_is_inl
+R1486:1488 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1478:1483 LibSum <> is_inr def
+R1485:1485 LibSum <> x var
+R1489:1491 LibBool <> :Bool_scope:'!'_x not
+R1500:1500 LibBool <> :Bool_scope:'!'_x not
+R1492:1497 LibSum <> is_inl def
+R1499:1499 LibSum <> x var
+R1543:1546 LibSum IsIn <> sec
+sec 1755:1757 <> Get
+var 1771:1772 Get A1
+var 1774:1775 Get A2
+var 1786:1788 Get DA1
+R1790:1794 LibLogic <> Inhab class
+R1796:1797 LibSum <> Get.A1 var
+var 1801:1803 Get DA2
+R1805:1809 LibLogic <> Inhab class
+R1811:1812 LibSum <> Get.A2 var
+R1838:1838 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R1836:1837 LibSum <> Get.A1 var
+R1839:1840 LibSum <> Get.A2 var
+def 1855:1859 <> get21
+R1874:1874 LibSum <> x var
+R1885:1887 Coq.Init.Datatypes <> inl constr
+R1902:1904 Coq.Init.Datatypes <> inr constr
+R1912:1920 LibLogic <> arbitrary def
+def 1942:1946 <> get22
+R1961:1961 LibSum <> x var
+R1972:1974 Coq.Init.Datatypes <> inl constr
+R1982:1990 LibLogic <> arbitrary def
+R1996:1998 Coq.Init.Datatypes <> inr constr
+R2022:2024 LibSum Get <> sec
+R2047:2051 LibSum <> get21 def
+R2091:2095 LibSum <> get22 def
+sec 2228:2231 <> Fget
+var 2245:2246 Fget A1
+var 2248:2249 Fget A2
+var 2251:2252 Fget B1
+var 2254:2255 Fget B2
+var 2269:2271 Fget DB1
+R2273:2277 LibLogic <> Inhab class
+R2279:2280 LibSum <> Fget.B1 var
+var 2284:2286 Fget DB2
+R2288:2292 LibLogic <> Inhab class
+R2294:2295 LibSum <> Fget.B2 var
+R2327:2327 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R2325:2326 LibSum <> Fget.B1 var
+R2328:2329 LibSum <> Fget.B2 var
+R2320:2320 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R2318:2319 LibSum <> Fget.A1 var
+R2321:2322 LibSum <> Fget.A2 var
+def 2344:2353 <> func_get21
+R2371:2375 LibSum <> get21 def
+R2378:2378 LibSum <> f var
+R2381:2383 Coq.Init.Datatypes <> inl constr
+R2385:2385 LibSum <> x var
+def 2401:2410 <> func_get22
+R2428:2432 LibSum <> get22 def
+R2435:2435 LibSum <> f var
+R2438:2440 Coq.Init.Datatypes <> inr constr
+R2442:2442 LibSum <> x var
+R2452:2455 LibSum Fget <> sec
+R2478:2487 LibSum <> func_get21 def
+R2537:2546 LibSum <> func_get22 def

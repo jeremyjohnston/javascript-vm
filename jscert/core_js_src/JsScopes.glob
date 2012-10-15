@@ -1,0 +1,88 @@
+DIGEST 61badac2d62140a5821bf2b1e9046fb0
+FJsScopes
+R39:44 Shared <> <> lib
+R46:59 JsSemanticsAux <> <> lib
+R61:64 JsWf <> <> lib
+R66:72 JsWfAux <> <> lib
+sec 216:220 <> Proto
+R241:245 JsScopes <> proto ind
+prf 255:270 <> protochain_proto
+R326:332 LibTactics <> :type_scope:'exists'_x_','_x not
+R335:336 LibTactics <> :type_scope:'exists'_x_','_x not
+R337:341 JsSemantics <> proto ind
+R347:347 JsScopes <> l var
+R345:345 JsScopes <> s var
+R343:343 JsScopes <> h var
+R310:316 JsWf <> ok_heap rec
+R318:318 JsScopes <> h var
+R290:299 JsWf <> protochain ind
+R303:303 JsScopes <> l var
+R301:301 JsScopes <> h var
+R397:404 JsSyntax <> loc_null constr
+R397:404 JsSyntax <> loc_null constr
+R419:423 JsSemantics <> indom def
+R419:423 JsSemantics <> indom def
+prf 503:515 <> proto_defined
+R566:572 LibTactics <> :type_scope:'exists'_x_','_x not
+R575:576 LibTactics <> :type_scope:'exists'_x_','_x not
+R577:581 JsSemantics <> proto ind
+R587:587 JsScopes <> l var
+R585:585 JsScopes <> s var
+R583:583 JsScopes <> h var
+R551:557 JsWf <> ok_heap rec
+R559:559 JsScopes <> h var
+R536:540 JsSemantics <> bound def
+R544:544 JsScopes <> l var
+R542:542 JsScopes <> h var
+R626:641 JsScopes <> protochain_proto thm
+R626:641 JsScopes <> protochain_proto thm
+R654:677 JsWfAux <> ok_heap_protochain_indom thm
+R654:677 JsWfAux <> ok_heap_protochain_indom thm
+prf 692:701 <> proto_func
+R785:787 Coq.Init.Logic <> :type_scope:x_'='_x not
+R783:784 JsScopes <> l1 var
+R788:789 JsScopes <> l2 var
+R768:774 JsWf <> ok_heap rec
+R776:776 JsScopes <> h var
+R748:752 JsSemantics <> proto ind
+R760:761 JsScopes <> l2 var
+R758:758 JsScopes <> l var
+R756:756 JsScopes <> f var
+R754:754 JsScopes <> h var
+R727:731 JsSemantics <> proto ind
+R739:740 JsScopes <> l1 var
+R737:737 JsScopes <> l var
+R735:735 JsScopes <> f var
+R733:733 JsScopes <> h var
+R877:888 JsWf <> ok_heap_null proj
+R877:888 JsWf <> ok_heap_null proj
+R925:936 JsWf <> ok_heap_null proj
+R925:936 JsWf <> ok_heap_null proj
+R961:974 JsSemanticsAux <> binds_func_loc thm
+R961:974 JsSemanticsAux <> binds_func_loc thm
+R0:-1 JsScopes <> y var
+R1001:1005 JsScopes Proto <> sec
+sec 1017:1026 <> ScopeBound
+R1047:1052 JsScopes <> Forall ind
+prf 1062:1079 <> ok_scope_all_bound
+R1130:1135 LibList <> Forall ind
+R1147:1147 JsScopes <> s var
+R1138:1142 JsSemantics <> bound def
+R1144:1144 JsScopes <> h var
+R1115:1121 JsWf <> ok_heap rec
+R1123:1123 JsScopes <> h var
+R1097:1104 JsWf <> ok_scope ind
+R1108:1108 JsScopes <> s var
+R1106:1106 JsScopes <> h var
+R0:-1 JsScopes <> y var
+R1214:1228 JsWf <> ok_heap_special proj
+R1214:1228 JsWf <> ok_heap_special proj
+R1249:1275 JsWf <> ok_heap_special_global_this proj
+R1249:1275 JsWf <> ok_heap_special_global_this proj
+R0:-1 JsScopes <> y var
+R1288:1298 JsSemanticsAux <> binds_bound thm
+R1288:1298 JsSemanticsAux <> binds_bound thm
+R0:-1 JsScopes <> y var
+R1326:1336 JsSemanticsAux <> indom_bound thm
+R1326:1336 JsSemanticsAux <> indom_bound thm
+R1349:1358 JsScopes ScopeBound <> sec

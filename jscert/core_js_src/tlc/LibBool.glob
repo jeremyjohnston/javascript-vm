@@ -1,0 +1,230 @@
+DIGEST b2a9bcbbfe836ddf32cae6d470b1bef1
+FLibBool
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+R364:375 LibOperation <> <> lib
+inst 604:613 <> bool_inhab
+R617:621 LibLogic <> Inhab class
+R623:626 Coq.Init.Datatypes <> bool ind
+R656:666 LibLogic <> prove_Inhab thm
+R668:671 Coq.Init.Datatypes <> true constr
+R656:666 LibLogic <> prove_Inhab thm
+R668:671 Coq.Init.Datatypes <> true constr
+sec 1135:1145 <> Definitions
+R1171:1174 Coq.Init.Datatypes <> bool ind
+def 1211:1218 <> beq_impl
+R1239:1239 LibBool <> y var
+R1236:1236 LibBool <> x var
+R1250:1253 Coq.Init.Datatypes <> true constr
+R1256:1259 Coq.Init.Datatypes <> true constr
+R1264:1267 Coq.Init.Datatypes <> true constr
+R1273:1277 Coq.Init.Datatypes <> false constr
+R1280:1284 Coq.Init.Datatypes <> false constr
+R1289:1292 Coq.Init.Datatypes <> true constr
+R1306:1310 Coq.Init.Datatypes <> false constr
+def 1351:1353 <> and
+R1373:1373 LibBool <> y var
+R1370:1370 LibBool <> x var
+R1384:1387 Coq.Init.Datatypes <> true constr
+R1390:1393 Coq.Init.Datatypes <> true constr
+R1398:1401 Coq.Init.Datatypes <> true constr
+R1415:1419 Coq.Init.Datatypes <> false constr
+def 1460:1461 <> or
+R1481:1481 LibBool <> y var
+R1478:1478 LibBool <> x var
+R1492:1496 Coq.Init.Datatypes <> false constr
+R1499:1503 Coq.Init.Datatypes <> false constr
+R1508:1512 Coq.Init.Datatypes <> false constr
+R1526:1529 Coq.Init.Datatypes <> true constr
+def 1570:1573 <> impl
+R1593:1593 LibBool <> y var
+R1590:1590 LibBool <> x var
+R1604:1608 Coq.Init.Datatypes <> false constr
+R1611:1614 Coq.Init.Datatypes <> true constr
+R1619:1623 Coq.Init.Datatypes <> false constr
+R1637:1640 Coq.Init.Datatypes <> true constr
+def 1678:1680 <> neg
+R1695:1695 LibBool <> x var
+R1707:1710 Coq.Init.Datatypes <> true constr
+R1715:1719 Coq.Init.Datatypes <> false constr
+R1725:1729 Coq.Init.Datatypes <> false constr
+R1734:1737 Coq.Init.Datatypes <> true constr
+def 1778:1780 <> xor
+R1793:1796 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1792:1792 LibBool <> x var
+R1797:1797 LibBool <> y var
+R1805:1815 LibBool Definitions <> sec
+R1856:1858 LibBool <> neg def
+not 1846 <> :Bool_scope:'!'_x
+R1929:1931 LibBool <> and def
+not 1921 <> :Bool_scope:x_'&&'_x
+R1998:1999 LibBool <> or def
+not 1990 <> :Bool_scope:x_'||'_x
+R2072:2074 LibBool <> neg def
+not 2062 <> :Bool_scope:'!'_x
+R2145:2147 LibBool <> and def
+not 2137 <> :Bool_scope:x_'&&'_x
+R2214:2215 LibBool <> or def
+not 2206 <> :Bool_scope:x_'||'_x
+R2284:2286 LibBool <> and def
+not 2275 <> :Bool_scope:x_'&&&'_x
+R2368:2369 LibBool <> or def
+not 2359 <> :Bool_scope:x_'|||'_x
+R2969:2972 Coq.Init.Datatypes <> bool ind
+R2969:2972 Coq.Init.Datatypes <> bool ind
+prf 3505:3511 <> or_same
+R3515:3525 LibOperation <> idempotent2 def
+R3527:3528 LibBool <> or def
+prf 3559:3566 <> and_same
+R3570:3580 LibOperation <> idempotent2 def
+R3582:3584 LibBool <> and def
+prf 3615:3627 <> neutral_l_and
+R3631:3639 LibOperation <> neutral_l def
+R3645:3648 Coq.Init.Datatypes <> true constr
+R3641:3643 LibBool <> and def
+prf 3679:3691 <> neutral_r_and
+R3695:3703 LibOperation <> neutral_r def
+R3709:3712 Coq.Init.Datatypes <> true constr
+R3705:3707 LibBool <> and def
+prf 3743:3754 <> absorb_l_and
+R3758:3765 LibOperation <> absorb_l def
+R3771:3775 Coq.Init.Datatypes <> false constr
+R3767:3769 LibBool <> and def
+prf 3806:3817 <> absorb_r_and
+R3821:3828 LibOperation <> absorb_r def
+R3834:3838 Coq.Init.Datatypes <> false constr
+R3830:3832 LibBool <> and def
+prf 3869:3880 <> neutral_l_or
+R3884:3892 LibOperation <> neutral_l def
+R3897:3901 Coq.Init.Datatypes <> false constr
+R3894:3895 LibBool <> or def
+prf 3932:3943 <> neutral_r_or
+R3947:3955 LibOperation <> neutral_r def
+R3960:3964 Coq.Init.Datatypes <> false constr
+R3957:3958 LibBool <> or def
+prf 3995:4005 <> absorb_l_or
+R4009:4016 LibOperation <> absorb_l def
+R4021:4024 Coq.Init.Datatypes <> true constr
+R4018:4019 LibBool <> or def
+prf 4055:4065 <> absorb_r_or
+R4069:4076 LibOperation <> absorb_r def
+R4081:4084 Coq.Init.Datatypes <> true constr
+R4078:4079 LibBool <> or def
+prf 4115:4121 <> comm_or
+R4125:4128 LibOperation <> comm def
+R4130:4131 LibBool <> or def
+prf 4162:4169 <> comm_and
+R4173:4176 LibOperation <> comm def
+R4178:4180 LibBool <> and def
+prf 4211:4219 <> assoc_and
+R4223:4227 LibOperation <> assoc def
+R4229:4231 LibBool <> and def
+prf 4263:4270 <> assoc_or
+R4274:4278 LibOperation <> assoc def
+R4280:4281 LibBool <> or def
+prf 4313:4321 <> neg_false
+R4332:4334 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4325:4326 LibBool <> :Bool_scope:'!'_x not
+R4327:4331 Coq.Init.Datatypes <> false constr
+R4335:4338 Coq.Init.Datatypes <> true constr
+prf 4366:4373 <> neg_true
+R4383:4385 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4377:4378 LibBool <> :Bool_scope:'!'_x not
+R4379:4382 Coq.Init.Datatypes <> true constr
+R4386:4390 Coq.Init.Datatypes <> false constr
+prf 4419:4425 <> neg_and
+R4430:4441 LibOperation <> automorphism def
+R4456:4457 LibBool <> or def
+R4452:4454 LibBool <> and def
+R4448:4450 LibBool <> neg def
+R4443:4446 Coq.Init.Datatypes <> bool ind
+prf 4488:4493 <> neg_or
+R4498:4509 LibOperation <> automorphism def
+R4523:4525 LibBool <> and def
+R4520:4521 LibBool <> or def
+R4516:4518 LibBool <> neg def
+R4511:4514 Coq.Init.Datatypes <> bool ind
+prf 4556:4562 <> neg_neg
+R4566:4575 LibOperation <> idempotent def
+R4577:4579 LibBool <> neg def
+sec 4730:4741 <> PropertiesIf
+R4768:4771 Coq.Init.Datatypes <> bool ind
+prf 4782:4789 <> if_t_x_y
+R4807:4807 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4829:4832 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4811:4814 Coq.Init.Datatypes <> true constr
+R4828:4828 LibBool <> y var
+R4821:4821 LibBool <> x var
+R4833:4833 LibBool <> x var
+prf 4861:4868 <> if_f_x_y
+R4886:4886 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4909:4912 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4890:4894 Coq.Init.Datatypes <> false constr
+R4908:4908 LibBool <> y var
+R4901:4901 LibBool <> x var
+R4913:4913 LibBool <> y var
+prf 4941:4948 <> if_x_y_y
+R4966:4966 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4985:4988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4970:4970 LibBool <> x var
+R4984:4984 LibBool <> y var
+R4977:4977 LibBool <> y var
+R4989:4989 LibBool <> y var
+prf 5020:5027 <> if_x_t_f
+R5043:5043 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5069:5072 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5047:5047 LibBool <> x var
+R5064:5068 Coq.Init.Datatypes <> false constr
+R5054:5057 Coq.Init.Datatypes <> true constr
+R5073:5073 LibBool <> x var
+prf 5104:5111 <> if_x_f_t
+R5127:5127 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5153:5156 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5131:5131 LibBool <> x var
+R5149:5152 Coq.Init.Datatypes <> true constr
+R5138:5142 Coq.Init.Datatypes <> false constr
+R5157:5157 LibBool <> :Bool_scope:'!'_x not
+R5158:5158 LibBool <> x var
+prf 5189:5196 <> if_x_t_y
+R5214:5214 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5236:5239 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5218:5218 LibBool <> x var
+R5235:5235 LibBool <> y var
+R5225:5228 Coq.Init.Datatypes <> true constr
+R5241:5244 LibBool <> :Bool_scope:x_'||'_x not
+R5240:5240 LibBool <> x var
+R5245:5245 LibBool <> y var
+prf 5276:5283 <> if_x_y_f
+R5301:5301 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5324:5327 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5305:5305 LibBool <> x var
+R5319:5323 Coq.Init.Datatypes <> false constr
+R5312:5312 LibBool <> y var
+R5329:5332 LibBool <> :Bool_scope:x_'&&'_x not
+R5328:5328 LibBool <> x var
+R5333:5333 LibBool <> y var
+R5362:5373 LibBool PropertiesIf <> sec
+R5559:5565 LibBool <> neg_neg thm
+R5921:5929 LibBool <> neg_false thm
+R5931:5938 LibBool <> neg_true thm
+R5940:5946 LibBool <> neg_neg thm
+R5948:5954 LibBool <> neg_and thm
+R5956:5961 LibBool <> neg_or thm
+R5965:5977 LibBool <> neutral_l_and thm
+R5979:5991 LibBool <> neutral_r_and thm
+R5993:6004 LibBool <> absorb_l_and thm
+R6006:6017 LibBool <> absorb_r_and thm
+R6021:6032 LibBool <> neutral_l_or thm
+R6034:6045 LibBool <> neutral_r_or thm
+R6047:6057 LibBool <> absorb_l_or thm
+R6059:6069 LibBool <> absorb_r_or thm
+R6075:6082 LibBool <> if_t_x_y thm
+R6084:6091 LibBool <> if_f_x_y thm
+R6093:6100 LibBool <> if_x_y_y thm
+R6102:6109 LibBool <> if_x_t_f thm
+R6111:6118 LibBool <> if_x_f_t thm
+R6120:6127 LibBool <> if_x_t_y thm
+R6129:6136 LibBool <> if_x_y_f thm
+R6719:6721 LibBool <> and def
+R6723:6724 LibBool <> or def
+R6726:6728 LibBool <> neg def

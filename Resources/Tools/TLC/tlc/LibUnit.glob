@@ -1,0 +1,16 @@
+DIGEST be5cfd8c03892dcf623509cb40e637a3
+FLibUnit
+R268:277 LibTactics <> <> lib
+R279:286 LibLogic <> <> lib
+inst 398:407 <> unit_inhab
+R411:415 LibLogic <> Inhab class
+R417:420 Coq.Init.Datatypes <> unit ind
+R445:455 LibLogic <> prove_Inhab thm
+R457:458 Coq.Init.Datatypes <> tt constr
+R445:455 LibLogic <> prove_Inhab thm
+R457:458 Coq.Init.Datatypes <> tt constr
+prf 572:582 <> unit_unique
+R603:606 Coq.Init.Datatypes <> unit ind
+R614:616 Coq.Init.Logic <> :type_scope:x_'='_x not
+R611:613 LibUnit <> tt1 var
+R617:619 LibUnit <> tt2 var
