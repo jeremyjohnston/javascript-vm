@@ -1,0 +1,19 @@
+DIGEST 2ff2bae55ff3b87e0fd9a52c7b00ae92
+FLibString
+R344:353 LibTactics <> <> lib
+R355:364 LibReflect <> <> lib
+R382:387 Coq.Strings.String <> <> lib
+inst 512:523 <> string_inhab
+R527:531 LibLogic <> Inhab class
+R533:538 Coq.Strings.String <> string ind
+R555:565 LibLogic <> prove_Inhab thm
+R567:577 Coq.Strings.String <> EmptyString constr
+R555:565 LibLogic <> prove_Inhab thm
+R567:577 Coq.Strings.String <> EmptyString constr
+inst 596:612 <> string_comparable
+R616:625 LibReflect <> Comparable class
+R627:632 Coq.Strings.String <> string ind
+R649:665 LibReflect <> comparable_of_dec thm
+R667:676 Coq.Strings.String <> string_dec def
+R649:665 LibReflect <> comparable_of_dec thm
+R667:676 Coq.Strings.String <> string_dec def

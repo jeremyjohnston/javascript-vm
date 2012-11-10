@@ -1,0 +1,969 @@
+DIGEST 5d90fa0a218aa7577ab2fd4379656710
+FLibFset
+R344:353 LibTactics <> <> lib
+R355:361 LibList <> <> lib
+R379:384 LibSet <> <> lib
+R386:393 LibLogic <> <> lib
+R395:402 LibEqual <> <> lib
+R404:413 LibReflect <> <> lib
+modtype 773:779 <> FsetSig
+sec 841:850 FsetSig Operations
+var 864:864 FsetSig.Operations A
+ax 884:887 FsetSig fset
+ax 915:917 FsetSig mem
+R926:929 LibFset FsetSig fset defax
+R931:931 LibFset <> FsetSig.Operations.A var
+R921:921 LibFset <> FsetSig.Operations.A var
+ax 952:956 FsetSig empty
+R960:963 LibFset FsetSig fset defax
+R965:965 LibFset <> FsetSig.Operations.A var
+ax 978:986 FsetSig singleton
+R995:998 LibFset FsetSig fset defax
+R1000:1000 LibFset <> FsetSig.Operations.A var
+R990:990 LibFset <> FsetSig.Operations.A var
+ax 1013:1017 FsetSig union
+R1041:1044 LibFset FsetSig fset defax
+R1046:1046 LibFset <> FsetSig.Operations.A var
+R1031:1034 LibFset FsetSig fset defax
+R1036:1036 LibFset <> FsetSig.Operations.A var
+R1021:1024 LibFset FsetSig fset defax
+R1026:1026 LibFset <> FsetSig.Operations.A var
+ax 1059:1063 FsetSig inter
+R1087:1090 LibFset FsetSig fset defax
+R1092:1092 LibFset <> FsetSig.Operations.A var
+R1077:1080 LibFset FsetSig fset defax
+R1082:1082 LibFset <> FsetSig.Operations.A var
+R1067:1070 LibFset FsetSig fset defax
+R1072:1072 LibFset <> FsetSig.Operations.A var
+ax 1105:1110 FsetSig remove
+R1134:1137 LibFset FsetSig fset defax
+R1139:1139 LibFset <> FsetSig.Operations.A var
+R1124:1127 LibFset FsetSig fset defax
+R1129:1129 LibFset <> FsetSig.Operations.A var
+R1114:1117 LibFset FsetSig fset defax
+R1119:1119 LibFset <> FsetSig.Operations.A var
+def 1200:1205 FsetSig subset
+R1237:1239 LibFset FsetSig mem defax
+R1243:1243 LibFset <> F var
+R1241:1241 LibFset <> x var
+R1226:1228 LibFset FsetSig mem defax
+R1232:1232 LibFset <> E var
+R1230:1230 LibFset <> x var
+def 1258:1262 FsetSig notin
+R1273:1274 Coq.Init.Logic <> :type_scope:'~'_x not
+R1275:1277 LibFset FsetSig mem defax
+R1281:1281 LibFset <> E var
+R1279:1279 LibFset <> x var
+def 1296:1303 FsetSig disjoint
+R1323:1325 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1314:1318 LibFset FsetSig inter defax
+R1322:1322 LibFset <> F var
+R1320:1320 LibFset <> E var
+R1326:1330 LibFset FsetSig empty defax
+def 1345:1353 FsetSig from_list
+R1362:1371 LibList <> fold_right def
+R1418:1418 LibFset <> L var
+R1412:1416 LibFset FsetSig empty defax
+R1387:1391 LibFset FsetSig union defax
+R1407:1409 LibFset <> acc var
+R1394:1402 LibFset FsetSig singleton defax
+R1404:1404 LibFset <> x var
+R1426:1435 LibFset FsetSig.Operations <> sec
+R1458:1462 LibFset FsetSig empty defax
+R1509:1513 LibFset FsetSig empty defax
+not 1499 FsetSig :fset_scope:'\{}'
+R1553:1561 LibFset FsetSig singleton defax
+not 1540 FsetSig :fset_scope:'\{'_x_'}'
+R1603:1607 LibFset FsetSig union defax
+not 1590 FsetSig :fset_scope:x_'\u'_x
+R1688:1692 LibFset FsetSig inter defax
+not 1675 FsetSig :fset_scope:x_'\n'_x
+R1773:1778 LibFset FsetSig remove defax
+not 1760 FsetSig :fset_scope:x_'\-'_x
+R1839:1841 LibFset FsetSig mem defax
+not 1825 FsetSig :fset_scope:x_'\in'_x
+R1903:1907 LibFset FsetSig notin def
+not 1886 FsetSig :fset_scope:x_'\notin'_x
+R1965:1970 LibFset FsetSig subset def
+not 1952 FsetSig :fset_scope:x_'\c'_x
+sec 2109:2118 FsetSig Properties
+var 2131:2131 FsetSig.Properties A
+R2160:2160 LibFset <> FsetSig.Properties.A var
+R2182:2185 LibFset FsetSig fset defax
+R2187:2187 LibFset <> FsetSig.Properties.A var
+ax 2224:2234 FsetSig fset_extens
+R2282:2284 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2281:2281 LibFset <> E var
+R2285:2285 LibFset <> F var
+R2267:2272 LibFset FsetSig subset def
+R2276:2276 LibFset <> E var
+R2274:2274 LibFset <> F var
+R2253:2258 LibFset FsetSig subset def
+R2262:2262 LibFset <> F var
+R2260:2260 LibFset <> E var
+ax 2318:2328 FsetSig fset_finite
+R2344:2350 LibTactics <> :type_scope:'exists'_x_','_x not
+R2352:2353 LibTactics <> :type_scope:'exists'_x_','_x not
+R2355:2357 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2354:2354 LibFset <> E var
+R2358:2366 LibFset FsetSig from_list def
+ax 2420:2427 FsetSig in_empty
+R2452:2454 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2444:2448 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2443:2443 LibFset <> x var
+R2449:2451 LibFset FsetSig :fset_scope:'\{}' not
+R2455:2459 Coq.Init.Logic <> False ind
+ax 2474:2485 FsetSig in_singleton
+R2513:2516 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2522:2522 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2504:2508 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2503:2503 LibFset <> x var
+R2509:2510 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R2512:2512 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R2511:2511 LibFset <> y var
+R2518:2520 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2517:2517 LibFset <> x var
+R2521:2521 LibFset <> y var
+ax 2536:2543 FsetSig in_union
+R2577:2580 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2603:2603 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2564:2569 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2576:2576 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2563:2563 LibFset <> x var
+R2571:2574 LibFset FsetSig :fset_scope:x_'\u'_x not
+R2570:2570 LibFset <> E var
+R2575:2575 LibFset <> F var
+R2581:2581 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2589:2594 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2602:2602 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2583:2587 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2582:2582 LibFset <> x var
+R2588:2588 LibFset <> E var
+R2596:2600 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2595:2595 LibFset <> x var
+R2601:2601 LibFset <> F var
+ax 2617:2624 FsetSig in_inter
+R2658:2661 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2684:2684 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2645:2650 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2657:2657 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2644:2644 LibFset <> x var
+R2652:2655 LibFset FsetSig :fset_scope:x_'\n'_x not
+R2651:2651 LibFset <> E var
+R2656:2656 LibFset <> F var
+R2662:2662 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2670:2675 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2683:2683 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2664:2668 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2663:2663 LibFset <> x var
+R2669:2669 LibFset <> E var
+R2677:2681 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2676:2676 LibFset <> x var
+R2682:2682 LibFset <> F var
+ax 2698:2706 FsetSig in_remove
+R2740:2743 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2769:2769 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2727:2732 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2739:2739 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2726:2726 LibFset <> x var
+R2734:2737 LibFset FsetSig :fset_scope:x_'\-'_x not
+R2733:2733 LibFset <> E var
+R2738:2738 LibFset <> F var
+R2744:2744 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2752:2757 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2768:2768 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2746:2750 LibFset FsetSig :fset_scope:x_'\in'_x not
+R2745:2745 LibFset <> x var
+R2751:2751 LibFset <> E var
+R2759:2766 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R2758:2758 LibFset <> x var
+R2767:2767 LibFset <> F var
+R2777:2786 LibFset FsetSig.Properties <> sec
+R2794:2800 LibFset <> <> modtype
+R2947:2953 LibFset <> <> mod
+mod 2936:2943 <> FsetImpl
+def 3134:3139 FsetImpl finite
+R3146:3148 LibSet <> set def
+R3150:3150 LibFset <> A var
+R3159:3165 LibTactics <> :type_scope:'exists'_x_','_x not
+R3167:3168 LibTactics <> :type_scope:'exists'_x_','_x not
+R3192:3194 LibList <> Mem ind
+R3196:3196 LibFset <> x var
+R3179:3183 LibBag <> is_in meth
+R3187:3187 LibFset <> U var
+R3185:3185 LibFset <> x var
+def 3213:3216 FsetImpl fset
+R3223:3225 Coq.Init.Specif <> sig ind
+R3229:3234 LibFset FsetImpl finite def
+R3236:3236 LibFset <> A var
+def 3252:3261 FsetImpl build_fset
+R3268:3270 LibSet <> set def
+R3272:3272 LibFset <> A var
+R3278:3283 LibFset FsetImpl finite def
+R3285:3285 LibFset <> U var
+R3293:3297 Coq.Init.Specif <> exist constr
+R3313:3313 LibFset <> F var
+R3311:3311 LibFset <> U var
+R3301:3306 LibFset FsetImpl finite def
+R3308:3308 LibFset <> A var
+sec 3325:3334 FsetImpl Operations
+var 3348:3348 FsetImpl.Operations A
+def 3370:3372 FsetImpl mem
+R3377:3377 LibFset <> FsetImpl.Operations.A var
+R3383:3386 LibFset FsetImpl fset def
+R3388:3388 LibFset <> FsetImpl.Operations.A var
+R3396:3400 LibBag <> is_in meth
+R3405:3413 Coq.Init.Specif <> proj1_sig def
+R3415:3415 LibFset <> E var
+R3402:3402 LibFset <> x var
+prf 3426:3437 FsetImpl finite_empty
+R3442:3447 LibFset FsetImpl finite def
+R3451:3462 LibBag <> empty meth
+R3449:3449 LibFset <> FsetImpl.Operations.A var
+R3481:3483 Coq.Init.Datatypes <> nil constr
+R3485:3485 LibFset <> FsetImpl.Operations.A var
+R3481:3483 Coq.Init.Datatypes <> nil constr
+R3485:3485 LibFset <> FsetImpl.Operations.A var
+R3507:3517 LibBag <> in_empty_eq meth
+R3507:3517 LibBag <> in_empty_eq meth
+def 3549:3553 FsetImpl empty
+R3557:3560 LibFset FsetImpl fset def
+R3562:3562 LibFset <> FsetImpl.Operations.A var
+R3570:3579 LibFset FsetImpl build_fset def
+R3581:3592 LibFset FsetImpl finite_empty thm
+prf 3602:3617 FsetImpl singleton_finite
+R3631:3631 LibFset <> FsetImpl.Operations.A var
+R3637:3642 LibFset FsetImpl finite def
+R3645:3657 LibBag <> single meth
+R3659:3659 LibFset <> x var
+R3689:3690 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3691:3693 Coq.Init.Datatypes <> nil constr
+R3689:3690 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3691:3693 Coq.Init.Datatypes <> nil constr
+R3718:3729 LibBag <> in_single_eq meth
+R3718:3729 LibBag <> in_single_eq meth
+def 3775:3783 FsetImpl singleton
+R3790:3790 LibFset <> FsetImpl.Operations.A var
+R3798:3807 LibFset FsetImpl build_fset def
+R3810:3825 LibFset FsetImpl singleton_finite thm
+R3827:3827 LibFset <> x var
+prf 3838:3849 FsetImpl union_finite
+R3866:3868 LibSet <> set def
+R3870:3870 LibFset <> FsetImpl.Operations.A var
+R3899:3904 LibFset FsetImpl finite def
+R3907:3911 LibBag <> union meth
+R3915:3915 LibFset <> V var
+R3913:3913 LibFset <> U var
+R3887:3892 LibFset FsetImpl finite def
+R3894:3894 LibFset <> V var
+R3875:3880 LibFset FsetImpl finite def
+R3882:3882 LibFset <> U var
+R3962:3965 LibList <> :list_scope:x_'++'_x not
+R3962:3965 LibList <> :list_scope:x_'++'_x not
+R3991:4001 LibBag <> in_union_eq meth
+R3991:4001 LibBag <> in_union_eq meth
+R4012:4024 LibList <> Mem_app_or_eq thm
+R4012:4024 LibList <> Mem_app_or_eq thm
+def 4065:4069 FsetImpl union
+R4078:4081 LibFset FsetImpl fset def
+R4083:4083 LibFset <> FsetImpl.Operations.A var
+R4091:4100 LibFset FsetImpl build_fset def
+R4103:4114 LibFset FsetImpl union_finite thm
+R4131:4139 Coq.Init.Specif <> proj2_sig def
+R4141:4141 LibFset <> F var
+R4117:4125 Coq.Init.Specif <> proj2_sig def
+R4127:4127 LibFset <> E var
+prf 4153:4164 FsetImpl inter_finite
+R4181:4183 LibSet <> set def
+R4185:4185 LibFset <> FsetImpl.Operations.A var
+R4214:4219 LibFset FsetImpl finite def
+R4222:4226 LibBag <> inter meth
+R4230:4230 LibFset <> V var
+R4228:4228 LibFset <> U var
+R4202:4207 LibFset FsetImpl finite def
+R4209:4209 LibFset <> V var
+R4190:4195 LibFset FsetImpl finite def
+R4197:4197 LibFset <> U var
+R4277:4280 LibList <> :list_scope:x_'++'_x not
+R4277:4280 LibList <> :list_scope:x_'++'_x not
+R4306:4316 LibBag <> in_inter_eq meth
+R4306:4316 LibBag <> in_inter_eq meth
+R4327:4339 LibList <> Mem_app_or_eq thm
+R4327:4339 LibList <> Mem_app_or_eq thm
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+def 4366:4370 FsetImpl inter
+R4379:4382 LibFset FsetImpl fset def
+R4384:4384 LibFset <> FsetImpl.Operations.A var
+R4392:4401 LibFset FsetImpl build_fset def
+R4404:4415 LibFset FsetImpl inter_finite thm
+R4432:4440 Coq.Init.Specif <> proj2_sig def
+R4442:4442 LibFset <> F var
+R4418:4426 Coq.Init.Specif <> proj2_sig def
+R4428:4428 LibFset <> E var
+prf 4454:4466 FsetImpl remove_finite
+R4483:4485 LibSet <> set def
+R4487:4487 LibFset <> FsetImpl.Operations.A var
+R4516:4521 LibFset FsetImpl finite def
+R4524:4529 LibBag <> remove meth
+R4533:4533 LibFset <> V var
+R4531:4531 LibFset <> U var
+R4504:4509 LibFset FsetImpl finite def
+R4511:4511 LibFset <> V var
+R4492:4497 LibFset FsetImpl finite def
+R4499:4499 LibFset <> U var
+R4601:4612 LibBag <> in_remove_eq meth
+R4601:4612 LibBag <> in_remove_eq meth
+def 4655:4660 FsetImpl remove
+R4669:4672 LibFset FsetImpl fset def
+R4674:4674 LibFset <> FsetImpl.Operations.A var
+R4682:4691 LibFset FsetImpl build_fset def
+R4694:4706 LibFset FsetImpl remove_finite thm
+R4723:4731 Coq.Init.Specif <> proj2_sig def
+R4733:4733 LibFset <> F var
+R4709:4717 Coq.Init.Specif <> proj2_sig def
+R4719:4719 LibFset <> E var
+def 4750:4755 FsetImpl subset
+R4787:4789 LibFset FsetImpl mem def
+R4793:4793 LibFset <> F var
+R4791:4791 LibFset <> x var
+R4776:4778 LibFset FsetImpl mem def
+R4782:4782 LibFset <> E var
+R4780:4780 LibFset <> x var
+def 4808:4812 FsetImpl notin
+R4823:4824 Coq.Init.Logic <> :type_scope:'~'_x not
+R4825:4827 LibFset FsetImpl mem def
+R4831:4831 LibFset <> E var
+R4829:4829 LibFset <> x var
+def 4846:4853 FsetImpl disjoint
+R4873:4875 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4864:4868 LibFset FsetImpl inter def
+R4872:4872 LibFset <> F var
+R4870:4870 LibFset <> E var
+R4876:4880 LibFset FsetImpl empty def
+def 4895:4903 FsetImpl from_list
+R4912:4921 LibList <> fold_right def
+R4968:4968 LibFset <> L var
+R4962:4966 LibFset FsetImpl empty def
+R4937:4941 LibFset FsetImpl union def
+R4957:4959 LibFset <> acc var
+R4944:4952 LibFset FsetImpl singleton def
+R4954:4954 LibFset <> x var
+R4976:4985 LibFset FsetImpl.Operations <> sec
+R5008:5012 LibFset FsetImpl empty def
+R5059:5063 LibFset FsetImpl empty def
+not 5049 FsetImpl :fset_scope:'\{}'
+R5103:5111 LibFset FsetImpl singleton def
+not 5090 FsetImpl :fset_scope:'\{'_x_'}'
+R5153:5157 LibFset FsetImpl union def
+not 5140 FsetImpl :fset_scope:x_'\u'_x
+R5238:5242 LibFset FsetImpl inter def
+not 5225 FsetImpl :fset_scope:x_'\n'_x
+R5323:5328 LibFset FsetImpl remove def
+not 5310 FsetImpl :fset_scope:x_'\-'_x
+R5389:5391 LibFset FsetImpl mem def
+not 5375 FsetImpl :fset_scope:x_'\in'_x
+R5453:5457 LibFset FsetImpl notin def
+not 5436 FsetImpl :fset_scope:x_'\notin'_x
+R5515:5520 LibFset FsetImpl subset def
+not 5502 FsetImpl :fset_scope:x_'\c'_x
+sec 5659:5668 FsetImpl Properties
+var 5681:5681 FsetImpl.Properties A
+R5710:5710 LibFset <> FsetImpl.Properties.A var
+R5732:5735 LibFset FsetImpl fset def
+R5737:5737 LibFset <> FsetImpl.Properties.A var
+prf 5747:5760 FsetImpl fset_extens_eq
+R5812:5814 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5811:5811 LibFset <> E var
+R5815:5815 LibFset <> F var
+R5796:5798 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5790:5794 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R5789:5789 LibFset <> x var
+R5795:5795 LibFset <> E var
+R5800:5804 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R5799:5799 LibFset <> x var
+R5805:5805 LibFset <> F var
+R5834:5836 LibFset FsetImpl mem def
+R5879:5886 LibEqual <> exist_eq thm
+R5879:5886 LibEqual <> exist_eq thm
+R5895:5906 LibBag <> in_double_eq meth
+R5895:5906 LibBag <> in_double_eq meth
+prf 5928:5938 FsetImpl fset_extens
+R5986:5988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5985:5985 LibFset <> E var
+R5989:5989 LibFset <> F var
+R5971:5976 LibFset FsetImpl subset def
+R5980:5980 LibFset <> E var
+R5978:5978 LibFset <> F var
+R5957:5962 LibFset FsetImpl subset def
+R5966:5966 LibFset <> F var
+R5964:5964 LibFset <> E var
+R6013:6026 LibFset FsetImpl fset_extens_eq thm
+R6013:6026 LibFset FsetImpl fset_extens_eq thm
+R0:-1 LibFset <> y var
+prf 6050:6057 FsetImpl in_empty
+R6082:6084 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6074:6078 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6073:6073 LibFset <> x var
+R6079:6081 LibFset FsetImpl :fset_scope:'\{}' not
+R6085:6089 Coq.Init.Logic <> False ind
+R6106:6108 LibFset FsetImpl mem def
+R6111:6115 LibFset FsetImpl empty def
+R6141:6151 LibBag <> in_empty_eq meth
+R6141:6151 LibBag <> in_empty_eq meth
+prf 6173:6184 FsetImpl in_singleton
+R6212:6215 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6221:6221 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6203:6207 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6202:6202 LibFset <> x var
+R6208:6209 LibFset FsetImpl :fset_scope:'\{'_x_'}' not
+R6211:6211 LibFset FsetImpl :fset_scope:'\{'_x_'}' not
+R6210:6210 LibFset <> y var
+R6217:6219 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6216:6216 LibFset <> x var
+R6220:6220 LibFset <> y var
+R6238:6240 LibFset FsetImpl mem def
+R6243:6251 LibFset FsetImpl singleton def
+R6277:6288 LibBag <> in_single_eq meth
+R6277:6288 LibBag <> in_single_eq meth
+prf 6310:6317 FsetImpl in_union
+R6351:6354 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6377:6377 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6338:6343 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6350:6350 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6337:6337 LibFset <> x var
+R6345:6348 LibFset FsetImpl :fset_scope:x_'\u'_x not
+R6344:6344 LibFset <> E var
+R6349:6349 LibFset <> F var
+R6355:6355 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6363:6368 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6376:6376 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6357:6361 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6356:6356 LibFset <> x var
+R6362:6362 LibFset <> E var
+R6370:6374 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6369:6369 LibFset <> x var
+R6375:6375 LibFset <> F var
+R6394:6396 LibFset FsetImpl mem def
+R6399:6403 LibFset FsetImpl union def
+R6429:6439 LibBag <> in_union_eq meth
+R6429:6439 LibBag <> in_union_eq meth
+prf 6461:6468 FsetImpl in_inter
+R6502:6505 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6528:6528 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6489:6494 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6501:6501 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6488:6488 LibFset <> x var
+R6496:6499 LibFset FsetImpl :fset_scope:x_'\n'_x not
+R6495:6495 LibFset <> E var
+R6500:6500 LibFset <> F var
+R6506:6506 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6514:6519 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6527:6527 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6508:6512 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6507:6507 LibFset <> x var
+R6513:6513 LibFset <> E var
+R6521:6525 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6520:6520 LibFset <> x var
+R6526:6526 LibFset <> F var
+R6545:6547 LibFset FsetImpl mem def
+R6550:6554 LibFset FsetImpl inter def
+R6580:6590 LibBag <> in_inter_eq meth
+R6580:6590 LibBag <> in_inter_eq meth
+prf 6612:6620 FsetImpl in_remove
+R6654:6657 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6683:6683 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6641:6646 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6653:6653 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6640:6640 LibFset <> x var
+R6648:6651 LibFset FsetImpl :fset_scope:x_'\-'_x not
+R6647:6647 LibFset <> E var
+R6652:6652 LibFset <> F var
+R6658:6658 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6666:6671 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6682:6682 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6660:6664 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6659:6659 LibFset <> x var
+R6665:6665 LibFset <> E var
+R6673:6680 LibFset FsetImpl :fset_scope:x_'\notin'_x not
+R6672:6672 LibFset <> x var
+R6681:6681 LibFset <> F var
+R6700:6702 LibFset FsetImpl mem def
+R6705:6710 LibFset FsetImpl remove def
+R6736:6747 LibBag <> in_remove_eq meth
+R6736:6747 LibBag <> in_remove_eq meth
+prf 6769:6782 FsetImpl from_list_spec
+R6817:6819 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6801:6805 LibFset FsetImpl :fset_scope:x_'\in'_x not
+R6800:6800 LibFset <> x var
+R6806:6814 LibFset FsetImpl from_list def
+R6816:6816 LibFset <> L var
+R6820:6822 LibList <> Mem ind
+R6826:6826 LibFset <> L var
+R6824:6824 LibFset <> x var
+R6845:6853 LibFset FsetImpl from_list def
+R6889:6896 LibFset FsetImpl in_empty thm
+R6889:6896 LibFset FsetImpl in_empty thm
+R6908:6917 LibList <> Mem_nil_eq thm
+R6908:6917 LibList <> Mem_nil_eq thm
+R6931:6938 LibFset FsetImpl in_union thm
+R6941:6952 LibFset FsetImpl in_singleton thm
+R6931:6938 LibFset FsetImpl in_union thm
+R6941:6952 LibFset FsetImpl in_singleton thm
+R6964:6974 LibList <> Mem_cons_eq thm
+R6964:6974 LibList <> Mem_cons_eq thm
+R7013:7015 LibFset <> Mem ind
+prf 7025:7035 FsetImpl fset_finite
+R7051:7057 LibTactics <> :type_scope:'exists'_x_','_x not
+R7059:7060 LibTactics <> :type_scope:'exists'_x_','_x not
+R7062:7064 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7061:7061 LibFset <> E var
+R7065:7073 LibFset FsetImpl from_list def
+R7114:7119 LibList <> filter def
+R7131:7136 LibReflect <> isTrue def
+R7139:7143 LibBag <> is_in meth
+R7145:7145 LibFset <> x var
+R7114:7119 LibList <> filter def
+R7131:7136 LibReflect <> isTrue def
+R7139:7143 LibBag <> is_in meth
+R7145:7145 LibFset <> x var
+R7164:7177 LibFset FsetImpl fset_extens_eq thm
+R7164:7177 LibFset FsetImpl fset_extens_eq thm
+R7198:7211 LibFset FsetImpl from_list_spec thm
+R7198:7211 LibFset FsetImpl from_list_spec thm
+R7223:7225 LibFset FsetImpl mem def
+R7321:7331 LibList <> filter_cons thm
+R7321:7331 LibList <> filter_cons thm
+R7362:7368 LibLogic <> is_True thm
+R7362:7368 LibLogic <> is_True thm
+R7383:7393 LibReflect <> isTrue_True thm
+R7383:7393 LibReflect <> isTrue_True thm
+R7483:7492 LibList <> filter_nil thm
+R7483:7492 LibList <> filter_nil thm
+R7525:7535 LibList <> filter_cons thm
+R7525:7535 LibList <> filter_cons thm
+R7627:7636 LibFset FsetImpl.Properties <> sec
+R7644:7651 LibFset <> <> mod
+sec 7791:7800 <> Properties
+var 7813:7813 Properties A
+R7842:7842 LibFset <> Properties.A var
+R7864:7867 LibFset FsetImpl fset defax
+R7869:7869 LibFset <> Properties.A var
+prf 7906:7918 <> in_empty_elim
+R7947:7951 Coq.Init.Logic <> False ind
+R7935:7939 LibFset FsetSig :fset_scope:x_'\in'_x not
+R7934:7934 LibFset <> x var
+R7940:7942 LibFset FsetSig :fset_scope:'\{}' not
+R7980:7987 LibFset FsetImpl in_empty defax
+R7980:7987 LibFset FsetImpl in_empty defax
+prf 8007:8023 <> in_singleton_self
+R8040:8044 LibFset FsetSig :fset_scope:x_'\in'_x not
+R8039:8039 LibFset <> x var
+R8045:8046 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8048:8048 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8047:8047 LibFset <> x var
+R8075:8086 LibFset FsetImpl in_singleton defax
+R8075:8086 LibFset FsetImpl in_singleton defax
+prf 8131:8140 <> union_same
+R8162:8164 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8157:8160 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8156:8156 LibFset <> E var
+R8161:8161 LibFset <> E var
+R8165:8165 LibFset <> E var
+R8191:8201 LibFset FsetImpl fset_extens defax
+R8230:8237 LibFset FsetImpl in_union defax
+R8191:8201 LibFset FsetImpl fset_extens defax
+R8230:8237 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R8230:8237 LibFset FsetImpl in_union defax
+prf 8252:8261 <> union_comm
+R8285:8287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8280:8283 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8279:8279 LibFset <> E var
+R8284:8284 LibFset <> F var
+R8289:8292 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8288:8288 LibFset <> F var
+R8293:8293 LibFset <> E var
+R8319:8329 LibFset FsetImpl fset_extens defax
+R8358:8365 LibFset FsetImpl in_union defax
+R8319:8329 LibFset FsetImpl fset_extens defax
+R8358:8365 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R8358:8365 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+prf 8380:8390 <> union_assoc
+R8423:8425 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8411:8415 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8422:8422 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8410:8410 LibFset <> E var
+R8417:8420 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8416:8416 LibFset <> F var
+R8421:8421 LibFset <> G var
+R8426:8426 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8433:8437 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8428:8431 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8427:8427 LibFset <> E var
+R8432:8432 LibFset <> F var
+R8438:8438 LibFset <> G var
+R8464:8474 LibFset FsetImpl fset_extens defax
+R8503:8510 LibFset FsetImpl in_union defax
+R8464:8474 LibFset FsetImpl fset_extens defax
+R8503:8510 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R8503:8510 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+prf 8525:8537 <> union_empty_l
+R8561:8563 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8556:8559 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8553:8555 LibFset FsetSig :fset_scope:'\{}' not
+R8560:8560 LibFset <> E var
+R8564:8564 LibFset <> E var
+R8590:8600 LibFset FsetImpl fset_extens defax
+R8629:8636 LibFset FsetImpl in_union defax
+R8590:8600 LibFset FsetImpl fset_extens defax
+R8629:8636 LibFset FsetImpl in_union defax
+R8629:8636 LibFset FsetImpl in_union defax
+R8677:8684 LibFset FsetImpl in_empty defax
+R8677:8684 LibFset FsetImpl in_empty defax
+prf 8721:8733 <> union_empty_r
+R8757:8759 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8750:8753 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8749:8749 LibFset <> E var
+R8754:8756 LibFset FsetSig :fset_scope:'\{}' not
+R8760:8760 LibFset <> E var
+R8786:8795 LibFset <> union_comm thm
+R8786:8795 LibFset <> union_comm thm
+R8804:8816 LibFset <> union_empty_l thm
+R8804:8816 LibFset <> union_empty_l thm
+prf 8831:8846 <> union_comm_assoc
+R8879:8881 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8867:8871 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8878:8878 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8866:8866 LibFset <> E var
+R8873:8876 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8872:8872 LibFset <> F var
+R8877:8877 LibFset <> G var
+R8883:8887 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8894:8894 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8882:8882 LibFset <> F var
+R8889:8892 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8888:8888 LibFset <> E var
+R8893:8893 LibFset <> G var
+R8922:8932 LibFset <> union_assoc thm
+R8922:8932 LibFset <> union_assoc thm
+R8946:8955 LibFset <> union_comm thm
+R8946:8955 LibFset <> union_comm thm
+R8977:8987 LibFset <> union_assoc thm
+R8977:8987 LibFset <> union_assoc thm
+prf 9032:9041 <> inter_same
+R9063:9065 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9058:9061 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9057:9057 LibFset <> E var
+R9062:9062 LibFset <> E var
+R9066:9066 LibFset <> E var
+R9092:9102 LibFset FsetImpl fset_extens defax
+R9131:9138 LibFset FsetImpl in_inter defax
+R9092:9102 LibFset FsetImpl fset_extens defax
+R9131:9138 LibFset FsetImpl in_inter defax
+R0:-1 LibFset <> y var
+R9131:9138 LibFset FsetImpl in_inter defax
+prf 9153:9162 <> inter_comm
+R9186:9188 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9181:9184 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9180:9180 LibFset <> E var
+R9185:9185 LibFset <> F var
+R9190:9193 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9189:9189 LibFset <> F var
+R9194:9194 LibFset <> E var
+R9220:9230 LibFset FsetImpl fset_extens defax
+R9259:9266 LibFset FsetImpl in_inter defax
+R9220:9230 LibFset FsetImpl fset_extens defax
+R9259:9266 LibFset FsetImpl in_inter defax
+R0:-1 LibFset <> y var
+R9259:9266 LibFset FsetImpl in_inter defax
+R0:-1 LibFset <> y var
+prf 9281:9291 <> inter_assoc
+R9324:9326 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9312:9316 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9323:9323 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9311:9311 LibFset <> E var
+R9318:9321 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9317:9317 LibFset <> F var
+R9322:9322 LibFset <> G var
+R9327:9327 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9334:9338 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9329:9332 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9328:9328 LibFset <> E var
+R9333:9333 LibFset <> F var
+R9339:9339 LibFset <> G var
+R9365:9375 LibFset FsetImpl fset_extens defax
+R9404:9411 LibFset FsetImpl in_inter defax
+R9365:9375 LibFset FsetImpl fset_extens defax
+R9404:9411 LibFset FsetImpl in_inter defax
+R0:-1 LibFset <> y var
+R9404:9411 LibFset FsetImpl in_inter defax
+R0:-1 LibFset <> y var
+prf 9426:9438 <> inter_empty_l
+R9462:9464 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9457:9460 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9454:9456 LibFset FsetSig :fset_scope:'\{}' not
+R9461:9461 LibFset <> E var
+R9465:9467 LibFset FsetSig :fset_scope:'\{}' not
+R9493:9503 LibFset FsetImpl fset_extens defax
+R9532:9539 LibFset FsetImpl in_inter defax
+R9493:9503 LibFset FsetImpl fset_extens defax
+R9532:9539 LibFset FsetImpl in_inter defax
+R9532:9539 LibFset FsetImpl in_inter defax
+R9561:9573 LibFset <> in_empty_elim thm
+R9561:9573 LibFset <> in_empty_elim thm
+R0:-1 LibFset <> y var
+R9595:9607 LibFset <> in_empty_elim thm
+R9595:9607 LibFset <> in_empty_elim thm
+prf 9623:9635 <> inter_empty_r
+R9659:9661 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9652:9655 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9651:9651 LibFset <> E var
+R9656:9658 LibFset FsetSig :fset_scope:'\{}' not
+R9662:9664 LibFset FsetSig :fset_scope:'\{}' not
+R9690:9699 LibFset <> inter_comm thm
+R9690:9699 LibFset <> inter_comm thm
+R9708:9720 LibFset <> inter_empty_l thm
+R9708:9720 LibFset <> inter_empty_l thm
+prf 9735:9750 <> inter_comm_assoc
+R9783:9785 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9771:9775 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9782:9782 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9770:9770 LibFset <> E var
+R9777:9780 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9776:9776 LibFset <> F var
+R9781:9781 LibFset <> G var
+R9787:9791 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9798:9798 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9786:9786 LibFset <> F var
+R9793:9796 LibFset FsetSig :fset_scope:x_'\n'_x not
+R9792:9792 LibFset <> E var
+R9797:9797 LibFset <> G var
+R9826:9836 LibFset <> inter_assoc thm
+R9826:9836 LibFset <> inter_assoc thm
+R9850:9859 LibFset <> inter_comm thm
+R9850:9859 LibFset <> inter_comm thm
+R9881:9891 LibFset <> inter_assoc thm
+R9881:9891 LibFset <> inter_assoc thm
+prf 9939:9951 <> from_list_nil
+R9976:9978 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9958:9966 LibFset FsetImpl from_list def
+R9970:9972 Coq.Init.Datatypes <> nil constr
+R9974:9974 LibFset <> Properties.A var
+R9979:9981 LibFset FsetSig :fset_scope:'\{}' not
+prf 10009:10022 <> from_list_cons
+R10056:10058 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10040:10048 LibFset FsetImpl from_list def
+R10052:10053 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R10051:10051 LibFset <> x var
+R10054:10054 LibFset <> l var
+R10063:10067 LibFset FsetSig :fset_scope:x_'\u'_x not
+R10079:10079 LibFset FsetSig :fset_scope:x_'\u'_x not
+R10059:10060 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10062:10062 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10061:10061 LibFset <> x var
+R10068:10076 LibFset FsetImpl from_list def
+R10078:10078 LibFset <> l var
+prf 10139:10151 <> disjoint_comm
+R10185:10192 LibFset FsetImpl disjoint def
+R10196:10196 LibFset <> E var
+R10194:10194 LibFset <> F var
+R10169:10176 LibFset FsetImpl disjoint def
+R10180:10180 LibFset <> F var
+R10178:10178 LibFset <> E var
+R10213:10220 LibFset FsetImpl disjoint def
+R10240:10249 LibFset <> inter_comm thm
+R10240:10249 LibFset <> inter_comm thm
+prf 10264:10280 <> disjoint_in_notin
+R10328:10335 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10327:10327 LibFset <> x var
+R10336:10336 LibFset <> F var
+R10317:10321 LibFset FsetSig :fset_scope:x_'\in'_x not
+R10316:10316 LibFset <> x var
+R10322:10322 LibFset <> E var
+R10300:10307 LibFset FsetImpl disjoint def
+R10311:10311 LibFset <> F var
+R10309:10309 LibFset <> E var
+R10355:10362 LibFset FsetImpl disjoint def
+R10390:10402 LibFset <> in_empty_elim thm
+R10390:10402 LibFset <> in_empty_elim thm
+R10431:10438 LibFset FsetImpl in_inter defax
+R10431:10438 LibFset FsetImpl in_inter defax
+prf 10489:10499 <> notin_empty
+R10516:10523 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10515:10515 LibFset <> x var
+R10524:10526 LibFset FsetSig :fset_scope:'\{}' not
+R10557:10564 LibFset FsetImpl in_empty defax
+R10557:10564 LibFset FsetImpl in_empty defax
+prf 10584:10598 <> notin_singleton
+R10629:10633 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R10617:10624 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10616:10616 LibFset <> x var
+R10625:10626 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10628:10628 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10627:10627 LibFset <> y var
+R10635:10638 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R10634:10634 LibFset <> x var
+R10639:10639 LibFset <> y var
+R10656:10660 LibFset FsetImpl notin def
+R10683:10694 LibFset FsetImpl in_singleton defax
+R10683:10694 LibFset FsetImpl in_singleton defax
+R0:-1 LibFset <> y var
+prf 10709:10718 <> notin_same
+R10751:10755 Coq.Init.Logic <> False ind
+R10735:10742 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10734:10734 LibFset <> x var
+R10743:10744 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10746:10746 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R10745:10745 LibFset <> x var
+R10789:10805 LibFset <> in_singleton_self thm
+R10789:10805 LibFset <> in_singleton_self thm
+prf 10820:10830 <> notin_union
+R10867:10871 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R10851:10859 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10866:10866 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10850:10850 LibFset <> x var
+R10861:10864 LibFset FsetSig :fset_scope:x_'\u'_x not
+R10860:10860 LibFset <> E var
+R10865:10865 LibFset <> F var
+R10872:10872 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10883:10888 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10899:10899 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10874:10881 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10873:10873 LibFset <> x var
+R10882:10882 LibFset <> E var
+R10890:10897 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R10889:10889 LibFset <> x var
+R10898:10898 LibFset <> F var
+R10916:10920 LibFset FsetImpl notin def
+R10940:10947 LibFset FsetImpl in_union defax
+R10940:10947 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+prf 10993:11003 <> subset_refl
+R11020:11023 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11019:11019 LibFset <> E var
+R11024:11024 LibFset <> E var
+prf 11064:11077 <> subset_empty_l
+R11096:11099 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11093:11095 LibFset FsetSig :fset_scope:'\{}' not
+R11100:11100 LibFset <> E var
+R11131:11138 LibFset FsetImpl in_empty defax
+R11131:11138 LibFset FsetImpl in_empty defax
+R0:-1 LibFset <> y var
+prf 11158:11176 <> subset_union_weak_l
+R11195:11199 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11206:11206 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11194:11194 LibFset <> E var
+R11201:11204 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11200:11200 LibFset <> E var
+R11205:11205 LibFset <> F var
+R11237:11244 LibFset FsetImpl in_union defax
+R11237:11244 LibFset FsetImpl in_union defax
+prf 11259:11277 <> subset_union_weak_r
+R11296:11300 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11307:11307 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11295:11295 LibFset <> F var
+R11302:11305 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11301:11301 LibFset <> E var
+R11306:11306 LibFset <> F var
+R11338:11345 LibFset FsetImpl in_union defax
+R11338:11345 LibFset FsetImpl in_union defax
+prf 11360:11373 <> subset_union_2
+R11423:11423 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11432:11437 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11446:11446 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11426:11429 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11424:11425 LibFset <> E1 var
+R11430:11431 LibFset <> E2 var
+R11440:11443 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11438:11439 LibFset <> F1 var
+R11444:11445 LibFset <> F2 var
+R11413:11416 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11411:11412 LibFset <> E2 var
+R11417:11418 LibFset <> F2 var
+R11401:11404 LibFset FsetSig :fset_scope:x_'\c'_x not
+R11399:11400 LibFset <> E1 var
+R11405:11406 LibFset <> F1 var
+R11494:11501 LibFset FsetImpl in_union defax
+R11494:11501 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R11494:11501 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+prf 11547:11558 <> union_remove
+R11591:11593 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11578:11578 LibFset FsetSig :fset_scope:x_'\-'_x not
+R11585:11589 LibFset FsetSig :fset_scope:x_'\-'_x not
+R11580:11583 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11579:11579 LibFset <> E var
+R11584:11584 LibFset <> F var
+R11590:11590 LibFset <> G var
+R11594:11594 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11601:11606 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11613:11613 LibFset FsetSig :fset_scope:x_'\u'_x not
+R11596:11599 LibFset FsetSig :fset_scope:x_'\-'_x not
+R11595:11595 LibFset <> E var
+R11600:11600 LibFset <> G var
+R11608:11611 LibFset FsetSig :fset_scope:x_'\-'_x not
+R11607:11607 LibFset <> F var
+R11612:11612 LibFset <> G var
+R11639:11649 LibFset FsetImpl fset_extens defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11639:11649 LibFset FsetImpl fset_extens defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R11688:11696 LibFset FsetImpl in_remove defax
+R11708:11715 LibFset FsetImpl in_union defax
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R0:-1 LibFset <> y var
+R11738:11747 LibFset Properties <> sec

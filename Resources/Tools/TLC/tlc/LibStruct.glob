@@ -1,0 +1,73 @@
+DIGEST 7bbdcc52a127b6b45ac5e83563f372a4
+FLibStruct
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+R364:375 LibOperation <> <> lib
+constr 540:546 <> monoid_
+rec 510:519 <> monoid_def
+proj 554:564 <> monoid_oper
+proj 580:593 <> monoid_neutral
+R568:572 LibOperation <> oper2 def
+R574:574 LibStruct <> A var
+R597:597 LibStruct <> A var
+rec 609:614 <> Monoid
+proj 657:673 <> monoid_assoc_prop
+proj 707:727 <> monoid_neutral_l_prop
+proj 767:787 <> monoid_neutral_r_prop
+R628:637 LibStruct <> monoid_def rec
+R639:639 LibStruct <> A var
+R690:690 LibStruct <> m var
+R695:699 LibOperation <> assoc def
+R701:701 LibStruct <> o var
+R744:744 LibStruct <> m var
+R749:757 LibOperation <> neutral_l def
+R761:761 LibStruct <> n var
+R759:759 LibStruct <> o var
+R804:804 LibStruct <> m var
+R809:817 LibOperation <> neutral_r def
+R821:821 LibStruct <> n var
+R819:819 LibStruct <> o var
+sec 835:844 <> MonoidProp
+R867:876 LibStruct <> monoid_def rec
+R878:878 LibStruct <> A var
+rec 888:899 <> Monoid_assoc
+proj 908:919 <> monoid_assoc
+R923:927 LibOperation <> assoc def
+R930:940 LibStruct <> monoid_oper proj
+R942:942 LibStruct <> MonoidProp.m var
+rec 954:969 <> Monoid_neutral_l
+proj 978:993 <> monoid_neutral_l
+R997:1005 LibOperation <> neutral_l def
+R1024:1037 LibStruct <> monoid_neutral proj
+R1039:1039 LibStruct <> MonoidProp.m var
+R1008:1018 LibStruct <> monoid_oper proj
+R1020:1020 LibStruct <> MonoidProp.m var
+rec 1051:1066 <> Monoid_neutral_r
+proj 1075:1090 <> monoid_neutral_r
+R1094:1102 LibOperation <> neutral_r def
+R1121:1134 LibStruct <> monoid_neutral proj
+R1136:1136 LibStruct <> MonoidProp.m var
+R1105:1115 LibStruct <> monoid_oper proj
+R1117:1117 LibStruct <> MonoidProp.m var
+R1146:1155 LibStruct MonoidProp <> sec
+sec 1167:1176 <> MonoidInst
+R1199:1208 LibStruct <> monoid_def rec
+R1210:1210 LibStruct <> A var
+R1216:1221 LibStruct <> Monoid class
+R1223:1223 LibStruct <> m var
+inst 1243:1261 <> Monoid_Monoid_assoc
+R1265:1276 LibStruct <> Monoid_assoc class
+R1282:1282 LibStruct <> MonoidInst.m var
+R1317:1317 LibStruct <> MonoidInst.M var
+R1340:1340 LibStruct <> MonoidInst.m var
+inst 1380:1402 <> Monoid_Monoid_neutral_l
+R1406:1421 LibStruct <> Monoid_neutral_l class
+R1427:1427 LibStruct <> MonoidInst.m var
+R1462:1462 LibStruct <> MonoidInst.M var
+R1485:1485 LibStruct <> MonoidInst.m var
+inst 1525:1547 <> Monoid_Monoid_neutral_r
+R1551:1566 LibStruct <> Monoid_neutral_r class
+R1572:1572 LibStruct <> MonoidInst.m var
+R1607:1607 LibStruct <> MonoidInst.M var
+R1630:1630 LibStruct <> MonoidInst.m var
+R1658:1667 LibStruct MonoidInst <> sec

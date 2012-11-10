@@ -1,0 +1,494 @@
+DIGEST c2308babdb76d44b34a82c995009a194
+FLibOtherDemos
+R344:353 LibTactics <> <> lib
+mod 513:527 <> SubtermIndDemos
+R546:553 LibLogic <> <> lib
+R555:561 LibList <> <> lib
+ind 625:628 SubtermIndDemos tree
+constr 645:648 SubtermIndDemos leaf
+constr 668:671 SubtermIndDemos node
+R659:662 LibOtherDemos <> tree ind
+R652:654 Coq.Init.Datatypes <> nat ind
+R688:691 LibOtherDemos <> tree ind
+R675:678 Coq.Init.Datatypes <> list ind
+R680:683 LibOtherDemos <> tree ind
+def 816:825 SubtermIndDemos tree_incr'
+R830:833 LibOtherDemos SubtermIndDemos tree ind
+R847:847 LibOtherDemos <> t var
+R858:861 LibOtherDemos SubtermIndDemos leaf constr
+R868:871 LibOtherDemos SubtermIndDemos leaf constr
+R874:874 Coq.Init.Datatypes <> S constr
+R883:886 LibOtherDemos SubtermIndDemos node constr
+R900:903 LibOtherDemos SubtermIndDemos node constr
+R927:928 LibOtherDemos <> ts var
+R949:951 Coq.Init.Datatypes <> nil constr
+R956:958 Coq.Init.Datatypes <> nil constr
+R975:976 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R996:999 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R984:993 LibOtherDemos <> tree_incr' def
+R995:995 LibOtherDemos <> t var
+R1000:1002 LibOtherDemos <> aux var
+def 1443:1451 SubtermIndDemos tree_incr
+R1456:1459 LibOtherDemos SubtermIndDemos tree ind
+R1473:1473 LibOtherDemos <> t var
+R1484:1487 LibOtherDemos SubtermIndDemos leaf constr
+R1494:1497 LibOtherDemos SubtermIndDemos leaf constr
+R1500:1500 Coq.Init.Datatypes <> S constr
+R1509:1512 LibOtherDemos SubtermIndDemos node constr
+R1520:1523 LibOtherDemos SubtermIndDemos node constr
+R1526:1533 Coq.Lists.List <> map def
+R1535:1543 LibOtherDemos <> tree_incr def
+def 1605:1612 SubtermIndDemos tree_map
+R1622:1624 Coq.Init.Datatypes <> nat ind
+R1617:1619 Coq.Init.Datatypes <> nat ind
+R1630:1633 LibOtherDemos SubtermIndDemos tree ind
+R1647:1647 LibOtherDemos <> t var
+R1658:1661 LibOtherDemos SubtermIndDemos leaf constr
+R1668:1671 LibOtherDemos SubtermIndDemos leaf constr
+R1674:1674 LibOtherDemos <> f var
+R1683:1686 LibOtherDemos SubtermIndDemos node constr
+R1694:1697 LibOtherDemos SubtermIndDemos node constr
+R1700:1707 Coq.Lists.List <> map def
+R1710:1717 LibOtherDemos <> tree_map def
+R1719:1719 LibOtherDemos <> f var
+def 1798:1805 SubtermIndDemos tree_sum
+R1810:1813 LibOtherDemos SubtermIndDemos tree ind
+R1827:1827 LibOtherDemos <> t var
+R1838:1841 LibOtherDemos SubtermIndDemos leaf constr
+R1854:1857 LibOtherDemos SubtermIndDemos node constr
+R1865:1878 Coq.Lists.List <> fold_left def
+R1897:1899 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1894:1896 LibOtherDemos <> acc var
+R1900:1907 LibOtherDemos <> tree_sum def
+R1909:1909 LibOtherDemos <> t var
+sec 1974:1984 SubtermIndDemos Tree_induct
+var 2065:2065 SubtermIndDemos.Tree_induct P
+R2069:2072 LibOtherDemos SubtermIndDemos tree ind
+var 2084:2084 SubtermIndDemos.Tree_induct Q
+R2088:2091 Coq.Init.Datatypes <> list ind
+R2093:2096 LibOtherDemos SubtermIndDemos tree ind
+var 2109:2110 SubtermIndDemos.Tree_induct P1
+R2124:2124 LibOtherDemos <> SubtermIndDemos.Tree_induct.P var
+R2127:2130 LibOtherDemos SubtermIndDemos leaf constr
+R2132:2132 LibOtherDemos <> n var
+var 2138:2139 SubtermIndDemos.Tree_induct P2
+R2162:2162 LibOtherDemos <> SubtermIndDemos.Tree_induct.P var
+R2165:2168 LibOtherDemos SubtermIndDemos node constr
+R2170:2171 LibOtherDemos <> ts var
+R2154:2154 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2156:2157 LibOtherDemos <> ts var
+var 2177:2178 SubtermIndDemos.Tree_induct Q1
+R2182:2182 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2184:2186 Coq.Init.Datatypes <> nil constr
+var 2190:2191 SubtermIndDemos.Tree_induct Q2
+R2223:2223 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2227:2228 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2226:2226 LibOtherDemos <> t var
+R2229:2230 LibOtherDemos <> ts var
+R2215:2215 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2217:2218 LibOtherDemos <> ts var
+R2208:2208 LibOtherDemos <> SubtermIndDemos.Tree_induct.P var
+R2210:2210 LibOtherDemos <> t var
+def 2245:2259 SubtermIndDemos tree_induct_gen
+R2266:2269 LibOtherDemos SubtermIndDemos tree ind
+R2274:2274 LibOtherDemos <> SubtermIndDemos.Tree_induct.P var
+R2276:2276 LibOtherDemos <> t var
+R2289:2289 LibOtherDemos <> t var
+R2303:2303 LibOtherDemos <> SubtermIndDemos.Tree_induct.P var
+R2305:2305 LibOtherDemos <> x var
+R2316:2319 LibOtherDemos SubtermIndDemos leaf constr
+R2326:2327 LibOtherDemos <> SubtermIndDemos.Tree_induct.P1 var
+R2335:2338 LibOtherDemos SubtermIndDemos node constr
+R2346:2347 LibOtherDemos <> SubtermIndDemos.Tree_induct.P2 var
+R2382:2385 Coq.Init.Datatypes <> list ind
+R2387:2390 LibOtherDemos SubtermIndDemos tree ind
+R2395:2395 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2397:2398 LibOtherDemos <> ts var
+R2415:2416 LibOtherDemos <> ts var
+R2430:2430 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q var
+R2432:2432 LibOtherDemos <> x var
+R2448:2450 Coq.Init.Datatypes <> nil constr
+R2457:2458 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q1 var
+R2469:2470 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2478:2479 LibOtherDemos <> SubtermIndDemos.Tree_induct.Q2 var
+R2502:2517 LibOtherDemos <> tree_list_induct var
+R2482:2496 LibOtherDemos <> tree_induct_gen def
+R2498:2498 LibOtherDemos <> t var
+R2551:2561 LibOtherDemos SubtermIndDemos.Tree_induct <> sec
+prf 2634:2653 SubtermIndDemos tree_map_pred_succ_1
+R2697:2699 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2669:2676 LibOtherDemos SubtermIndDemos tree_map def
+R2684:2691 LibOtherDemos SubtermIndDemos tree_map def
+R2695:2695 LibOtherDemos <> t var
+R2693:2693 Coq.Init.Datatypes <> S constr
+R2678:2681 Coq.Init.Peano <> pred def
+R2700:2700 LibOtherDemos <> t var
+R2809:2814 LibList <> Forall ind
+R2782:2796 LibOtherDemos SubtermIndDemos tree_induct_gen def
+R2809:2814 LibList <> Forall ind
+R2782:2796 LibOtherDemos SubtermIndDemos tree_induct_gen def
+prf 3026:3043 SubtermIndDemos tree_induct_forall
+R3059:3062 LibOtherDemos SubtermIndDemos tree ind
+R3178:3181 LibOtherDemos SubtermIndDemos tree ind
+R3184:3184 LibOtherDemos <> P var
+R3186:3186 LibOtherDemos <> t var
+R3123:3126 Coq.Init.Datatypes <> list ind
+R3128:3131 LibOtherDemos SubtermIndDemos tree ind
+R3149:3149 LibOtherDemos <> P var
+R3152:3155 LibOtherDemos SubtermIndDemos node constr
+R3157:3158 LibOtherDemos <> ts var
+R3134:3139 LibList <> Forall ind
+R3143:3144 LibOtherDemos <> ts var
+R3141:3141 LibOtherDemos <> P var
+R3088:3090 Coq.Init.Datatypes <> nat ind
+R3093:3093 LibOtherDemos <> P var
+R3096:3099 LibOtherDemos SubtermIndDemos leaf constr
+R3101:3101 LibOtherDemos <> n var
+R3246:3251 LibList <> Forall ind
+R3219:3233 LibOtherDemos SubtermIndDemos tree_induct_gen def
+R3246:3251 LibList <> Forall ind
+R3219:3233 LibOtherDemos SubtermIndDemos tree_induct_gen def
+prf 3391:3410 SubtermIndDemos tree_map_pred_succ_2
+R3454:3456 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3426:3433 LibOtherDemos SubtermIndDemos tree_map def
+R3441:3448 LibOtherDemos SubtermIndDemos tree_map def
+R3452:3452 LibOtherDemos <> t var
+R3450:3450 Coq.Init.Datatypes <> S constr
+R3435:3438 Coq.Init.Peano <> pred def
+R3457:3457 LibOtherDemos <> t var
+R3495:3512 LibOtherDemos SubtermIndDemos tree_induct_forall thm
+R3495:3512 LibOtherDemos SubtermIndDemos tree_induct_forall thm
+prf 3662:3676 SubtermIndDemos tree_induct_mem
+R3692:3695 LibOtherDemos SubtermIndDemos tree ind
+R3832:3835 LibOtherDemos SubtermIndDemos tree ind
+R3838:3838 LibOtherDemos <> P var
+R3840:3840 LibOtherDemos <> t var
+R3756:3759 Coq.Init.Datatypes <> list ind
+R3761:3764 LibOtherDemos SubtermIndDemos tree ind
+R3803:3803 LibOtherDemos <> P var
+R3806:3809 LibOtherDemos SubtermIndDemos node constr
+R3811:3812 LibOtherDemos <> ts var
+R3795:3795 LibOtherDemos <> P var
+R3797:3797 LibOtherDemos <> t var
+R3783:3785 LibList <> Mem ind
+R3789:3790 LibOtherDemos <> ts var
+R3787:3787 LibOtherDemos <> t var
+R3721:3723 Coq.Init.Datatypes <> nat ind
+R3726:3726 LibOtherDemos <> P var
+R3729:3732 LibOtherDemos SubtermIndDemos leaf constr
+R3734:3734 LibOtherDemos <> n var
+R3938:3938 LibOtherDemos <> t var
+R3924:3926 LibList <> Mem ind
+R3930:3931 LibOtherDemos <> ts var
+R3928:3928 LibOtherDemos <> t var
+R3873:3887 LibOtherDemos SubtermIndDemos tree_induct_gen def
+R3938:3938 LibOtherDemos <> t var
+R3924:3926 LibList <> Mem ind
+R3930:3931 LibOtherDemos <> ts var
+R3928:3928 LibOtherDemos <> t var
+R3873:3887 LibOtherDemos SubtermIndDemos tree_induct_gen def
+R4013:4015 LibOtherDemos <> Mem ind
+prf 4126:4145 SubtermIndDemos tree_map_pred_succ_3
+R4189:4191 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4161:4168 LibOtherDemos SubtermIndDemos tree_map def
+R4176:4183 LibOtherDemos SubtermIndDemos tree_map def
+R4187:4187 LibOtherDemos <> t var
+R4185:4185 Coq.Init.Datatypes <> S constr
+R4170:4173 Coq.Init.Peano <> pred def
+R4192:4192 LibOtherDemos <> t var
+R4230:4244 LibOtherDemos SubtermIndDemos tree_induct_mem thm
+R4230:4244 LibOtherDemos SubtermIndDemos tree_induct_mem thm
+R4473:4483 LibRelation <> <> lib
+R4485:4489 LibWf <> <> lib
+ind 4503:4509 SubtermIndDemos subtree
+constr 4532:4544 SubtermIndDemos subtree_intro
+R4513:4518 LibRelation <> binary def
+R4520:4523 LibOtherDemos SubtermIndDemos tree ind
+R4579:4585 LibOtherDemos <> subtree ind
+R4590:4593 LibOtherDemos SubtermIndDemos node constr
+R4595:4596 LibOtherDemos <> ts var
+R4587:4587 LibOtherDemos <> t var
+R4567:4569 LibList <> Mem ind
+R4573:4574 LibOtherDemos <> ts var
+R4571:4571 LibOtherDemos <> t var
+R4671:4677 LibOtherDemos <> subtree ind
+prf 4745:4754 SubtermIndDemos subtree_wf
+R4758:4759 LibWf <> wf def
+R4761:4767 LibOtherDemos SubtermIndDemos subtree ind
+R4807:4821 LibOtherDemos SubtermIndDemos tree_induct_mem thm
+R4807:4821 LibOtherDemos SubtermIndDemos tree_induct_mem thm
+prf 4985:5004 SubtermIndDemos tree_map_pred_succ_4
+R5048:5050 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5020:5027 LibOtherDemos SubtermIndDemos tree_map def
+R5035:5042 LibOtherDemos SubtermIndDemos tree_map def
+R5046:5046 LibOtherDemos <> t var
+R5044:5044 Coq.Init.Datatypes <> S constr
+R5029:5032 Coq.Init.Peano <> pred def
+R5051:5051 LibOtherDemos <> t var
+R5088:5097 LibOtherDemos SubtermIndDemos subtree_wf thm
+R5088:5097 LibOtherDemos SubtermIndDemos subtree_wf thm
+R5331:5345 LibOtherDemos <> <> mod
+mod 5471:5481 <> LibVarDemos
+R5499:5505 LibList <> <> lib
+R5507:5511 LibLN <> <> lib
+sec 5522:5531 LibVarDemos LibVarDemo
+R5555:5557 LibVar Variables var defax
+prf 5670:5687 LibVarDemos test_notin_solve_1
+R5743:5751 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5758:5758 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5742:5742 LibOtherDemos <> x var
+R5753:5756 LibFset FsetSig :fset_scope:x_'\u'_x not
+R5752:5752 LibOtherDemos <> E var
+R5757:5757 LibOtherDemos <> G var
+R5729:5736 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5728:5728 LibOtherDemos <> x var
+R5737:5737 LibOtherDemos <> G var
+R5710:5717 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5709:5709 LibOtherDemos <> x var
+R5719:5722 LibFset FsetSig :fset_scope:x_'\u'_x not
+R5718:5718 LibOtherDemos <> E var
+R5723:5723 LibOtherDemos <> F var
+prf 5853:5870 LibVarDemos test_notin_solve_2
+R5950:5953 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5938:5945 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5937:5937 LibOtherDemos <> x var
+R5946:5947 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5949:5949 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5948:5948 LibOtherDemos <> y var
+R5955:5962 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5954:5954 LibOtherDemos <> y var
+R5963:5964 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5966:5966 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5965:5965 LibOtherDemos <> x var
+R5922:5929 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5921:5921 LibOtherDemos <> x var
+R5930:5930 LibOtherDemos <> G var
+R5895:5902 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R5894:5894 LibOtherDemos <> x var
+R5904:5907 LibFset FsetSig :fset_scope:x_'\u'_x not
+R5903:5903 LibOtherDemos <> E var
+R5912:5915 LibFset FsetSig :fset_scope:x_'\u'_x not
+R5908:5909 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5911:5911 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R5910:5910 LibOtherDemos <> y var
+R5916:5916 LibOtherDemos <> F var
+prf 6023:6040 LibVarDemos test_notin_solve_3
+R6081:6084 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6069:6076 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6068:6068 LibOtherDemos <> x var
+R6077:6078 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6080:6080 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6079:6079 LibOtherDemos <> y var
+R6086:6093 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6085:6085 LibOtherDemos <> y var
+R6094:6095 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6097:6097 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6096:6096 LibOtherDemos <> x var
+R6059:6062 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6058:6058 LibOtherDemos <> x var
+R6063:6063 LibOtherDemos <> y var
+prf 6154:6171 LibVarDemos test_notin_solve_4
+R6212:6215 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6207:6210 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6206:6206 LibOtherDemos <> x var
+R6211:6211 LibOtherDemos <> y var
+R6217:6220 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6216:6216 LibOtherDemos <> y var
+R6221:6221 LibOtherDemos <> x var
+R6190:6197 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6189:6189 LibOtherDemos <> x var
+R6198:6199 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6201:6201 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6200:6200 LibOtherDemos <> y var
+prf 6278:6295 LibVarDemos test_notin_false_1
+R6349:6356 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6348:6348 LibOtherDemos <> y var
+R6357:6357 LibOtherDemos <> G var
+R6320:6328 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6343:6343 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6319:6319 LibOtherDemos <> x var
+R6330:6333 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6329:6329 LibOtherDemos <> E var
+R6338:6341 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6334:6335 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6337:6337 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6336:6336 LibOtherDemos <> x var
+R6342:6342 LibOtherDemos <> F var
+prf 6455:6472 LibVarDemos test_notin_false_2
+R6489:6491 LibVar Variables var defax
+R6507:6509 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6506:6506 LibOtherDemos <> y var
+R6510:6510 LibOtherDemos <> x var
+R6497:6500 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6496:6496 LibOtherDemos <> x var
+R6501:6501 LibOtherDemos <> x var
+prf 6556:6569 LibVarDemos test_neq_solve
+R6642:6645 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6637:6640 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6636:6636 LibOtherDemos <> y var
+R6641:6641 LibOtherDemos <> x var
+R6647:6650 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6646:6646 LibOtherDemos <> x var
+R6651:6651 LibOtherDemos <> y var
+R6621:6628 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6620:6620 LibOtherDemos <> y var
+R6629:6629 LibOtherDemos <> E var
+R6592:6600 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6615:6615 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R6591:6591 LibOtherDemos <> x var
+R6602:6605 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6601:6601 LibOtherDemos <> E var
+R6610:6613 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6606:6607 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6609:6609 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R6608:6608 LibOtherDemos <> y var
+R6614:6614 LibOtherDemos <> F var
+prf 6811:6828 LibVarDemos test_fresh_solve_1
+R6878:6882 LibVar <> fresh def
+R6889:6890 LibOtherDemos <> xs var
+R6887:6887 LibOtherDemos <> n var
+R6884:6885 LibOtherDemos <> L1 var
+R6853:6857 LibVar <> fresh def
+R6872:6873 LibOtherDemos <> xs var
+R6870:6870 LibOtherDemos <> n var
+R6862:6865 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6860:6861 LibOtherDemos <> L1 var
+R6866:6867 LibOtherDemos <> L2 var
+prf 6936:6953 LibVarDemos test_fresh_solve_2
+R7002:7006 LibVar <> fresh def
+R7013:7014 LibOtherDemos <> xs var
+R7011:7011 LibOtherDemos <> n var
+R7008:7009 LibOtherDemos <> L2 var
+R6977:6981 LibVar <> fresh def
+R6996:6997 LibOtherDemos <> xs var
+R6994:6994 LibOtherDemos <> n var
+R6986:6989 LibFset FsetSig :fset_scope:x_'\u'_x not
+R6984:6985 LibOtherDemos <> L1 var
+R6990:6991 LibOtherDemos <> L2 var
+prf 7060:7077 LibVarDemos test_fresh_solve_3
+R7126:7130 LibVar <> fresh def
+R7138:7139 LibOtherDemos <> xs var
+R7136:7136 LibOtherDemos <> n var
+R7132:7134 LibFset FsetSig :fset_scope:'\{}' not
+R7101:7105 LibVar <> fresh def
+R7120:7121 LibOtherDemos <> xs var
+R7118:7118 LibOtherDemos <> n var
+R7110:7113 LibFset FsetSig :fset_scope:x_'\u'_x not
+R7108:7109 LibOtherDemos <> L1 var
+R7114:7115 LibOtherDemos <> L2 var
+prf 7185:7202 LibVarDemos test_fresh_solve_4
+R7251:7255 LibVar <> fresh def
+R7272:7273 LibOtherDemos <> xs var
+R7261:7266 LibList <> length def
+R7268:7269 LibOtherDemos <> xs var
+R7257:7258 LibOtherDemos <> L1 var
+R7226:7230 LibVar <> fresh def
+R7245:7246 LibOtherDemos <> xs var
+R7243:7243 LibOtherDemos <> n var
+R7235:7238 LibFset FsetSig :fset_scope:x_'\u'_x not
+R7233:7234 LibOtherDemos <> L1 var
+R7239:7240 LibOtherDemos <> L2 var
+prf 7319:7336 LibVarDemos test_fresh_solve_5
+R7391:7395 LibVar <> fresh def
+R7402:7403 LibOtherDemos <> xs var
+R7400:7400 LibOtherDemos <> n var
+R7397:7398 LibOtherDemos <> L1 var
+R7371:7375 LibVar <> fresh def
+R7382:7383 LibOtherDemos <> xs var
+R7380:7380 LibOtherDemos <> m var
+R7377:7378 LibOtherDemos <> L1 var
+R7361:7363 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7360:7360 LibOtherDemos <> m var
+R7364:7364 LibOtherDemos <> n var
+prf 7449:7466 LibVarDemos test_fresh_solve_6
+R7532:7536 LibVar <> fresh def
+R7543:7544 LibOtherDemos <> xs var
+R7541:7541 LibOtherDemos <> m var
+R7538:7539 LibOtherDemos <> L1 var
+R7504:7508 LibVar <> fresh def
+R7523:7524 LibOtherDemos <> xs var
+R7521:7521 LibOtherDemos <> n var
+R7513:7516 LibFset FsetSig :fset_scope:x_'\u'_x not
+R7511:7512 LibOtherDemos <> L1 var
+R7517:7518 LibOtherDemos <> L2 var
+R7494:7496 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7493:7493 LibOtherDemos <> m var
+R7497:7497 LibOtherDemos <> n var
+prf 7590:7607 LibVarDemos test_fresh_solve_7
+R7673:7677 LibVar <> fresh def
+R7684:7685 LibOtherDemos <> xs var
+R7682:7682 LibOtherDemos <> m var
+R7679:7680 LibOtherDemos <> L1 var
+R7645:7649 LibVar <> fresh def
+R7664:7665 LibOtherDemos <> xs var
+R7662:7662 LibOtherDemos <> n var
+R7654:7657 LibFset FsetSig :fset_scope:x_'\u'_x not
+R7652:7653 LibOtherDemos <> L1 var
+R7658:7659 LibOtherDemos <> L2 var
+R7635:7637 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7634:7634 LibOtherDemos <> n var
+R7638:7638 LibOtherDemos <> m var
+prf 8041:8058 LibVarDemos test_notin_by_auto
+R8114:8122 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8129:8129 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8113:8113 LibOtherDemos <> x var
+R8124:8127 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8123:8123 LibOtherDemos <> E var
+R8128:8128 LibOtherDemos <> G var
+R8100:8107 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8099:8099 LibOtherDemos <> x var
+R8108:8108 LibOtherDemos <> G var
+R8081:8088 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8080:8080 LibOtherDemos <> x var
+R8090:8093 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8089:8089 LibOtherDemos <> E var
+R8094:8094 LibOtherDemos <> F var
+prf 8157:8172 LibVarDemos test_neq_by_auto
+R8215:8218 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R8214:8214 LibOtherDemos <> y var
+R8219:8219 LibOtherDemos <> x var
+R8193:8200 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8192:8192 LibOtherDemos <> x var
+R8202:8205 LibFset FsetSig :fset_scope:x_'\u'_x not
+R8201:8201 LibOtherDemos <> E var
+R8206:8207 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8209:8209 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8208:8208 LibOtherDemos <> y var
+prf 8247:8270 LibVarDemos test_notin_false_by_hand
+R8286:8287 Coq.Init.Logic <> :type_scope:'~'_x not
+R8289:8296 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8288:8288 LibOtherDemos <> x var
+R8297:8298 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8300:8300 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8299:8299 LibOtherDemos <> x var
+R8356:8357 Coq.Init.Logic <> :type_scope:'~'_x not
+R8359:8366 LibFset FsetSig :fset_scope:x_'\notin'_x not
+prf 8405:8428 LibVarDemos test_notin_false_by_auto
+R8444:8445 Coq.Init.Logic <> :type_scope:'~'_x not
+R8447:8454 LibFset FsetSig :fset_scope:x_'\notin'_x not
+R8446:8446 LibOtherDemos <> x var
+R8455:8456 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8458:8458 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8457:8457 LibOtherDemos <> x var
+ax 8785:8787 LibVarDemos trm
+ax 8807:8808 LibVarDemos fv
+R8819:8822 LibVar Variables vars def
+R8812:8814 LibOtherDemos LibVarDemos trm defax
+R8883:8886 LibVar Variables vars def
+R8891:8891 LibOtherDemos <> x var
+R8934:8936 LibVar Variables var defax
+R8941:8942 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8944:8944 LibFset FsetSig :fset_scope:'\{'_x_'}' not
+R8943:8943 LibOtherDemos <> x var
+R8987:8989 LibOtherDemos LibVarDemos trm defax
+R8994:8995 LibOtherDemos LibVarDemos fv defax
+R8997:8997 LibOtherDemos <> x var
+R9014:9017 LibFset FsetSig :fset_scope:x_'\u'_x not
+R9019:9022 LibFset FsetSig :fset_scope:x_'\u'_x not
+prf 9104:9118 LibVarDemos test_pick_fresh
+R9140:9142 LibVar Variables var defax
+R9157:9160 LibVar Variables vars def
+R9172:9174 LibOtherDemos LibVarDemos trm defax
+R9178:9181 Coq.Init.Logic <> True ind
+R9230:9239 LibOtherDemos LibVarDemos.LibVarDemo <> sec
+R9246:9256 LibOtherDemos <> <> mod

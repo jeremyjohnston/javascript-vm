@@ -1,0 +1,29 @@
+DIGEST 69197204a0c4f56ff9384df2ee4a21f0
+FFlocq.Flocq_version
+R733:738 Coq.NArith.BinNat <> <> lib
+R756:760 Coq.Strings.Ascii <> <> lib
+R762:767 Coq.Strings.String <> <> lib
+def 782:794 <> Flocq_version
+R861:861 Flocq.Flocq_version <> s var
+R874:879 Coq.Strings.String <> String constr
+R895:899 Flocq.Flocq_version <> parse var
+R927:928 Coq.Numbers.BinNums <> N0 constr
+R915:917 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R909:911 Coq.NArith.BinNat <> :N_scope:x_'*'_x not
+R904:908 Flocq.Flocq_version <> major var
+R918:922 Flocq.Flocq_version <> minor var
+R936:941 Coq.Strings.String <> String constr
+R950:954 Flocq.Flocq_version <> parse var
+R985:987 Coq.NArith.BinNat <> :N_scope:x_'-'_x not
+R970:972 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R965:969 Flocq.Flocq_version <> minor var
+R973:982 Coq.Strings.Ascii <> N_of_ascii def
+R988:997 Coq.Strings.Ascii <> N_of_ascii def
+R958:962 Flocq.Flocq_version <> major var
+R1045:1047 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R1039:1041 Coq.NArith.BinNat <> :N_scope:x_'*'_x not
+R1034:1038 Flocq.Flocq_version <> major var
+R1048:1052 Flocq.Flocq_version <> minor var
+R1070:1074 Flocq.Flocq_version <> parse var
+R1094:1095 Coq.Numbers.BinNums <> N0 constr
+R1091:1092 Coq.Numbers.BinNums <> N0 constr

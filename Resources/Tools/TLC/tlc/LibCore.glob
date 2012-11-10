@@ -1,0 +1,16 @@
+DIGEST 8cbdd7938cac6f56ec0c90ed5e46a9b6
+FLibCore
+R320:329 LibTactics <> <> lib
+R331:338 LibLogic <> <> lib
+R340:351 LibOperation <> <> lib
+R353:362 LibReflect <> <> lib
+R380:386 LibUnit <> <> lib
+R388:394 LibProd <> <> lib
+R396:401 LibSum <> <> lib
+R403:411 LibOption <> <> lib
+R413:418 LibNat <> <> lib
+R420:425 LibInt <> <> lib
+R427:433 LibList <> <> lib
+R451:461 LibRelation <> <> lib
+R463:470 LibOrder <> <> lib
+R472:476 LibWf <> <> lib

@@ -1,0 +1,1 @@
+Calc/Fcalc_round.vo Calc/Fcalc_round.glob Calc/Fcalc_round.v.beautified: Calc/Fcalc_round.v Core/Fcore.vo Core/Fcore_digits.vo Calc/Fcalc_bracket.vo Calc/Fcalc_digits.vo

@@ -1,0 +1,1 @@
+Appli/Fappli_IEEE_bits.vo Appli/Fappli_IEEE_bits.glob Appli/Fappli_IEEE_bits.v.beautified: Appli/Fappli_IEEE_bits.v Core/Fcore.vo Core/Fcore_digits.vo Calc/Fcalc_digits.vo Appli/Fappli_IEEE.vo

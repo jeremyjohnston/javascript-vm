@@ -1,0 +1,658 @@
+DIGEST 55ab83b6405a5ed873e7277d6e54fd34
+FLibProd
+R344:353 LibTactics <> <> lib
+R355:362 LibLogic <> <> lib
+inst 501:510 <> prod_inhab
+R523:527 LibLogic <> Inhab class
+R532:536 LibLogic <> Inhab class
+R542:546 LibLogic <> Inhab class
+R550:552 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R549:549 LibProd <> A var
+R553:553 LibProd <> B var
+R579:589 LibLogic <> prove_Inhab thm
+R591:591 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R601:602 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R612:612 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R592:600 LibLogic <> arbitrary def
+R603:611 LibLogic <> arbitrary def
+R579:589 LibLogic <> prove_Inhab thm
+R591:591 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R601:602 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R612:612 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R592:600 LibLogic <> arbitrary def
+R603:611 LibLogic <> arbitrary def
+prf 762:777 <> tuple2_from_proj
+R799:799 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R797:798 LibProd <> A1 var
+R800:801 LibProd <> A2 var
+R822:824 Coq.Init.Logic <> :type_scope:x_'='_x not
+R808:808 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R814:815 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R821:821 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R809:811 Coq.Init.Datatypes <> fst def
+R813:813 LibProd <> x var
+R816:818 Coq.Init.Datatypes <> snd def
+R820:820 LibProd <> x var
+R825:825 LibProd <> x var
+sec 898:907 <> Properties
+var 921:922 Properties A1
+var 924:925 Properties A2
+var 927:928 Properties A3
+var 930:931 Properties A4
+prf 949:956 <> eq_prod2
+R974:975 LibProd <> Properties.A1 var
+R985:986 LibProd <> Properties.A2 var
+R1022:1024 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1014:1014 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1017:1018 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1021:1021 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1015:1016 LibProd <> x1 var
+R1019:1020 LibProd <> x2 var
+R1025:1025 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1028:1029 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1032:1032 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1026:1027 LibProd <> y1 var
+R1030:1031 LibProd <> y2 var
+R1005:1007 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1003:1004 LibProd <> x2 var
+R1008:1009 LibProd <> y2 var
+R994:996 Coq.Init.Logic <> :type_scope:x_'='_x not
+R992:993 LibProd <> x1 var
+R997:998 LibProd <> y1 var
+prf 1070:1077 <> eq_prod3
+R1095:1096 LibProd <> Properties.A1 var
+R1106:1107 LibProd <> Properties.A2 var
+R1117:1118 LibProd <> Properties.A3 var
+R1169:1171 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1157:1157 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1160:1161 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1164:1165 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1168:1168 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1158:1159 LibProd <> x1 var
+R1162:1163 LibProd <> x2 var
+R1166:1167 LibProd <> x3 var
+R1172:1172 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1175:1176 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1179:1180 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1183:1183 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1173:1174 LibProd <> y1 var
+R1177:1178 LibProd <> y2 var
+R1181:1182 LibProd <> y3 var
+R1148:1150 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1146:1147 LibProd <> x3 var
+R1151:1152 LibProd <> y3 var
+R1137:1139 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1135:1136 LibProd <> x2 var
+R1140:1141 LibProd <> y2 var
+R1126:1128 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1124:1125 LibProd <> x1 var
+R1129:1130 LibProd <> y1 var
+prf 1221:1228 <> eq_prod4
+R1246:1247 LibProd <> Properties.A1 var
+R1257:1258 LibProd <> Properties.A2 var
+R1268:1269 LibProd <> Properties.A3 var
+R1279:1280 LibProd <> Properties.A4 var
+R1346:1348 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1330:1330 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1333:1334 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1337:1338 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1341:1342 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1345:1345 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1331:1332 LibProd <> x1 var
+R1335:1336 LibProd <> x2 var
+R1339:1340 LibProd <> x3 var
+R1343:1344 LibProd <> x4 var
+R1349:1349 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1352:1353 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1356:1357 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1360:1361 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1364:1364 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1350:1351 LibProd <> y1 var
+R1354:1355 LibProd <> y2 var
+R1358:1359 LibProd <> y3 var
+R1362:1363 LibProd <> y4 var
+R1321:1323 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1319:1320 LibProd <> x4 var
+R1324:1325 LibProd <> y4 var
+R1310:1312 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1308:1309 LibProd <> x3 var
+R1313:1314 LibProd <> y3 var
+R1299:1301 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1297:1298 LibProd <> x2 var
+R1302:1303 LibProd <> y2 var
+R1288:1290 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1286:1287 LibProd <> x1 var
+R1291:1292 LibProd <> y1 var
+R1400:1409 LibProd Properties <> sec
+R1428:1435 LibProd <> eq_prod2 thm
+R1437:1444 LibProd <> eq_prod3 thm
+R1446:1453 LibProd <> eq_prod4 thm
+R1636:1638 Coq.Init.Datatypes <> fst def
+R1670:1672 Coq.Init.Datatypes <> snd def
+not 2024 <> ::'proj11'_x
+R2098:2102 Coq.Init.Logic <> proj1 thm
+not 2081 <> ::'proj21'_x
+R2162:2166 Coq.Init.Logic <> proj2 thm
+not 2145 <> ::'proj22'_x
+R2227:2231 Coq.Init.Logic <> proj1 thm
+not 2210 <> ::'proj31'_x
+R2277:2281 Coq.Init.Logic <> proj1 thm
+R2284:2288 Coq.Init.Logic <> proj2 thm
+not 2260 <> ::'proj32'_x
+R2335:2339 Coq.Init.Logic <> proj2 thm
+R2342:2346 Coq.Init.Logic <> proj2 thm
+not 2318 <> ::'proj33'_x
+R2394:2398 Coq.Init.Logic <> proj1 thm
+not 2377 <> ::'proj41'_x
+R2444:2448 Coq.Init.Logic <> proj1 thm
+R2451:2455 Coq.Init.Logic <> proj2 thm
+not 2427 <> ::'proj42'_x
+R2502:2506 Coq.Init.Logic <> proj1 thm
+R2509:2513 Coq.Init.Logic <> proj2 thm
+R2516:2520 Coq.Init.Logic <> proj2 thm
+not 2485 <> ::'proj43'_x
+R2568:2572 Coq.Init.Logic <> proj2 thm
+R2575:2579 Coq.Init.Logic <> proj2 thm
+R2582:2586 Coq.Init.Logic <> proj2 thm
+not 2551 <> ::'proj44'_x
+R2635:2639 Coq.Init.Logic <> proj1 thm
+not 2618 <> ::'proj51'_x
+R2685:2689 Coq.Init.Logic <> proj1 thm
+R2692:2696 Coq.Init.Logic <> proj2 thm
+not 2668 <> ::'proj52'_x
+R2743:2747 Coq.Init.Logic <> proj1 thm
+R2750:2754 Coq.Init.Logic <> proj2 thm
+R2757:2761 Coq.Init.Logic <> proj2 thm
+not 2726 <> ::'proj53'_x
+R2809:2813 Coq.Init.Logic <> proj1 thm
+R2816:2820 Coq.Init.Logic <> proj2 thm
+R2823:2827 Coq.Init.Logic <> proj2 thm
+R2830:2834 Coq.Init.Logic <> proj2 thm
+not 2792 <> ::'proj54'_x
+R2883:2887 Coq.Init.Logic <> proj2 thm
+R2890:2894 Coq.Init.Logic <> proj2 thm
+R2897:2901 Coq.Init.Logic <> proj2 thm
+R2904:2908 Coq.Init.Logic <> proj2 thm
+not 2866 <> ::'proj55'_x
+sec 3018:3025 <> Currying
+var 3039:3040 Currying A1
+var 3042:3043 Currying A2
+var 3045:3046 Currying A3
+var 3048:3049 Currying A4
+var 3051:3052 Currying A5
+var 3054:3054 Currying B
+def 3076:3081 <> curry1
+R3093:3093 LibProd <> Currying.B var
+R3087:3088 LibProd <> Currying.A1 var
+R3101:3101 LibProd <> f var
+def 3115:3120 <> curry2
+R3138:3138 LibProd <> Currying.B var
+R3132:3133 LibProd <> Currying.A2 var
+R3126:3127 LibProd <> Currying.A1 var
+R3158:3158 LibProd <> f var
+R3160:3160 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3163:3163 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3166:3166 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3161:3162 LibProd <> x1 var
+R3164:3165 LibProd <> x2 var
+def 3180:3185 <> curry3
+R3209:3209 LibProd <> Currying.B var
+R3203:3204 LibProd <> Currying.A3 var
+R3197:3198 LibProd <> Currying.A2 var
+R3191:3192 LibProd <> Currying.A1 var
+R3232:3232 LibProd <> f var
+R3234:3234 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3237:3237 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3240:3240 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3243:3243 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3235:3236 LibProd <> x1 var
+R3238:3239 LibProd <> x2 var
+R3241:3242 LibProd <> x3 var
+def 3257:3262 <> curry4
+R3292:3292 LibProd <> Currying.B var
+R3286:3287 LibProd <> Currying.A4 var
+R3280:3281 LibProd <> Currying.A3 var
+R3274:3275 LibProd <> Currying.A2 var
+R3268:3269 LibProd <> Currying.A1 var
+R3318:3318 LibProd <> f var
+R3320:3320 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3323:3323 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3326:3326 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3329:3329 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3332:3332 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3321:3322 LibProd <> x1 var
+R3324:3325 LibProd <> x2 var
+R3327:3328 LibProd <> x3 var
+R3330:3331 LibProd <> x4 var
+def 3346:3351 <> curry5
+R3387:3387 LibProd <> Currying.B var
+R3381:3382 LibProd <> Currying.A5 var
+R3375:3376 LibProd <> Currying.A4 var
+R3369:3370 LibProd <> Currying.A3 var
+R3363:3364 LibProd <> Currying.A2 var
+R3357:3358 LibProd <> Currying.A1 var
+R3416:3416 LibProd <> f var
+R3418:3418 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3421:3421 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3424:3424 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3427:3427 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3430:3430 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3433:3433 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3419:3420 LibProd <> x1 var
+R3422:3423 LibProd <> x2 var
+R3425:3426 LibProd <> x3 var
+R3428:3429 LibProd <> x4 var
+R3431:3432 LibProd <> x5 var
+R3440:3447 LibProd Currying <> sec
+sec 3539:3548 <> Uncurrying
+var 3562:3563 Uncurrying A1
+var 3565:3566 Uncurrying A2
+var 3568:3569 Uncurrying A3
+var 3571:3572 Uncurrying A4
+var 3574:3575 Uncurrying A5
+var 3577:3577 Uncurrying B
+def 3599:3606 <> uncurry1
+R3618:3618 LibProd <> Uncurrying.B var
+R3612:3613 LibProd <> Uncurrying.A1 var
+R3626:3626 LibProd <> f var
+def 3640:3647 <> uncurry2
+R3662:3662 LibProd <> Uncurrying.B var
+R3655:3655 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3653:3654 LibProd <> Uncurrying.A1 var
+R3656:3657 LibProd <> Uncurrying.A2 var
+R3684:3684 LibProd <> p var
+R3691:3691 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3694:3694 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3697:3697 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3704:3704 LibProd <> f var
+def 3728:3735 <> uncurry3
+R3753:3753 LibProd <> Uncurrying.B var
+R3746:3746 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3743:3743 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3741:3742 LibProd <> Uncurrying.A1 var
+R3744:3745 LibProd <> Uncurrying.A2 var
+R3747:3748 LibProd <> Uncurrying.A3 var
+R3775:3775 LibProd <> p var
+R3782:3782 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3785:3785 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3788:3788 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3791:3791 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3798:3798 LibProd <> f var
+def 3825:3832 <> uncurry4
+R3853:3853 LibProd <> Uncurrying.B var
+R3846:3846 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3843:3843 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3840:3840 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3838:3839 LibProd <> Uncurrying.A1 var
+R3841:3842 LibProd <> Uncurrying.A2 var
+R3844:3845 LibProd <> Uncurrying.A3 var
+R3847:3848 LibProd <> Uncurrying.A4 var
+R3875:3875 LibProd <> p var
+R3882:3882 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3885:3885 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3888:3888 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3891:3891 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3894:3894 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3901:3901 LibProd <> f var
+def 3931:3938 <> uncurry5
+R3962:3962 LibProd <> Uncurrying.B var
+R3955:3955 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3952:3952 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3949:3949 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3946:3946 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3944:3945 LibProd <> Uncurrying.A1 var
+R3947:3948 LibProd <> Uncurrying.A2 var
+R3950:3951 LibProd <> Uncurrying.A3 var
+R3953:3954 LibProd <> Uncurrying.A4 var
+R3956:3957 LibProd <> Uncurrying.A5 var
+R3984:3984 LibProd <> p var
+R3991:3991 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3994:3994 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3997:3997 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4000:4000 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4003:4003 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4006:4006 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4013:4013 LibProd <> f var
+R4039:4048 LibProd Uncurrying <> sec
+sec 4313:4320 <> Uncurryp
+var 4334:4335 Uncurryp A1
+var 4337:4338 Uncurryp A2
+var 4340:4341 Uncurryp A3
+var 4343:4344 Uncurryp A4
+var 4346:4346 Uncurryp B
+def 4368:4376 <> uncurryp1
+R4394:4394 LibProd <> Uncurryp.B var
+R4388:4389 LibProd <> Uncurryp.A1 var
+R4382:4383 LibProd <> Uncurryp.A1 var
+R4402:4402 LibProd <> f var
+def 4416:4424 <> uncurryp2
+R4448:4448 LibProd <> Uncurryp.B var
+R4441:4441 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4439:4440 LibProd <> Uncurryp.A1 var
+R4442:4443 LibProd <> Uncurryp.A2 var
+R4432:4432 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4430:4431 LibProd <> Uncurryp.A1 var
+R4433:4434 LibProd <> Uncurryp.A2 var
+R4477:4478 LibProd <> p2 var
+R4474:4475 LibProd <> p1 var
+R4485:4485 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4488:4488 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4491:4491 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4493:4493 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4496:4496 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4499:4499 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4506:4506 LibProd <> f var
+def 4536:4544 <> uncurryp3
+R4574:4574 LibProd <> Uncurryp.B var
+R4567:4567 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4564:4564 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4562:4563 LibProd <> Uncurryp.A1 var
+R4565:4566 LibProd <> Uncurryp.A2 var
+R4568:4569 LibProd <> Uncurryp.A3 var
+R4555:4555 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4552:4552 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4550:4551 LibProd <> Uncurryp.A1 var
+R4553:4554 LibProd <> Uncurryp.A2 var
+R4556:4557 LibProd <> Uncurryp.A3 var
+R4603:4604 LibProd <> p2 var
+R4600:4601 LibProd <> p1 var
+R4611:4611 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4614:4614 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4617:4617 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4620:4620 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4622:4622 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4625:4625 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4628:4628 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4631:4631 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4638:4638 LibProd <> f var
+def 4674:4682 <> uncurryp4
+R4718:4718 LibProd <> Uncurryp.B var
+R4711:4711 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4708:4708 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4705:4705 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4703:4704 LibProd <> Uncurryp.A1 var
+R4706:4707 LibProd <> Uncurryp.A2 var
+R4709:4710 LibProd <> Uncurryp.A3 var
+R4712:4713 LibProd <> Uncurryp.A4 var
+R4696:4696 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4693:4693 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4690:4690 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4688:4689 LibProd <> Uncurryp.A1 var
+R4691:4692 LibProd <> Uncurryp.A2 var
+R4694:4695 LibProd <> Uncurryp.A3 var
+R4697:4698 LibProd <> Uncurryp.A4 var
+R4747:4748 LibProd <> p2 var
+R4744:4745 LibProd <> p1 var
+R4755:4755 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4758:4758 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4761:4761 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4764:4764 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4767:4767 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4769:4769 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4772:4772 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4775:4775 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4778:4778 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4781:4781 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4788:4788 LibProd <> f var
+R4823:4830 LibProd Uncurryp <> sec
+R4898:4906 LibProd <> uncurryp1 def
+R4909:4917 LibProd <> uncurryp2 def
+R4920:4928 LibProd <> uncurryp3 def
+R4931:4939 LibProd <> uncurryp4 def
+R4990:4998 LibProd <> uncurryp1 def
+R5001:5009 LibProd <> uncurryp2 def
+R5012:5020 LibProd <> uncurryp3 def
+R5023:5031 LibProd <> uncurryp4 def
+sec 5353:5358 <> Unproj
+var 5372:5373 Unproj A1
+var 5375:5376 Unproj A2
+var 5378:5379 Unproj A3
+var 5381:5382 Unproj A4
+var 5384:5384 Unproj B
+def 5406:5413 <> unproj21
+R5437:5437 LibProd <> Unproj.B var
+R5430:5430 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5428:5429 LibProd <> Unproj.A1 var
+R5431:5432 LibProd <> Unproj.A2 var
+R5421:5421 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5419:5420 LibProd <> Unproj.A1 var
+R5422:5423 LibProd <> Unproj.A2 var
+R5466:5467 LibProd <> p2 var
+R5463:5464 LibProd <> p1 var
+R5474:5474 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5477:5477 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5480:5480 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5482:5482 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5485:5485 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5488:5488 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5495:5495 LibProd <> f var
+def 5519:5526 <> unproj22
+R5550:5550 LibProd <> Unproj.B var
+R5543:5543 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5541:5542 LibProd <> Unproj.A1 var
+R5544:5545 LibProd <> Unproj.A2 var
+R5534:5534 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5532:5533 LibProd <> Unproj.A1 var
+R5535:5536 LibProd <> Unproj.A2 var
+R5579:5580 LibProd <> p2 var
+R5576:5577 LibProd <> p1 var
+R5587:5587 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5590:5590 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5593:5593 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5595:5595 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5598:5598 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5601:5601 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5608:5608 LibProd <> f var
+def 5632:5639 <> unproj31
+R5669:5669 LibProd <> Unproj.B var
+R5662:5662 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5659:5659 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5657:5658 LibProd <> Unproj.A1 var
+R5660:5661 LibProd <> Unproj.A2 var
+R5663:5664 LibProd <> Unproj.A3 var
+R5650:5650 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5647:5647 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5645:5646 LibProd <> Unproj.A1 var
+R5648:5649 LibProd <> Unproj.A2 var
+R5651:5652 LibProd <> Unproj.A3 var
+R5698:5699 LibProd <> p2 var
+R5695:5696 LibProd <> p1 var
+R5706:5706 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5709:5709 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5712:5712 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5715:5715 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5717:5717 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5720:5720 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5723:5723 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5726:5726 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5733:5733 LibProd <> f var
+def 5757:5764 <> unproj32
+R5794:5794 LibProd <> Unproj.B var
+R5787:5787 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5784:5784 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5782:5783 LibProd <> Unproj.A1 var
+R5785:5786 LibProd <> Unproj.A2 var
+R5788:5789 LibProd <> Unproj.A3 var
+R5775:5775 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5772:5772 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5770:5771 LibProd <> Unproj.A1 var
+R5773:5774 LibProd <> Unproj.A2 var
+R5776:5777 LibProd <> Unproj.A3 var
+R5823:5824 LibProd <> p2 var
+R5820:5821 LibProd <> p1 var
+R5831:5831 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5834:5834 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5837:5837 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5840:5840 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5842:5842 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5845:5845 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5848:5848 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5851:5851 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5858:5858 LibProd <> f var
+def 5882:5889 <> unproj33
+R5919:5919 LibProd <> Unproj.B var
+R5912:5912 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5909:5909 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5907:5908 LibProd <> Unproj.A1 var
+R5910:5911 LibProd <> Unproj.A2 var
+R5913:5914 LibProd <> Unproj.A3 var
+R5900:5900 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5897:5897 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5895:5896 LibProd <> Unproj.A1 var
+R5898:5899 LibProd <> Unproj.A2 var
+R5901:5902 LibProd <> Unproj.A3 var
+R5948:5949 LibProd <> p2 var
+R5945:5946 LibProd <> p1 var
+R5956:5956 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5959:5959 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5962:5962 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5965:5965 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5967:5967 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5970:5970 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5973:5973 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5976:5976 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5983:5983 LibProd <> f var
+def 6007:6014 <> unproj41
+R6050:6050 LibProd <> Unproj.B var
+R6043:6043 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6040:6040 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6037:6037 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6035:6036 LibProd <> Unproj.A1 var
+R6038:6039 LibProd <> Unproj.A2 var
+R6041:6042 LibProd <> Unproj.A3 var
+R6044:6045 LibProd <> Unproj.A4 var
+R6028:6028 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6025:6025 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6022:6022 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6020:6021 LibProd <> Unproj.A1 var
+R6023:6024 LibProd <> Unproj.A2 var
+R6026:6027 LibProd <> Unproj.A3 var
+R6029:6030 LibProd <> Unproj.A4 var
+R6079:6080 LibProd <> p2 var
+R6076:6077 LibProd <> p1 var
+R6087:6087 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6090:6090 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6093:6093 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6096:6096 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6099:6099 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6101:6101 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6104:6104 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6107:6107 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6110:6110 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6113:6113 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6120:6120 LibProd <> f var
+def 6144:6151 <> unproj42
+R6187:6187 LibProd <> Unproj.B var
+R6180:6180 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6177:6177 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6174:6174 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6172:6173 LibProd <> Unproj.A1 var
+R6175:6176 LibProd <> Unproj.A2 var
+R6178:6179 LibProd <> Unproj.A3 var
+R6181:6182 LibProd <> Unproj.A4 var
+R6165:6165 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6162:6162 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6159:6159 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6157:6158 LibProd <> Unproj.A1 var
+R6160:6161 LibProd <> Unproj.A2 var
+R6163:6164 LibProd <> Unproj.A3 var
+R6166:6167 LibProd <> Unproj.A4 var
+R6216:6217 LibProd <> p2 var
+R6213:6214 LibProd <> p1 var
+R6224:6224 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6227:6227 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6230:6230 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6233:6233 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6236:6236 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6238:6238 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6241:6241 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6244:6244 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6247:6247 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6250:6250 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6257:6257 LibProd <> f var
+def 6281:6288 <> unproj43
+R6324:6324 LibProd <> Unproj.B var
+R6317:6317 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6314:6314 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6311:6311 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6309:6310 LibProd <> Unproj.A1 var
+R6312:6313 LibProd <> Unproj.A2 var
+R6315:6316 LibProd <> Unproj.A3 var
+R6318:6319 LibProd <> Unproj.A4 var
+R6302:6302 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6299:6299 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6296:6296 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6294:6295 LibProd <> Unproj.A1 var
+R6297:6298 LibProd <> Unproj.A2 var
+R6300:6301 LibProd <> Unproj.A3 var
+R6303:6304 LibProd <> Unproj.A4 var
+R6353:6354 LibProd <> p2 var
+R6350:6351 LibProd <> p1 var
+R6361:6361 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6364:6364 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6367:6367 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6370:6370 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6373:6373 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6375:6375 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6378:6378 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6381:6381 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6384:6384 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6387:6387 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6394:6394 LibProd <> f var
+def 6418:6425 <> unproj44
+R6461:6461 LibProd <> Unproj.B var
+R6454:6454 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6451:6451 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6448:6448 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6446:6447 LibProd <> Unproj.A1 var
+R6449:6450 LibProd <> Unproj.A2 var
+R6452:6453 LibProd <> Unproj.A3 var
+R6455:6456 LibProd <> Unproj.A4 var
+R6439:6439 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6436:6436 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6433:6433 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6431:6432 LibProd <> Unproj.A1 var
+R6434:6435 LibProd <> Unproj.A2 var
+R6437:6438 LibProd <> Unproj.A3 var
+R6440:6441 LibProd <> Unproj.A4 var
+R6490:6491 LibProd <> p2 var
+R6487:6488 LibProd <> p1 var
+R6498:6498 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6501:6501 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6504:6504 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6507:6507 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6510:6510 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6512:6512 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6515:6515 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6518:6518 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6521:6521 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6524:6524 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6531:6531 LibProd <> f var
+R6548:6553 LibProd Unproj <> sec
+R6576:6583 LibProd <> unproj21 def
+R6614:6621 LibProd <> unproj22 def
+R6652:6659 LibProd <> unproj31 def
+R6690:6697 LibProd <> unproj32 def
+R6728:6735 LibProd <> unproj33 def
+R6766:6773 LibProd <> unproj41 def
+R6804:6811 LibProd <> unproj42 def
+R6842:6849 LibProd <> unproj43 def
+R6880:6887 LibProd <> unproj44 def
+R6962:6969 LibProd <> unproj21 def
+R6972:6979 LibProd <> unproj22 def
+R6982:6989 LibProd <> unproj31 def
+R6992:6999 LibProd <> unproj32 def
+R7002:7009 LibProd <> unproj33 def
+R7021:7028 LibProd <> unproj41 def
+R7031:7038 LibProd <> unproj42 def
+R7041:7048 LibProd <> unproj43 def
+R7051:7058 LibProd <> unproj44 def
+R7107:7114 LibProd <> unproj21 def
+R7117:7124 LibProd <> unproj22 def
+R7127:7134 LibProd <> unproj31 def
+R7137:7144 LibProd <> unproj32 def
+R7147:7154 LibProd <> unproj33 def
+R7166:7173 LibProd <> unproj41 def
+R7176:7183 LibProd <> unproj42 def
+R7186:7193 LibProd <> unproj43 def
+R7196:7203 LibProd <> unproj44 def

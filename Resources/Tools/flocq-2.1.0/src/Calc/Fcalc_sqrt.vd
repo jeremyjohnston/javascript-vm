@@ -1,0 +1,1 @@
+Calc/Fcalc_sqrt.vo Calc/Fcalc_sqrt.glob Calc/Fcalc_sqrt.v.beautified: Calc/Fcalc_sqrt.v Core/Fcore_Raux.vo Core/Fcore_defs.vo Core/Fcore_digits.vo Core/Fcore_float_prop.vo Calc/Fcalc_bracket.vo Calc/Fcalc_digits.vo

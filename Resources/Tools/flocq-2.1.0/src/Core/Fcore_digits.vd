@@ -1,0 +1,1 @@
+Core/Fcore_digits.vo Core/Fcore_digits.glob Core/Fcore_digits.v.beautified: Core/Fcore_digits.v Core/Fcore_Zaux.vo

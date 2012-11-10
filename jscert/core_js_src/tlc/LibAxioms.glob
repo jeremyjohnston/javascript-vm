@@ -1,0 +1,27 @@
+DIGEST 404a25f2cae6f482e71bf8cb21c4a2a8
+FLibAxioms
+ax 1163:1174 <> func_ext_dep
+R1197:1197 LibAxioms <> A var
+R1223:1223 LibAxioms <> B var
+R1225:1225 LibAxioms <> x var
+R1257:1259 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1256:1256 LibAxioms <> f var
+R1260:1260 LibAxioms <> g var
+R1245:1247 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1242:1242 LibAxioms <> f var
+R1244:1244 LibAxioms <> x var
+R1248:1248 LibAxioms <> g var
+R1250:1250 LibAxioms <> x var
+ax 1463:1470 <> prop_ext
+R1512:1514 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1511:1511 LibAxioms <> P var
+R1515:1515 LibAxioms <> Q var
+R1500:1504 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1499:1499 LibAxioms <> P var
+R1505:1505 LibAxioms <> Q var
+ax 1787:1808 <> indefinite_description
+R1835:1835 LibAxioms <> A var
+R1857:1859 Coq.Init.Specif <> sig ind
+R1861:1861 LibAxioms <> P var
+R1849:1850 Coq.Init.Logic <> ex ind
+R1852:1852 LibAxioms <> P var
